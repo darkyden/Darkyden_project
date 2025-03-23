@@ -1,1 +1,19 @@
 Linux : Debian ou Gentoo
+
+RK3588 --> Kernel Mainline  https://gitlab.collabora.com/hardware-enablement/rockchip-3588/notes-for-rockchip-3588/-/blob/main/mainline-status.md?ref_type=heads
+
+https://linustechtips.com/topic/1564904-the-ultimate-starter-guide-to-friendlyelec-cm3588-rk3588/
+
+U-BOOt --> https://docs.u-boot.org/en/latest/board/rockchip/rockchip.html
+           https://www.youtube.com/watch?v=_c3prI5-QcY
+
+OS --> https://www.armbian.com/nanopc-cm3588-nas/
+
+
+FAN --> https://forum.armbian.com/topic/48705-cm3588-overlay-for-fan-speed-change/
+
+edp --> https://lwn.net/Articles/1002849/
+
+uefi --> https://github.com/edk2-porting/edk2-rk3588
+
+OLED --> https://github.com/lawleagle/oled-linux
