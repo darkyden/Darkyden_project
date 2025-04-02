@@ -5,8 +5,8 @@ Record=NoMainPathDocument|SourceDocument=eDP.SchDoc|FileName=HDMI.SchDoc|SheetNu
 Record=NoMainPathDocument|SourceDocument=eDP.SchDoc|FileName=NVME.SchDoc|SheetNumber=6
 Record=NoMainPathDocument|SourceDocument=eDP.SchDoc|FileName=POWERTRAIN.SchDoc|SheetNumber=7
 Record=NoMainPathDocument|SourceDocument=eDP.SchDoc|FileName=SDCARD.SchDoc|SheetNumber=8
-Record=NoMainPathDocument|SourceDocument=eDP.SchDoc|FileName=SYSTEM.SchDoc|SheetNumber=9
-Record=NoMainPathDocument|SourceDocument=eDP.SchDoc|FileName=USB2_0.SchDoc|SheetNumber=10
-Record=NoMainPathDocument|SourceDocument=eDP.SchDoc|FileName=USB3_0.SchDoc|SheetNumber=11
+Record=NoMainPathDocument|SourceDocument=eDP.SchDoc|FileName=SYSTEM.SchDoc|SheetNumber=12
+Record=NoMainPathDocument|SourceDocument=eDP.SchDoc|FileName=USB2_0.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=eDP.SchDoc|FileName=USB3_0.SchDoc|SheetNumber=10
 Record=NoMainPathDocument|SourceDocument=eDP.SchDoc|FileName=USBC.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=eDP.SchDoc|FileName=WIFI.SchDoc|SheetNumber=12
+Record=NoMainPathDocument|SourceDocument=eDP.SchDoc|FileName=WIFI.SchDoc|SheetNumber=11
