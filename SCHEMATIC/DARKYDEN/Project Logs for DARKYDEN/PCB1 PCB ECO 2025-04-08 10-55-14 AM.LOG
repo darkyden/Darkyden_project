@@ -1,0 +1,39 @@
+Added Component: Designator=J2A(MOLEX_2012670005)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/2012670005/Molex/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "2012670005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/2012670005/Molex/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U2A(SON65P200X200X80-7N)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TVS2200DRVR/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TVS2200DRVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "WSON-6 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TVS2200DRVR/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J2A-A1
+Added Pin To Net: NetName=GND Pin=J2A-A12
+Added Pin To Net: NetName=GND Pin=J2A-B1
+Added Pin To Net: NetName=GND Pin=J2A-B12
+Added Pin To Net: NetName=GND Pin=J2A-SH1
+Added Pin To Net: NetName=GND Pin=J2A-SH2
+Added Pin To Net: NetName=GND Pin=J2A-SH3
+Added Pin To Net: NetName=GND Pin=J2A-SH4
+Added Pin To Net: NetName=GND Pin=U2A-1
+Added Pin To Net: NetName=GND Pin=U2A-2
+Added Pin To Net: NetName=GND Pin=U2A-3
+Added Pin To Net: NetName=GND Pin=U2A-7
+Added Net: Name=GND
+Added Pin To Net: NetName=VCC Pin=J2A-A4
+Added Pin To Net: NetName=VCC Pin=J2A-A9
+Added Pin To Net: NetName=VCC Pin=J2A-B4
+Added Pin To Net: NetName=VCC Pin=J2A-B9
+Added Pin To Net: NetName=VCC Pin=U2A-4
+Added Pin To Net: NetName=VCC Pin=U2A-5
+Added Pin To Net: NetName=VCC Pin=U2A-6
+Added Net: Name=VCC
+Added Class: Name=USBC
+Added Member To Class: ClassName=SYSTEM Member=Component J1 CM3588 Hirose Connector
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1

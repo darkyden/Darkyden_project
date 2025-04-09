@@ -1,0 +1,163 @@
+# Created by Ultra Librarian 8.3.366 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "RES_0816_SUS")
+Pad (Name "1") (Location -32.54330063, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 21.77952957, 39.37007904) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 32.54330063, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 21.77952957, 39.37007904) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-19.65353966, 19.68503952)
+Point (19.65353966, 19.68503952)
+Point (19.65353966, -19.68503952)
+Point (-19.65353966, -19.68503952)
+EndPolygon
+Line (Width 6) (Start -53.43304825, -29.68503952) (End -53.43304825, 29.68503952) (Layer Mechanical15) 
+Line (Width 6) (Start -53.43304825, 29.68503952) (End 53.43304825, 29.68503952) (Layer Mechanical15) 
+Line (Width 6) (Start 53.43304825, 29.68503952) (End 53.43304825, -29.68503952) (Layer Mechanical15) 
+Line (Width 6) (Start 53.43304825, -29.68503952) (End -53.43304825, -29.68503952) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-53.43304825, -29.68503952)
+Point (-53.43304825, 29.68503952)
+Point (53.43304825, 29.68503952)
+Point (53.43304825, -29.68503952)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-19.65353966, 17.68503952)
+Point (19.65353966, 17.68503952)
+Point (19.65353966, -17.68503952)
+Point (-19.65353966, -17.68503952)
+EndPolygon
+Line (Width 6) (Start -9.54527379, -24.68503952) (End 9.54527379, -24.68503952) (Layer TopOverlay) 
+Line (Width 6) (Start 9.54527379, 24.68503952) (End -9.54527379, 24.68503952) (Layer TopOverlay) 
+Line (Width 1) (Start -21.65353966, -19.68503952) (End -21.65353966, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -21.65353966, 19.68503952) (End -35.43307114, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -35.43307114, 19.68503952) (End -35.43307114, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -35.43307114, -19.68503952) (End -21.65353966, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 21.65353966, 19.68503952) (End 21.65353966, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 21.65353966, -19.68503952) (End 35.43307114, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 35.43307114, -19.68503952) (End 35.43307114, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 35.43307114, 19.68503952) (End 21.65353966, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -35.43307114, -19.68503952) (End 35.43307114, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 35.43307114, -19.68503952) (End 35.43307114, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 35.43307114, 19.68503952) (End -35.43307114, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -35.43307114, 19.68503952) (End -35.43307114, -19.68503952) (Layer Mechanical13) 
+Step (Name RES_0816_SUS.step)
+EndFootprint
+
+Footprint (Name "RES_0816_SUS-L")
+Pad (Name "1") (Location -30.54330063, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17.77952957, 37.37007904) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 30.54330063, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17.77952957, 37.37007904) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-19.65353966, 19.68503952)
+Point (19.65353966, 19.68503952)
+Point (19.65353966, -19.68503952)
+Point (-19.65353966, -19.68503952)
+EndPolygon
+Line (Width 6) (Start -43.43307114, -22.68503952) (End -43.43307114, 22.68503952) (Layer Mechanical15) 
+Line (Width 6) (Start -43.43307114, 22.68503952) (End 43.43307114, 22.68503952) (Layer Mechanical15) 
+Line (Width 6) (Start 43.43307114, 22.68503952) (End 43.43307114, -22.68503952) (Layer Mechanical15) 
+Line (Width 6) (Start 43.43307114, -22.68503952) (End -43.43307114, -22.68503952) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-43.43307114, -22.68503952)
+Point (-43.43307114, 22.68503952)
+Point (43.43307114, 22.68503952)
+Point (43.43307114, -22.68503952)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-19.65353966, 17.68503952)
+Point (19.65353966, 17.68503952)
+Point (19.65353966, -17.68503952)
+Point (-19.65353966, -17.68503952)
+EndPolygon
+Line (Width 6) (Start -10.00836474, -24.68503952) (End 10.00836474, -24.68503952) (Layer TopOverlay) 
+Line (Width 6) (Start 10.00836474, 24.68503952) (End -10.00836474, 24.68503952) (Layer TopOverlay) 
+Line (Width 1) (Start -21.65353966, -19.68503952) (End -21.65353966, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -21.65353966, 19.68503952) (End -35.43307114, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -35.43307114, 19.68503952) (End -35.43307114, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -35.43307114, -19.68503952) (End -21.65353966, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 21.65353966, 19.68503952) (End 21.65353966, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 21.65353966, -19.68503952) (End 35.43307114, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 35.43307114, -19.68503952) (End 35.43307114, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 35.43307114, 19.68503952) (End 21.65353966, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -35.43307114, -19.68503952) (End 35.43307114, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 35.43307114, -19.68503952) (End 35.43307114, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 35.43307114, 19.68503952) (End -35.43307114, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -35.43307114, 19.68503952) (End -35.43307114, -19.68503952) (Layer Mechanical13) 
+Step (Name RES_0816_SUS.step)
+EndFootprint
+
+Footprint (Name "RES_0816_SUS-M")
+Pad (Name "1") (Location -34.54330063, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 25.77952957, 41.37007904) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 34.54330063, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 25.77952957, 41.37007904) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-19.65353966, 19.68503952)
+Point (19.65353966, 19.68503952)
+Point (19.65353966, -19.68503952)
+Point (-19.65353966, -19.68503952)
+EndPolygon
+Line (Width 6) (Start -67.43305206, -40.68503952) (End -67.43305206, 40.68503952) (Layer Mechanical15) 
+Line (Width 6) (Start -67.43305206, 40.68503952) (End 67.43305206, 40.68503952) (Layer Mechanical15) 
+Line (Width 6) (Start 67.43305206, 40.68503952) (End 67.43305206, -40.68503952) (Layer Mechanical15) 
+Line (Width 6) (Start 67.43305206, -40.68503952) (End -67.43305206, -40.68503952) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-67.43305206, -40.68503952)
+Point (-67.43305206, 40.68503952)
+Point (67.43305206, 40.68503952)
+Point (67.43305206, -40.68503952)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-19.65353966, 17.68503952)
+Point (19.65353966, 17.68503952)
+Point (19.65353966, -17.68503952)
+Point (-19.65353966, -17.68503952)
+EndPolygon
+Line (Width 6) (Start -9.17916171, -24.68503952) (End 9.17916171, -24.68503952) (Layer TopOverlay) 
+Line (Width 6) (Start 9.17916171, 24.68503952) (End -9.17916171, 24.68503952) (Layer TopOverlay) 
+Line (Width 1) (Start -21.65353966, -19.68503952) (End -21.65353966, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -21.65353966, 19.68503952) (End -35.43307114, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -35.43307114, 19.68503952) (End -35.43307114, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -35.43307114, -19.68503952) (End -21.65353966, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 21.65353966, 19.68503952) (End 21.65353966, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 21.65353966, -19.68503952) (End 35.43307114, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 35.43307114, -19.68503952) (End 35.43307114, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 35.43307114, 19.68503952) (End 21.65353966, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -35.43307114, -19.68503952) (End 35.43307114, -19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 35.43307114, -19.68503952) (End 35.43307114, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start 35.43307114, 19.68503952) (End -35.43307114, 19.68503952) (Layer Mechanical13) 
+Line (Width 1) (Start -35.43307114, 19.68503952) (End -35.43307114, -19.68503952) (Layer Mechanical13) 
+Step (Name RES_0816_SUS.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "RG1608P-104-B-T5") (PartCount 1) (DesPrefix "R?")
+Pin (Location 100, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Visible "1") (PinSwap 1) (PartSwap 1) (PinSeq 1) (Part 1)
+Pin (Location 400, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "2") (PinSwap 1) (PartSwap 1) (PinSeq 2) (Part 1)
+Line (Width 8) (Start 125, 50) (End 175, -50) (Part 1)
+Line (Width 8) (Start 175, -50) (End 225, 50) (Part 1)
+Line (Width 8) (Start 225, 50) (End 275, -50) (Part 1)
+Line (Width 8) (Start 275, -50) (End 325, 50) (Part 1)
+Line (Width 8) (Start 325, 50) (End 375, -50) (Part 1)
+Line (Width 8) (Start 100, 0) (End 125, 50) (Part 1)
+Line (Width 8) (Start 375, -50) (End 400, 0) (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Susumu") (Part 1)
+Parameter (Name "Type") (Location 250, -275) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Parameter (Name "RefDes") (Location 225, 150) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "RES_0816_SUS")
+EndComponent
+EndComponents
