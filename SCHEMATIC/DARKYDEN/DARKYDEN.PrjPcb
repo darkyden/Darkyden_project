@@ -106,7 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=SHZUWPJB
 
 [Document4]
-DocumentPath=eDP.SchDoc
+DocumentPath=USBC_B.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -412,6 +412,23 @@ GenerateClassCluster=0
 DocumentUniqueId=XLOBVOUN
 
 [Document22]
+DocumentPath=..\..\Librairy\20455-040E-76\20455-040E-76.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YFPINLHF
+
+[Document23]
 DocumentPath=..\..\Librairy\TPD4E02B04DQAR\TPD4E02B04DQAR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -428,7 +445,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ISOPMQXO
 
-[Document23]
+[Document24]
 DocumentPath=CONNECTEUR_1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -445,7 +462,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DOBMMPCH
 
-[Document24]
+[Document25]
 DocumentPath=CONNECTEUR_2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -462,7 +479,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HVYVRKVM
 
-[Document25]
+[Document26]
 DocumentPath=CONNECTEUR_3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -479,7 +496,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EEDKBQOF
 
-[Document26]
+[Document27]
 DocumentPath=CONNECTEUR_4.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
