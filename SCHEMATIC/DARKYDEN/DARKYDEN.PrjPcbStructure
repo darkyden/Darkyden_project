@@ -2,7 +2,7 @@ Record=TopLevelDocument|FileName=CONNECTEUR_1.SchDoc|SheetNumber=12
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=CONNECTEUR_2.SchDoc|SheetNumber=13
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=CONNECTEUR_3.SchDoc|SheetNumber=14
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=CONNECTEUR_4.SchDoc|SheetNumber=15
-Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=eDP.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=eDP.SchDoc|SheetNumber=16
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=ETHERNET.SchDoc|SheetNumber=3
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=GPIO.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=HDMI.SchDoc|SheetNumber=5
@@ -11,5 +11,6 @@ Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=POWERTRAIN
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=SDCARD.SchDoc|SheetNumber=8
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=USB2_0.SchDoc|SheetNumber=9
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=USB3_0.SchDoc|SheetNumber=10
-Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=USBC.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=USBC_A.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=USBC_B.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=WIFI.SchDoc|SheetNumber=11
