@@ -7,10 +7,10 @@ Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=ETHERNET.S
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=GPIO.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=HDMI.SchDoc|SheetNumber=5
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=NVME.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=POWERTRAIN.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=Power.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=POWER_PCie.SchDoc|SheetNumber=7
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=SDCARD.SchDoc|SheetNumber=8
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=SystemCTL.SchDoc|SheetNumber=10
-Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=USB2_0.SchDoc|SheetNumber=9
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=USBC_A.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=USBC_B.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=WIFI.SchDoc|SheetNumber=11
