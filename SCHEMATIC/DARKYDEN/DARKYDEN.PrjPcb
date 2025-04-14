@@ -191,7 +191,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FTMQAXSH
 
 [Document9]
-DocumentPath=POWERTRAIN.SchDoc
+DocumentPath=POWER_PCie.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -225,7 +225,7 @@ GenerateClassCluster=0
 DocumentUniqueId=SDNVKLCL
 
 [Document11]
-DocumentPath=USB2_0.SchDoc
+DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
