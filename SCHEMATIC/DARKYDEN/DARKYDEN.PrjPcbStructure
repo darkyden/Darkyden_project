@@ -9,6 +9,7 @@ Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=HDMI.SchDo
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=NVME.SchDoc|SheetNumber=6
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=Power.SchDoc|SheetNumber=9
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=POWER_PCie.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=POWERSYSTEM.SchDoc|SheetNumber=17
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=SDCARD.SchDoc|SheetNumber=8
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=SystemCTL.SchDoc|SheetNumber=10
 Record=NoMainPathDocument|SourceDocument=CONNECTEUR_1.SchDoc|FileName=USBC_A.SchDoc|SheetNumber=1
