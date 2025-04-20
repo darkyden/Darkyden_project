@@ -16,6 +16,7 @@ Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=POWERS
 Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=SDCARD.SchDoc|SheetNumber=8
 Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=SystemCTL.SchDoc|SheetNumber=10
 Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=USB2_0.SchDoc|SheetNumber=21
+Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=USB2_0_Connector.SchDoc|SheetNumber=22
 Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=USBC_A.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=USBC_B.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=WIFI.SchDoc|SheetNumber=11
