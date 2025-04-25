@@ -1,0 +1,409 @@
+Removed Pin From Net: NetName=PACK+ Pin=C25-2
+Removed Pin From Net: NetName=PACK+ Pin=C112-2
+Removed Pin From Net: NetName=PACK+ Pin=C113-2
+Removed Pin From Net: NetName=PACK+ Pin=C114-2
+Removed Pin From Net: NetName=PACK+ Pin=C118-2
+Removed Pin From Net: NetName=PACK+ Pin=C119-2
+Removed Pin From Net: NetName=PACK+ Pin=JP2-1
+Removed Pin From Net: NetName=+12V Pin=R6-2
+Removed Pin From Net: NetName=+12V Pin=R7-2
+Removed Pin From Net: NetName=+12V Pin=R79-1
+Removed Pin From Net: NetName=+12V Pin=R80-1
+Removed Pin From Net: NetName=+12V Pin=R84-1
+Removed Pin From Net: NetName=+12V Pin=R85-1
+Removed Pin From Net: NetName=+12V Pin=R93-1
+Removed Pin From Net: NetName=+12V Pin=R94-1
+Removed Pin From Net: NetName=PACK+ Pin=R111-1
+Removed Pin From Net: NetName=PACK+ Pin=R129-1
+Removed Pin From Net: NetName=PACK+ Pin=R143-2
+Removed Pin From Net: NetName=TX2_N Pin=U6-2
+Removed Pin From Net: NetName=TX2_N Pin=U6-9
+Removed Pin From Net: NetName=RRX1_P Pin=U11-4
+Removed Pin From Net: NetName=RRX1_N Pin=U11-5
+Removed Pin From Net: NetName=RRX1_N Pin=U11-6
+Removed Pin From Net: NetName=RRX1_P Pin=U11-7
+Removed Pin From Net: NetName=PACK+ Pin=U27-22
+Removed Pin From Net: NetName=PACK+ Pin=U27-23
+Removed Member From Class: ClassName=BATTERY_GESTION Member=C25
+Removed Member From Class: ClassName=BATTERY_GESTION Member=C118
+Removed Member From Class: ClassName=BATTERY_GESTION Member=C119
+Change Component Comment : Designator=R168 Old Comment=12K New Comment=1.24K
+Change component parameters: Designator = "R168" ("R168"); Footprint = "RESC1608X55N"; UniqueID = "\WTHPCYMF" ("\WTHPCYMF")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/6201/426256-6201385.pdf?src-supplier=Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/6201/426256-6201385.pdf?src-supplier=Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "https://datasheet.ciiva.com/43460/426256-43460475.pdf?src-supplier=Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://datasheet.ciiva.com/43460/426256-43460475.pdf?src-supplier=Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "https://datasheet.ciiva.com/9198/aoa0000ce2-9198405.pdf?src-supplier=Avnet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.ciiva.com/9198/aoa0000ce2-9198405.pdf?src-supplier=Avnet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "https://datasheet.ciiva.com/46377/426256-46377543.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = "https://datasheet.ciiva.com/46377/426256-46377543.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink5Description"; Value = "https://datasheet.ciiva.com/46389/426256-46389400.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink5URL"; Value = "https://datasheet.ciiva.com/46389/426256-46389400.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink6Description"; Value = "https://datasheet.ciiva.com/27055/1987599-27055669.pdf?src-supplier=Jameco"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink6URL"; Value = "https://datasheet.ciiva.com/27055/1987599-27055669.pdf?src-supplier=Jameco"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink7Description"; Value = "https://datasheet.ciiva.com/30129/aoa0000ce2-30129916.pdf?src-supplier=Onlinecomponents.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink7URL"; Value = "https://datasheet.ciiva.com/30129/aoa0000ce2-30129916.pdf?src-supplier=Onlinecomponents.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink8Description"; Value = "https://datasheet.ciiva.com/28536/1678782-28536153.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink8URL"; Value = "https://datasheet.ciiva.com/28536/1678782-28536153.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink9Description"; Value = "https://datasheet.ciiva.com/28672/1678782-28672318.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink9URL"; Value = "https://datasheet.ciiva.com/28672/1678782-28672318.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink10Description"; Value = "https://datasheet.ciiva.com/16787/70260748-16787720.pdf?src-supplier=Allied+Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink10URL"; Value = "https://datasheet.ciiva.com/16787/70260748-16787720.pdf?src-supplier=Allied+Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Construction"; Value = "Rectangular"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "0.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Automotive AEC-Q200"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "1.6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "ERJ-3EKF1241V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ERJ-3EKF1241V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = "100mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "667-ERJ-3EKF1241V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1241V?qs=H7k1u0Mp9JSxP0pMBm%2FrfQ%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Terminations"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "5000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "100mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing"; Value = "1=0.1, 10=0.035, 100=0.0177, 1000=0.01014, 2500=0.00888 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Reach SVHC Compliant"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "ERJ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock"; Value = "87035"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number"; Value = "P1.24KHCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "100ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1.24kR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "75V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.8mm"; VariantName = "[No Variations]"
+Added Component: Designator=L24(INDC2012X105N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "FBMJ2125HM210NT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/fbmj2125hm210nt/taiyo-yuden?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Ferrite Beads and Chips"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/6212/fbmj2125hm210nt-ss-6212912.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/6212/fbmj2125hm210nt-ss-6212912.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "https://datasheet.ciiva.com/25614/0900766b810b37be-25614411.pdf?src-supplier=Rs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://datasheet.ciiva.com/25614/0900766b810b37be-25614411.pdf?src-supplier=Rs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "https://datasheet.ciiva.com/6212/chipbeads01-e-6212908.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.ciiva.com/6212/chipbeads01-e-6212908.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "https://datasheet.ciiva.com/6212/chipbeads01-e-6212907.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "https://datasheet.ciiva.com/6212/chipbeads01-e-6212907.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core Material"; Value = "Ferrite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA6/557945.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "100MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen Free"; Value = "Halogen Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.05mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "21R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "FBMJ2125HM210NT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TAIYO YUDEN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FBMJ2125HM210NT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ferrite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "6A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max DC Current"; Value = "6A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "963-FBMJ2125HM210NT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/FBMJ2125HM210NT?qs=I6KAKw0tg2zeLlwEEK9qzQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "4000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing"; Value = "1=0.11, 10=0.081, 25=0.07, 50=0.063, 100=0.0563, 250=0.04844, 500=0.04302, 1000=0.03801 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reach SVHC Compliant"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "FB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shielding"; Value = "Unshielded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock"; Value = "27778"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "587-1765-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Frequency"; Value = "100MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "30%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.25mm"; VariantName = "[No Variations]"
+Added Component: Designator=L25(INDC2012X105N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "FBMJ2125HM210NT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/fbmj2125hm210nt/taiyo-yuden?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Ferrite Beads and Chips"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/6212/fbmj2125hm210nt-ss-6212912.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/6212/fbmj2125hm210nt-ss-6212912.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "https://datasheet.ciiva.com/25614/0900766b810b37be-25614411.pdf?src-supplier=Rs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://datasheet.ciiva.com/25614/0900766b810b37be-25614411.pdf?src-supplier=Rs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "https://datasheet.ciiva.com/6212/chipbeads01-e-6212908.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.ciiva.com/6212/chipbeads01-e-6212908.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "https://datasheet.ciiva.com/6212/chipbeads01-e-6212907.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "https://datasheet.ciiva.com/6212/chipbeads01-e-6212907.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core Material"; Value = "Ferrite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA6/557945.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "100MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen Free"; Value = "Halogen Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.05mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "21R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "FBMJ2125HM210NT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TAIYO YUDEN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FBMJ2125HM210NT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ferrite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "6A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max DC Current"; Value = "6A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "963-FBMJ2125HM210NT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/FBMJ2125HM210NT?qs=I6KAKw0tg2zeLlwEEK9qzQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "4000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing"; Value = "1=0.11, 10=0.081, 25=0.07, 50=0.063, 100=0.0563, 250=0.04844, 500=0.04302, 1000=0.03801 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reach SVHC Compliant"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "FB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shielding"; Value = "Unshielded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock"; Value = "27778"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "587-1765-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Frequency"; Value = "100MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "30%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.25mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PACK- Pin=BT4-2
+Added Pin To Net: NetName=NetQ6_5 Pin=C112-2
+Added Pin To Net: NetName=NetQ6_5 Pin=C113-2
+Added Pin To Net: NetName=NetQ6_5 Pin=C114-2
+Added Pin To Net: NetName=PACK- Pin=C115-1
+Added Pin To Net: NetName=PACK- Pin=C116-2
+Added Pin To Net: NetName=PACK- Pin=C117-2
+Added Pin To Net: NetName=PACK- Pin=C122-1
+Added Pin To Net: NetName=PACK- Pin=C124-1
+Added Pin To Net: NetName=PACK- Pin=C129-1
+Added Pin To Net: NetName=PACK- Pin=C130-1
+Added Pin To Net: NetName=PACK- Pin=D5-2
+Added Pin To Net: NetName=PACK- Pin=IC12-9
+Added Pin To Net: NetName=PACK- Pin=IC12-23
+Added Pin To Net: NetName=PACK- Pin=IC12-24
+Added Pin To Net: NetName=NetQ6_5 Pin=JP2-1
+Added Pin To Net: NetName=PACK- Pin=L24-1
+Added Pin To Net: NetName=PACK- Pin=L24-2
+Added Pin To Net: NetName=PACK- Pin=L25-1
+Added Pin To Net: NetName=PACK- Pin=L25-2
+Added Pin To Net: NetName=NetQ6_5 Pin=R111-1
+Added Pin To Net: NetName=PACK- Pin=R112-1
+Added Pin To Net: NetName=PACK- Pin=R127-1
+Added Pin To Net: NetName=PACK- Pin=R128-1
+Added Pin To Net: NetName=NetQ6_5 Pin=R129-1
+Added Pin To Net: NetName=PACK- Pin=R135-1
+Added Pin To Net: NetName=PACK- Pin=R138-2
+Added Pin To Net: NetName=PACK- Pin=R139-1
+Added Pin To Net: NetName=NetQ6_5 Pin=R143-2
+Added Pin To Net: NetName=PACK- Pin=RT1-2
+Added Pin To Net: NetName=PACK- Pin=U27-10
+Added Pin To Net: NetName=PACK- Pin=U27-11
+Added Pin To Net: NetName=PACK- Pin=U27-13
+Added Pin To Net: NetName=NetQ6_5 Pin=U27-22
+Added Pin To Net: NetName=NetQ6_5 Pin=U27-23
+Change Net Name : Old Net Name=+12V New Net Name=+12
+Change Net Name : Old Net Name=EN New Net Name=GPIO3_B4
+Change Net Name : Old Net Name=EN_1 New Net Name=GPIO1_D2/TYPEC5V_PWREN_H
+Change Net Name : Old Net Name=I2C5_SCL New Net Name=GPIO3_C7/I2C5_SCL_M0_TP
+Change Net Name : Old Net Name=I2C5_SDA New Net Name=GPIO3_D0/I2C5_SDA_M0_TP
+Change Net Name : Old Net Name=ISET New Net Name=NetR8_2
+Change Net Name : Old Net Name=MDIP1_N New Net Name=P25G_MDI1_N
+Change Net Name : Old Net Name=MDIP1_P New Net Name=P25G_MDI1_P
+Change Net Name : Old Net Name=NetQ6_5 New Net Name=PACK+
+Change Net Name : Old Net Name=PACK+ New Net Name=NetBT1_1
+Change Net Name : Old Net Name=PACK- New Net Name=AGND
+Change Net Name : Old Net Name=RRX1_N New Net Name=TYPEC1_SSRX1_N
+Change Net Name : Old Net Name=RRX1_P New Net Name=TYPEC1_SSRX1_P
+Change Net Name : Old Net Name=SCL_A New Net Name=I2C6_SCL_M0
+Change Net Name : Old Net Name=SCL_B New Net Name=I2C7_SCL_M0
+Change Net Name : Old Net Name=SDA_A New Net Name=I2C6_SDA_M0
+Change Net Name : Old Net Name=SDA_B New Net Name=I2C7_SDA_M0
+Change Net Name : Old Net Name=SRN New Net Name=SR_N
+Change Net Name : Old Net Name=SRP New Net Name=SR_P
+Change Net Name : Old Net Name=TX2_N New Net Name=TYPEC0_SSTX2_N
+Change Net Name : Old Net Name=usb_N New Net Name=USB20_HOST0_D_N
+Change Net Name : Old Net Name=usb_P New Net Name=USB20_HOST0_D_P
+Change Net Name : Old Net Name=VDD33A New Net Name=+3V3
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR6_2 Pin=R7-2
+Added Pin To Net: NetName=NetR6_2 Pin=R79-1
+Added Pin To Net: NetName=NetR6_2 Pin=R80-1
+Added Pin To Net: NetName=NetR6_2 Pin=R84-1
+Added Pin To Net: NetName=NetR6_2 Pin=R85-1
+Added Pin To Net: NetName=NetR6_2 Pin=R93-1
+Added Pin To Net: NetName=NetR6_2 Pin=R94-1
+Added Net: Name=NetR6_2
+Added Pin To Net: NetName=P25G_MDI0_N Pin=CON1-80
+Added Pin To Net: NetName=P25G_MDI0_N Pin=L3-2
+Added Pin To Net: NetName=P25G_MDI0_N Pin=U14-2
+Added Pin To Net: NetName=P25G_MDI0_N Pin=U14-5
+Added Pin To Net: NetName=P25G_MDI0_N Pin=U14-6
+Added Pin To Net: NetName=P25G_MDI0_N Pin=U14-9
+Added Net: Name=P25G_MDI0_N
+Added Pin To Net: NetName=P25G_MDI0_P Pin=CON1-78
+Added Pin To Net: NetName=P25G_MDI0_P Pin=L3-1
+Added Pin To Net: NetName=P25G_MDI0_P Pin=U14-1
+Added Pin To Net: NetName=P25G_MDI0_P Pin=U14-4
+Added Pin To Net: NetName=P25G_MDI0_P Pin=U14-7
+Added Pin To Net: NetName=P25G_MDI0_P Pin=U14-10
+Added Net: Name=P25G_MDI0_P
+Added Pin To Net: NetName=P25G_MDI2_N Pin=CON1-92
+Added Pin To Net: NetName=P25G_MDI2_N Pin=L5-2
+Added Pin To Net: NetName=P25G_MDI2_N Pin=U15-2
+Added Pin To Net: NetName=P25G_MDI2_N Pin=U15-9
+Added Net: Name=P25G_MDI2_N
+Added Pin To Net: NetName=P25G_MDI2_P Pin=CON1-90
+Added Pin To Net: NetName=P25G_MDI2_P Pin=L5-1
+Added Pin To Net: NetName=P25G_MDI2_P Pin=U15-1
+Added Pin To Net: NetName=P25G_MDI2_P Pin=U15-10
+Added Net: Name=P25G_MDI2_P
+Added Pin To Net: NetName=P25G_MDI3_N Pin=CON1-98
+Added Pin To Net: NetName=P25G_MDI3_N Pin=L6-2
+Added Pin To Net: NetName=P25G_MDI3_N Pin=U15-5
+Added Pin To Net: NetName=P25G_MDI3_N Pin=U15-6
+Added Net: Name=P25G_MDI3_N
+Added Pin To Net: NetName=P25G_MDI3_P Pin=CON1-96
+Added Pin To Net: NetName=P25G_MDI3_P Pin=L6-1
+Added Pin To Net: NetName=P25G_MDI3_P Pin=U15-4
+Added Pin To Net: NetName=P25G_MDI3_P Pin=U15-7
+Added Net: Name=P25G_MDI3_P
+Added Pin To Net: NetName=TYPEC0_SBU1_OUT Pin=CON4-4
+Added Pin To Net: NetName=TYPEC0_SBU1_OUT Pin=J2-A8
+Added Pin To Net: NetName=TYPEC0_SBU1_OUT Pin=U4-1
+Added Pin To Net: NetName=TYPEC0_SBU1_OUT Pin=U4-10
+Added Net: Name=TYPEC0_SBU1_OUT
+Added Pin To Net: NetName=TYPEC0_SBU2_OUT Pin=CON4-6
+Added Pin To Net: NetName=TYPEC0_SBU2_OUT Pin=J2-B8
+Added Pin To Net: NetName=TYPEC0_SBU2_OUT Pin=U4-2
+Added Pin To Net: NetName=TYPEC0_SBU2_OUT Pin=U4-9
+Added Net: Name=TYPEC0_SBU2_OUT
+Added Pin To Net: NetName=TYPEC0_SSRX1_N Pin=CON2-73
+Added Pin To Net: NetName=TYPEC0_SSRX1_N Pin=J2-B10
+Added Pin To Net: NetName=TYPEC0_SSRX1_N Pin=U6-5
+Added Pin To Net: NetName=TYPEC0_SSRX1_N Pin=U6-6
+Added Net: Name=TYPEC0_SSRX1_N
+Added Pin To Net: NetName=TYPEC0_SSRX1_P Pin=CON2-71
+Added Pin To Net: NetName=TYPEC0_SSRX1_P Pin=J2-B11
+Added Pin To Net: NetName=TYPEC0_SSRX1_P Pin=U6-4
+Added Pin To Net: NetName=TYPEC0_SSRX1_P Pin=U6-7
+Added Net: Name=TYPEC0_SSRX1_P
+Added Pin To Net: NetName=TYPEC0_SSRX2_N Pin=CON2-61
+Added Pin To Net: NetName=TYPEC0_SSRX2_N Pin=J2-A10
+Added Pin To Net: NetName=TYPEC0_SSRX2_N Pin=U5-5
+Added Pin To Net: NetName=TYPEC0_SSRX2_N Pin=U5-6
+Added Net: Name=TYPEC0_SSRX2_N
+Added Pin To Net: NetName=TYPEC0_SSRX2_P Pin=CON2-59
+Added Pin To Net: NetName=TYPEC0_SSRX2_P Pin=J2-A11
+Added Pin To Net: NetName=TYPEC0_SSRX2_P Pin=U5-4
+Added Pin To Net: NetName=TYPEC0_SSRX2_P Pin=U5-7
+Added Net: Name=TYPEC0_SSRX2_P
+Added Pin To Net: NetName=TYPEC0_SSTX1_N Pin=CON2-67
+Added Pin To Net: NetName=TYPEC0_SSTX1_N Pin=J2-A3
+Added Pin To Net: NetName=TYPEC0_SSTX1_N Pin=U6-2
+Added Pin To Net: NetName=TYPEC0_SSTX1_N Pin=U6-9
+Added Net: Name=TYPEC0_SSTX1_N
+Added Pin To Net: NetName=TYPEC0_SSTX1_P Pin=CON2-65
+Added Pin To Net: NetName=TYPEC0_SSTX1_P Pin=J2-A2
+Added Pin To Net: NetName=TYPEC0_SSTX1_P Pin=U6-1
+Added Pin To Net: NetName=TYPEC0_SSTX1_P Pin=U6-10
+Added Net: Name=TYPEC0_SSTX1_P
+Added Pin To Net: NetName=TYPEC0_SSTX2_P Pin=CON2-53
+Added Pin To Net: NetName=TYPEC0_SSTX2_P Pin=J2-B2
+Added Pin To Net: NetName=TYPEC0_SSTX2_P Pin=U5-1
+Added Pin To Net: NetName=TYPEC0_SSTX2_P Pin=U5-10
+Added Net: Name=TYPEC0_SSTX2_P
+Added Pin To Net: NetName=TYPEC1_SBU1 Pin=CON4-10
+Added Pin To Net: NetName=TYPEC1_SBU1 Pin=J3-A8
+Added Pin To Net: NetName=TYPEC1_SBU1 Pin=U10-1
+Added Pin To Net: NetName=TYPEC1_SBU1 Pin=U10-10
+Added Net: Name=TYPEC1_SBU1
+Added Pin To Net: NetName=TYPEC1_SBU2 Pin=CON4-12
+Added Pin To Net: NetName=TYPEC1_SBU2 Pin=J3-B8
+Added Pin To Net: NetName=TYPEC1_SBU2 Pin=U10-2
+Added Pin To Net: NetName=TYPEC1_SBU2 Pin=U10-9
+Added Net: Name=TYPEC1_SBU2
+Added Pin To Net: NetName=TYPEC1_SSRX2_N Pin=CON2-85
+Added Pin To Net: NetName=TYPEC1_SSRX2_N Pin=J3-A10
+Added Pin To Net: NetName=TYPEC1_SSRX2_N Pin=U12-2
+Added Pin To Net: NetName=TYPEC1_SSRX2_N Pin=U12-9
+Added Net: Name=TYPEC1_SSRX2_N
+Added Pin To Net: NetName=TYPEC1_SSRX2_P Pin=CON2-83
+Added Pin To Net: NetName=TYPEC1_SSRX2_P Pin=J3-A11
+Added Pin To Net: NetName=TYPEC1_SSRX2_P Pin=U12-1
+Added Pin To Net: NetName=TYPEC1_SSRX2_P Pin=U12-10
+Added Net: Name=TYPEC1_SSRX2_P
+Added Pin To Net: NetName=TYPEC1_SSTX1_N Pin=CON2-91
+Added Pin To Net: NetName=TYPEC1_SSTX1_N Pin=J3-A3
+Added Pin To Net: NetName=TYPEC1_SSTX1_N Pin=U11-5
+Added Pin To Net: NetName=TYPEC1_SSTX1_N Pin=U11-6
+Added Net: Name=TYPEC1_SSTX1_N
+Added Pin To Net: NetName=TYPEC1_SSTX1_P Pin=CON2-89
+Added Pin To Net: NetName=TYPEC1_SSTX1_P Pin=J3-A2
+Added Pin To Net: NetName=TYPEC1_SSTX1_P Pin=U11-4
+Added Pin To Net: NetName=TYPEC1_SSTX1_P Pin=U11-7
+Added Net: Name=TYPEC1_SSTX1_P
+Added Pin To Net: NetName=TYPEC1_SSTX2_N Pin=CON2-79
+Added Pin To Net: NetName=TYPEC1_SSTX2_N Pin=J3-B3
+Added Pin To Net: NetName=TYPEC1_SSTX2_N Pin=U12-5
+Added Pin To Net: NetName=TYPEC1_SSTX2_N Pin=U12-6
+Added Net: Name=TYPEC1_SSTX2_N
+Added Pin To Net: NetName=TYPEC1_SSTX2_P Pin=CON2-77
+Added Pin To Net: NetName=TYPEC1_SSTX2_P Pin=J3-B2
+Added Pin To Net: NetName=TYPEC1_SSTX2_P Pin=U12-4
+Added Pin To Net: NetName=TYPEC1_SSTX2_P Pin=U12-7
+Added Net: Name=TYPEC1_SSTX2_P
+Added Differential Pair: Name=P25G_MDI0
+Added Differential Pair: Name=P25G_MDI1
+Added Differential Pair: Name=P25G_MDI2
+Added Differential Pair: Name=P25G_MDI3
+Added Differential Pair: Name=SR
+Added Differential Pair: Name=TYPEC0_SSRX1
+Added Differential Pair: Name=TYPEC0_SSRX2
+Added Differential Pair: Name=TYPEC0_SSTX1
+Added Differential Pair: Name=TYPEC0_SSTX2
+Added Differential Pair: Name=TYPEC1_SSRX1
+Added Differential Pair: Name=TYPEC1_SSRX2
+Added Differential Pair: Name=TYPEC1_SSTX1
+Added Differential Pair: Name=TYPEC1_SSTX2
+Added Differential Pair: Name=USB20_HOST0_D
+Added Member To Class: ClassName=POWERSYSTEM Member=Component L24 FBMJ2125HM210NT
+Added Member To Class: ClassName=BATTERY_GESTION Member=Component L25 FBMJ2125HM210NT
+Added Rule: Name=Schematic Supply Nets_19
+Added Rule: Name=Schematic Supply Nets_20
+Added Rule: Name=Schematic Supply Nets_21

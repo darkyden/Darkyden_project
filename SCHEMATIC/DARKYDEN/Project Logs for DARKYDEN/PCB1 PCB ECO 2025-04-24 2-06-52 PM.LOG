@@ -1,0 +1,33 @@
+Added Component: Designator=MTHNP1(MTHNP3P2MM)
+Added Component: Designator=MTHNP2(MTHNP3P2MM)
+Added Component: Designator=MTHNP3(MTHNP3P2MM)
+Added Component: Designator=MTHNP4(MTHNP3P2MM)
+Added Component: Designator=MTHNP5(MTHNP3P2MM)
+Added Component: Designator=MTHNP6(MTHNP3P2MM)
+Added Component: Designator=MTHNP7(MTHNP3P2MM)
+Added Component: Designator=MTHNP8(MTHNP3P2MM)
+Added Component: Designator=MTHNP9(MTHNP3P2MM)
+Added Component: Designator=MTHNP10(MTHNP3P2MM)
+Added Component: Designator=MTHNP11(MTHNP3P2MM)
+Added Pin To Net: NetName=PACK- Pin=MTHNP1-1
+Added Pin To Net: NetName=PACK- Pin=MTHNP2-1
+Added Pin To Net: NetName=PACK- Pin=MTHNP3-1
+Added Pin To Net: NetName=PACK- Pin=MTHNP4-1
+Added Pin To Net: NetName=PACK- Pin=MTHNP5-1
+Added Pin To Net: NetName=PACK- Pin=MTHNP6-1
+Added Pin To Net: NetName=PACK- Pin=MTHNP7-1
+Added Pin To Net: NetName=PACK- Pin=MTHNP8-1
+Added Pin To Net: NetName=PACK- Pin=MTHNP9-1
+Added Pin To Net: NetName=PACK- Pin=MTHNP10-1
+Added Pin To Net: NetName=PACK- Pin=MTHNP11-1
+Added Member To Class: ClassName=SystemCTL Member=Component MTHNP1 Mounting Hole Non-Plated 3.2mm
+Added Member To Class: ClassName=SystemCTL Member=Component MTHNP2 Mounting Hole Non-Plated 3.2mm
+Added Member To Class: ClassName=SystemCTL Member=Component MTHNP3 Mounting Hole Non-Plated 3.2mm
+Added Member To Class: ClassName=SystemCTL Member=Component MTHNP4 Mounting Hole Non-Plated 3.2mm
+Added Member To Class: ClassName=SystemCTL Member=Component MTHNP5 Mounting Hole Non-Plated 3.2mm
+Added Member To Class: ClassName=SystemCTL Member=Component MTHNP6 Mounting Hole Non-Plated 3.2mm
+Added Member To Class: ClassName=NVME Member=Component MTHNP7 Mounting Hole Non-Plated 3.2mm
+Added Member To Class: ClassName=NVME Member=Component MTHNP8 Mounting Hole Non-Plated 3.2mm
+Added Member To Class: ClassName=NVME Member=Component MTHNP9 Mounting Hole Non-Plated 3.2mm
+Added Member To Class: ClassName=NVME Member=Component MTHNP10 Mounting Hole Non-Plated 3.2mm
+Added Member To Class: ClassName=WIFI Member=Component MTHNP11 Mounting Hole Non-Plated 3.2mm

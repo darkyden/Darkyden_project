@@ -1,0 +1,98 @@
+Added Component: Designator=J2(USB_C)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/2012670005/Molex/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "2012670005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/2012670005/Molex/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J3(USB_C)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/2012670005/Molex/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "2012670005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/2012670005/Molex/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J8(USB_C)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/2012670005/Molex/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "2012670005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/2012670005/Molex/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PACK- Pin=J2-A1
+Added Pin To Net: NetName=TX1_P Pin=J2-A2
+Added Pin To Net: NetName=TX1_N Pin=J2-A3
+Added Pin To Net: NetName=VBUS_5V0_TYPEC Pin=J2-A4
+Added Pin To Net: NetName=TYPE_CC1 Pin=J2-A5
+Added Pin To Net: NetName=TYPEC0_D_P Pin=J2-A6
+Added Pin To Net: NetName=TYPEC0_D_N Pin=J2-A7
+Added Pin To Net: NetName=TYPEC0_SBU1_OUT_A Pin=J2-A8
+Added Pin To Net: NetName=VBUS_5V0_TYPEC Pin=J2-A9
+Added Pin To Net: NetName=RX2_N Pin=J2-A10
+Added Pin To Net: NetName=RX2_P Pin=J2-A11
+Added Pin To Net: NetName=PACK- Pin=J2-A12
+Added Pin To Net: NetName=PACK- Pin=J2-B1
+Added Pin To Net: NetName=TX2_P Pin=J2-B2
+Added Pin To Net: NetName=TX2_N Pin=J2-B3
+Added Pin To Net: NetName=VBUS_5V0_TYPEC Pin=J2-B4
+Added Pin To Net: NetName=TYPE_CC2 Pin=J2-B5
+Added Pin To Net: NetName=TYPEC0_D_P Pin=J2-B6
+Added Pin To Net: NetName=TYPEC0_D_N Pin=J2-B7
+Added Pin To Net: NetName=TYPEC0_SBU2_OUT_A Pin=J2-B8
+Added Pin To Net: NetName=VBUS_5V0_TYPEC Pin=J2-B9
+Added Pin To Net: NetName=RX1_N Pin=J2-B10
+Added Pin To Net: NetName=RX1_P Pin=J2-B11
+Added Pin To Net: NetName=PACK- Pin=J2-B12
+Added Pin To Net: NetName=PACK- Pin=J2-SH1
+Added Pin To Net: NetName=PACK- Pin=J2-SH2
+Added Pin To Net: NetName=PACK- Pin=J2-SH3
+Added Pin To Net: NetName=PACK- Pin=J2-SH4
+Added Pin To Net: NetName=PACK- Pin=J3-A1
+Added Pin To Net: NetName=TTX1_P Pin=J3-A2
+Added Pin To Net: NetName=TTX1_N Pin=J3-A3
+Added Pin To Net: NetName=VBUS_5V0_TYPEC1 Pin=J3-A4
+Added Pin To Net: NetName=TYPE_CC1_J3 Pin=J3-A5
+Added Pin To Net: NetName=TYPEC1_D_P Pin=J3-A6
+Added Pin To Net: NetName=TYPEC1_D_N Pin=J3-A7
+Added Pin To Net: NetName=TYPEC1_SBU1_OUT_B Pin=J3-A8
+Added Pin To Net: NetName=VBUS_5V0_TYPEC1 Pin=J3-A9
+Added Pin To Net: NetName=RRX2_N Pin=J3-A10
+Added Pin To Net: NetName=RRX2_P Pin=J3-A11
+Added Pin To Net: NetName=PACK- Pin=J3-A12
+Added Pin To Net: NetName=PACK- Pin=J3-B1
+Added Pin To Net: NetName=TTX2_P Pin=J3-B2
+Added Pin To Net: NetName=TTX2_N Pin=J3-B3
+Added Pin To Net: NetName=VBUS_5V0_TYPEC1 Pin=J3-B4
+Added Pin To Net: NetName=TYPE_CC2_J3 Pin=J3-B5
+Added Pin To Net: NetName=TYPEC1_D_P Pin=J3-B6
+Added Pin To Net: NetName=TYPEC1_D_N Pin=J3-B7
+Added Pin To Net: NetName=TYPEC1_SBU2_OUT_B Pin=J3-B8
+Added Pin To Net: NetName=VBUS_5V0_TYPEC1 Pin=J3-B9
+Added Pin To Net: NetName=RRX1_N Pin=J3-B10
+Added Pin To Net: NetName=RRX1_P Pin=J3-B11
+Added Pin To Net: NetName=PACK- Pin=J3-B12
+Added Pin To Net: NetName=PACK- Pin=J3-SH1
+Added Pin To Net: NetName=PACK- Pin=J3-SH2
+Added Pin To Net: NetName=PACK- Pin=J3-SH3
+Added Pin To Net: NetName=PACK- Pin=J3-SH4
+Added Pin To Net: NetName=PACK- Pin=J8-A1
+Added Pin To Net: NetName=VBUS Pin=J8-A4
+Added Pin To Net: NetName=C_CC1 Pin=J8-A5
+Added Pin To Net: NetName=C_USB_P Pin=J8-A6
+Added Pin To Net: NetName=C_USB_N Pin=J8-A7
+Added Pin To Net: NetName=VBUS Pin=J8-A9
+Added Pin To Net: NetName=PACK- Pin=J8-A12
+Added Pin To Net: NetName=PACK- Pin=J8-B1
+Added Pin To Net: NetName=VBUS Pin=J8-B4
+Added Pin To Net: NetName=C_CC2 Pin=J8-B5
+Added Pin To Net: NetName=C_USB_P Pin=J8-B6
+Added Pin To Net: NetName=C_USB_N Pin=J8-B7
+Added Pin To Net: NetName=VBUS Pin=J8-B9
+Added Pin To Net: NetName=PACK- Pin=J8-B12
+Added Pin To Net: NetName=PACK- Pin=J8-SH1
+Added Pin To Net: NetName=PACK- Pin=J8-SH2
+Added Pin To Net: NetName=PACK- Pin=J8-SH3
+Added Pin To Net: NetName=PACK- Pin=J8-SH4
+Added Member To Class: ClassName=USBC_A Member=Component J2 USBC
+Added Member To Class: ClassName=USBC_B Member=Component J3 USBC
+Added Member To Class: ClassName=POWERSYSTEM Member=Component J8 USBC

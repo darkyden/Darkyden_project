@@ -1,0 +1,4 @@
+Added Component: Designator=J1(CM3588)
+Add component (AddParameter): Name = "LCSC"; Value = "C597931"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "CM3588 Hirose Connector"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=CM3588 Member=Component J1 CM3588 Hirose Connector

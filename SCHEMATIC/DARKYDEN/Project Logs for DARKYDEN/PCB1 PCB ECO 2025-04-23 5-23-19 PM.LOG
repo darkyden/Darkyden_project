@@ -1,0 +1,13 @@
+Added Component: Designator=L14(IND_WPN4020H_SNL)
+Add component (AddParameter): Name = "Category"; Value = "Fixed Inductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Sunlord"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WPN4020H2R2MT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Sunlord"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "3442-WPN4020H2R2MTCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Fixed Inductors"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3_WIFI Pin=L14-1
+Added Pin To Net: NetName=NetC80_2 Pin=L14-2
+Added Member To Class: ClassName=POWER_PCie Member=Component L14 WPN4020H2R2MT

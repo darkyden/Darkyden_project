@@ -1,0 +1,9 @@
+Change Component Designator: OldDesignator=J4 NewDesignator=NVME
+Change Component Designator: OldDesignator=J5 NewDesignator=WIFI
+Change Net Name : Old Net Name=NetJ4_10 New Net Name=NetLED1_1
+Change Net Name : Old Net Name=NetJ4_50 New Net Name=NetNVME_50
+Change Net Name : Old Net Name=NetJ4_52 New Net Name=NetNVME_52
+Change Net Name : Old Net Name=NetJ4_54 New Net Name=NetNVME_54
+Change Net Name : Old Net Name=NetJ5_12 New Net Name=NetR42_1
+Change Net Name : Old Net Name=NetJ5_14 New Net Name=NetR43_1
+Change Net Name : Old Net Name=NetJ5_23 New Net Name=NetR41_2
