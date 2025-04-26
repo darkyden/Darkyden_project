@@ -1,0 +1,4 @@
+Change Component Library : Designator=C143 Old Library=CGA4J3X5R1H475K125AB.SchLib New Library=DARKYDEN.SCHLIB
+Change Component Library : Designator=C144 Old Library=CGA4J3X5R1H475K125AB.SchLib New Library=DARKYDEN.SCHLIB
+Added Member To Class: ClassName=USBC_A Member=Component L26 FBMJ2125HM210NT
+Added Member To Class: ClassName=USBC_B Member=Component L27 FBMJ2125HM210NT

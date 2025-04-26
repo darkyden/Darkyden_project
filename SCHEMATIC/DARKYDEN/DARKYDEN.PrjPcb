@@ -973,23 +973,6 @@ GenerateClassCluster=0
 DocumentUniqueId=CKYWCCGX
 
 [Document55]
-DocumentPath=..\..\Librairy\BH_49A_5_T_BK\BH-49A-5-T-BK.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HDKDJQZO
-
-[Document56]
 DocumentPath=..\..\Librairy\20455-040E-76\20455-040E-76.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1006,7 +989,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YFPINLHF
 
-[Document57]
+[Document56]
 DocumentPath=..\..\Librairy\RT0603BRD0710K4L\RT0603BRD0710K4L\RT0603BRD0710K4L.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1023,7 +1006,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MCQZSMFN
 
-[Document58]
+[Document57]
 DocumentPath=..\..\Librairy\RT9193_33GB\RT9193-33GB.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1040,7 +1023,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FGGPQYSR
 
-[Document59]
+[Document58]
 DocumentPath=USBC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1057,7 +1040,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VHZAZWVF
 
-[Document60]
+[Document59]
 DocumentPath=C:\AltiumLibrary\SamacSys.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1074,7 +1057,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYDCEAIN
 
-[Document61]
+[Document60]
 DocumentPath=..\..\Librairy\test_point\test_point.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1091,7 +1074,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BHTISUDG
 
-[Document62]
+[Document61]
 DocumentPath=..\..\Librairy\btn_SMD\TS06-667-25-BK-100-G-SMT-TR\Switch_SMD.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1108,7 +1091,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GISZXAPR
 
-[Document63]
+[Document62]
 DocumentPath=..\..\Librairy\TPD4E02B04DQAR\TPD4E02B04DQAR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1125,7 +1108,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ISOPMQXO
 
-[Document64]
+[Document63]
 DocumentPath=..\..\Librairy\WPN4020H2R2MT\AltiumDesigner\WPN4020H2R2MT.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1142,7 +1125,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QRDLQXDX
 
-[Document65]
+[Document64]
 DocumentPath=CONNECTEUR_1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1159,7 +1142,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DOBMMPCH
 
-[Document66]
+[Document65]
 DocumentPath=CONNECTEUR_2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1176,7 +1159,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HVYVRKVM
 
-[Document67]
+[Document66]
 DocumentPath=CONNECTEUR_3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1193,7 +1176,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EEDKBQOF
 
-[Document68]
+[Document67]
 DocumentPath=CONNECTEUR_4.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1210,7 +1193,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ORXLKTYV
 
-[Document69]
+[Document68]
 DocumentPath=eDP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1227,7 +1210,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GWPPNBOU
 
-[Document70]
+[Document69]
 DocumentPath=POWERSYSTEM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1244,7 +1227,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ANXIVGQA
 
-[Document71]
+[Document70]
 DocumentPath=..\..\Librairy\2X20_POSITION_HEADER_FEMALE\Header.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1261,7 +1244,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document72]
+[Document71]
 DocumentPath=..\..\Librairy\MSD_4_A\MSD-4-A.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1278,7 +1261,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document73]
+[Document72]
 DocumentPath=..\..\Librairy\hdmi\Project Outputs for HDMI\HDMI.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1295,7 +1278,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document74]
+[Document73]
 DocumentPath=BATTERY_GESTION.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1312,7 +1295,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FEXMGSSN
 
-[Document75]
+[Document74]
 DocumentPath=12V_FROM_BATTERY.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1329,7 +1312,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EMRVOIJY
 
-[Document76]
+[Document75]
 DocumentPath=P3V3_PP5V_GESTION.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1346,7 +1329,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HJYXHCCO
 
-[Document77]
+[Document76]
 DocumentPath=USB2_0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1363,7 +1346,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RDQYHPXB
 
-[Document78]
+[Document77]
 DocumentPath=DARKYDEN.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1380,7 +1363,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document79]
+[Document78]
 DocumentPath=USB2_0_Connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1397,7 +1380,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BFKJERRS
 
-[Document80]
+[Document79]
 DocumentPath=CM3588.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1414,7 +1397,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KVCPBSBR
 
-[Document81]
+[Document80]
 DocumentPath=DARKYDEN.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1431,8 +1414,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document82]
-DocumentPath=DARKYDEN.SCHLIB
+[Document81]
+DocumentPath=DARKYDEN1\DARKYDEN.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -1446,7 +1429,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ZPJHYTUD
+DocumentUniqueId=ZHLMGLLG
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for DARKYDEN\Design Rule Check - PCB1.html
@@ -1931,6 +1914,11 @@ OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
+OutputType10=GOSTBOM
+OutputName10=GOST BOM
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -2053,6 +2041,11 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=AnsysEDB
+OutputName13=Ansys EDB
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

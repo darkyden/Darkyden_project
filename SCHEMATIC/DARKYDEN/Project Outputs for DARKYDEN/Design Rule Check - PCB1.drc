@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : D:\PROJETFINDEC\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc
-Date     : 2025-04-23
-Time     : 5:37:35 PM
+PCB File : D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc
+Date     : 2025-04-25
+Time     : 3:49:23 PM
 
 ERROR : More than 500 violations detected, DRC was stopped
 
@@ -9,506 +9,506 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net VBUS_UP Between Pad BR1-1(9753.543mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] And Pad C154-1(17422.047mil,12360.63mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net USB20_HOST0_D_P Between Pad L19-4(8985.629mil,12309.449mil) on HIGH_SPEED_TOP [Unplated] And Pad BR1-2(9682.677mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net USB20_HOST0_D_N Between Pad L19-3(8985.629mil,12340.945mil) on HIGH_SPEED_TOP [Unplated] And Pad BR1-4(9761.417mil,12271.063mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net PWR1 Between Pad BR2-1(9953.543mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] And Pad IC19-8(16097.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net DN2_OUT_P Between Pad BR3-2(10182.677mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] And Pad J14-4(14531.89mil,13070.079mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net DN2_OUT_P Between Pad L21-4(9385.63mil,12309.449mil) on HIGH_SPEED_TOP [Unplated] And Pad BR3-2(10182.677mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net DN4_OUT_P Between Pad BR4-2(8782.677mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] And Pad J16-3(9744.882mil,12725.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net DN4_OUT_P Between Pad L22-4(8285.63mil,12309.449mil) on HIGH_SPEED_TOP [Unplated] And Pad BR4-2(8782.677mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net DN4_OUT_N Between Pad BR4-4(8861.417mil,12271.063mil) on HIGH_SPEED_TOP [Unplated] And Pad J16-2(9823.622mil,12725.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net DN4_OUT_N Between Pad L22-3(8285.63mil,12340.945mil) on HIGH_SPEED_TOP [Unplated] And Pad BR4-4(8861.417mil,12271.063mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net DN3_OUT_P Between Pad BR5-2(8482.677mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] And Pad J15-3(12244.882mil,12725.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net DN3_OUT_P Between Pad L23-4(7985.63mil,12309.449mil) on HIGH_SPEED_TOP [Unplated] And Pad BR5-2(8482.677mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net DN3_OUT_N Between Pad BR5-4(8561.417mil,12271.063mil) on HIGH_SPEED_TOP [Unplated] And Pad J15-2(12323.622mil,12725.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net DN3_OUT_N Between Pad L23-3(7985.63mil,12340.945mil) on HIGH_SPEED_TOP [Unplated] And Pad BR5-4(8561.417mil,12271.063mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PACK+ Between Pad C119-2(19786.614mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad BT1-1(21122.047mil,1425.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net PACK+ Between Pad BT1-1(21122.047mil,1425.197mil) on Multi-Layer And Pad R126-1(21800mil,1162.118mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetBT1_2 Between Pad LED5-1(18422.047mil,1454.724mil) on HIGH_SPEED_TOP And Pad BT1-2(21171.26mil,1425.197mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net DN2_OUT_P Between Pad BR3-2(10182.677mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] And Pad J14-4(14531.889mil,13070.079mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net DN2_OUT_P Between Pad L21-4(9385.629mil,12309.449mil) on HIGH_SPEED_TOP [Unplated] And Pad BR3-2(10182.677mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR4 Between Pad C182-1(8822.047mil,13260.631mil) on HIGH_SPEED_TOP [Unplated] And Pad BR4-1(8853.543mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR4 Between Pad J16-1(4142.133mil,4078.307mil) on Multi-Layer And Pad BR4-1(8853.543mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net DN4_OUT_P Between Pad L22-4(8285.629mil,12309.449mil) on HIGH_SPEED_TOP [Unplated] And Pad BR4-2(8782.677mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR3 Between Pad BR5-1(8553.543mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] And Pad C176-1(11022.047mil,13160.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR3 Between Pad J15-1(5120.165mil,4078.307mil) on Multi-Layer And Pad BR5-1(8553.543mil,12349.803mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetBT1_2 Between Pad LED5-1(18422.047mil,1454.725mil) on HIGH_SPEED_TOP And Pad BT1-2(21171.259mil,1425.197mil) on Multi-Layer 
    Violation between Un-Routed Net Constraint: Net NetBT1_2 Between Pad BT2-1(18022.047mil,1425.197mil) on Multi-Layer And Pad R131-1(18222.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C129-1(12822.047mil,1360.63mil) on HIGH_SPEED_TOP [Unplated] And Pad BT4-2(13171.26mil,1425.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad BT4-2(13171.26mil,1425.197mil) on Multi-Layer And Pad R127-1(14522.047mil,1356.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PMID Between Pad C100-2(10622.047mil,8689.764mil) on HIGH_SPEED_TOP [Unplated] And Pad C101-2(10922.047mil,8689.764mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PMID Between Pad C99-2(10386.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C100-2(10622.047mil,8689.764mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PMID Between Pad C101-2(10922.047mil,8689.764mil) on HIGH_SPEED_TOP [Unplated] And Pad C102-2(11222.047mil,8689.764mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PMID Between Pad C102-2(11222.047mil,8689.764mil) on HIGH_SPEED_TOP [Unplated] And Pad U27-29(16557.48mil,8557.283mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net REGN Between Pad C103-2(11522.047mil,8689.764mil) on HIGH_SPEED_TOP [Unplated] And Pad R113-2(14322.047mil,8693.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC105_1 Between Pad C105-1(14922.047mil,8760.63mil) on HIGH_SPEED_TOP [Unplated] And Pad U27-19(16448.819mil,8640.945mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK+ Between Pad C112-2(8822.047mil,8689.764mil) on HIGH_SPEED_TOP [Unplated] And Pad C113-2(9122.047mil,8689.764mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PACK+ Between Pad C113-2(9122.047mil,8689.764mil) on HIGH_SPEED_TOP [Unplated] And Pad C114-2(9422.047mil,8689.764mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PACK+ Between Pad C114-2(9422.047mil,8689.764mil) on HIGH_SPEED_TOP [Unplated] And Pad JP2-1(9722.047mil,8675.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetC116_1 Between Pad C116-1(20357.48mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-20(21406.378mil,1286.811mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C116-2(20286.614mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C117-2(20886.614mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C119-1(19857.48mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C116-2(20286.614mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C117-2(20886.614mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-23(21406.378mil,1210.039mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C118-1(19522.047mil,1460.63mil) on HIGH_SPEED_TOP [Unplated] And Pad C119-1(19857.48mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C25-1(19357.48mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C118-1(19522.047mil,1460.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PACK+ Between Pad C118-2(19522.047mil,1389.764mil) on HIGH_SPEED_TOP [Unplated] And Pad C119-2(19786.614mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PACK+ Between Pad C25-2(19286.614mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C118-2(19522.047mil,1389.764mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC3 Between Pad C120-1(20022.047mil,1360.63mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-5(21637.716mil,1286.811mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC3 Between Pad R130-2(18722.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] And Pad C120-1(20022.047mil,1360.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC4 Between Pad D5-1(19022.047mil,1411.811mil) on HIGH_SPEED_TOP [Unplated] And Pad C120-2(20022.047mil,1289.764mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC4 Between Pad C120-2(20022.047mil,1289.764mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-4(21637.716mil,1261.22mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC2 Between Pad C121-1(17457.48mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-6(21637.716mil,1312.402mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC2 Between Pad R132-2(17122.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] And Pad C121-1(17457.48mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC3 Between Pad C121-2(17386.614mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R131-2(18222.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C130-1(11422.047mil,1360.63mil) on HIGH_SPEED_TOP [Unplated] And Pad C122-1(11922.047mil,1460.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C122-1(11922.047mil,1460.63mil) on HIGH_SPEED_TOP [Unplated] And Pad R139-1(12222.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C124-1(11122.047mil,1460.63mil) on HIGH_SPEED_TOP [Unplated] And Pad C130-1(11422.047mil,1360.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad R135-1(10522.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] And Pad C124-1(11122.047mil,1460.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC1 Between Pad C125-1(14222.047mil,1360.63mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-7(21637.716mil,1337.992mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC1 Between Pad R134-2(13922.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] And Pad C125-1(14222.047mil,1360.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC2 Between Pad C125-2(14222.047mil,1289.764mil) on HIGH_SPEED_TOP [Unplated] And Pad R133-2(16022.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC126_2 Between Pad C126-2(10022.047mil,1389.764mil) on HIGH_SPEED_TOP [Unplated] And Pad C127-1(10322.047mil,1460.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC1 Between Pad C128-2(12522.047mil,1289.764mil) on HIGH_SPEED_TOP [Unplated] And Pad C129-2(12822.047mil,1289.764mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad R139-1(12222.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] And Pad C129-1(12822.047mil,1360.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC1 Between Pad C129-2(12822.047mil,1289.764mil) on HIGH_SPEED_TOP [Unplated] And Pad R137-2(13322.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad C185-1(12722.047mil,15260.63mil) on HIGH_SPEED_TOP [Unplated] And Pad C13-2(13186.614mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad C13-2(13186.614mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U7-5(14081.693mil,15325.197mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetC137_1 Between Pad C137-1(11722.047mil,860.63mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-22(12431.89mil,760.236mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC137_2 Between Pad C137-2(11722.047mil,789.764mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-23(12463.386mil,761.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC138_1 Between Pad C138-1(11522.047mil,860.63mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-20(12380.709mil,761.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC138_2 Between Pad C138-2(11522.047mil,789.764mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-21(12412.205mil,760.236mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC141_2 Between Pad C141-2(9386.614mil,825.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-30(12342.835mil,766.614mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC142_2 Between Pad IC15-8(13997.047mil,6418.425mil) on HIGH_SPEED_TOP [Unplated] And Pad C142-2(14122.047mil,6589.764mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC142_2 Between Pad L18-1(13522.047mil,6612.205mil) on HIGH_SPEED_TOP [Unplated] And Pad C142-2(14122.047mil,6589.764mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PP5V Between Pad C148-1(11122.047mil,6677.559mil) on HIGH_SPEED_TOP [Unplated] And Pad C146-1(11479.528mil,6625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PP5V Between Pad C146-1(11479.528mil,6625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R154-2(12822.047mil,6593.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C129-1(12822.047mil,1360.631mil) on HIGH_SPEED_TOP [Unplated] And Pad BT4-2(13085mil,1745mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetC104_1 Between Pad C104-1(5764.567mil,2650.001mil) on HIGH_SPEED_TOP [Unplated] And Pad U27-4(6425.197mil,2865.749mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC104_2 Between Pad C104-2(5835.433mil,2650.001mil) on HIGH_SPEED_TOP [Unplated] And Pad U27-28(6482.283mil,2916.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC106_1 Between Pad C106-1(6902.999mil,3231.433mil) on HIGH_SPEED_TOP [Unplated] And Pad C107-1(7049.999mil,3235.433mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad C106-2(6902.999mil,3160.567mil) on HIGH_SPEED_TOP [Unplated] And Pad C107-2(7049.999mil,3164.567mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad U27-25(6535.433mil,2916.929mil) on HIGH_SPEED_TOP And Pad C106-2(6902.999mil,3160.567mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC106_1 Between Pad C107-1(7049.999mil,3235.433mil) on HIGH_SPEED_TOP [Unplated] And Pad C108-1(7199.999mil,3235.433mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad C107-2(7049.999mil,3164.567mil) on HIGH_SPEED_TOP [Unplated] And Pad C108-2(7199.999mil,3164.567mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC106_1 Between Pad C108-1(7199.999mil,3235.433mil) on HIGH_SPEED_TOP [Unplated] And Pad C109-1(7349.999mil,3235.433mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad C108-2(7199.999mil,3164.567mil) on HIGH_SPEED_TOP [Unplated] And Pad C109-2(7349.999mil,3164.567mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC106_1 Between Pad C109-1(7349.999mil,3235.433mil) on HIGH_SPEED_TOP [Unplated] And Pad C110-1(7499.999mil,3235.433mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad C109-2(7349.999mil,3164.567mil) on HIGH_SPEED_TOP [Unplated] And Pad C110-2(7499.999mil,3164.567mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC1_1 Between Pad C11-1(12206.693mil,14125.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C1-1(12457.481mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC1_1 Between Pad C1-1(12457.481mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U1-5(13681.693mil,14225.197mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC106_1 Between Pad C110-1(7499.999mil,3235.433mil) on HIGH_SPEED_TOP [Unplated] And Pad C111-1(7649.999mil,3235.433mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad C110-2(7499.999mil,3164.567mil) on HIGH_SPEED_TOP [Unplated] And Pad C111-2(7649.999mil,3164.567mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC1_1 Between Pad L26-1(7958.583mil,101.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C11-1(12206.693mil,14125.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC115_2 Between Pad U27-24(6554.379mil,2914.223mil) on HIGH_SPEED_TOP And Pad C115-2(6699.999mil,964.567mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC116_1 Between Pad C116-1(20357.481mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-20(21406.377mil,1286.811mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C116-2(20286.613mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C117-2(20886.613mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad D5-2(19022.047mil,1238.583mil) on HIGH_SPEED_TOP [Unplated] And Pad C116-2(20286.613mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C117-2(20886.613mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-23(21406.377mil,1210.039mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VC3 Between Pad C120-1(20022.047mil,1360.631mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-5(21637.717mil,1286.811mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VC3 Between Pad R130-2(18722.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] And Pad C120-1(20022.047mil,1360.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VC2 Between Pad C121-1(17457.481mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-6(21637.717mil,1312.401mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VC2 Between Pad R132-2(17122.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] And Pad C121-1(17457.481mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VC3 Between Pad C121-2(17386.613mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R131-2(18222.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C12-2(12986.613mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U8-5(14270.865mil,15287.795mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C130-1(11422.047mil,1360.631mil) on HIGH_SPEED_TOP [Unplated] And Pad C122-1(11922.047mil,1460.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C122-1(11922.047mil,1460.631mil) on HIGH_SPEED_TOP [Unplated] And Pad R139-1(12222.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C124-1(11122.047mil,1460.631mil) on HIGH_SPEED_TOP [Unplated] And Pad C130-1(11422.047mil,1360.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad R135-1(10522.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] And Pad C124-1(11122.047mil,1460.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VC1 Between Pad C125-1(14222.047mil,1360.631mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-7(21637.717mil,1337.993mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VC1 Between Pad R134-2(13922.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] And Pad C125-1(14222.047mil,1360.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VC2 Between Pad C125-2(14222.047mil,1289.763mil) on HIGH_SPEED_TOP [Unplated] And Pad R133-2(16022.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VC1 Between Pad C128-2(12522.047mil,1289.763mil) on HIGH_SPEED_TOP [Unplated] And Pad C129-2(12822.047mil,1289.763mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad C129-1(12822.047mil,1360.631mil) on HIGH_SPEED_TOP [Unplated] And Pad R127-1(14522.047mil,1356.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad R139-1(12222.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] And Pad C129-1(12822.047mil,1360.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VC1 Between Pad C129-2(12822.047mil,1289.763mil) on HIGH_SPEED_TOP [Unplated] And Pad R137-2(13322.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad C13-2(13186.613mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U8-1(14373.229mil,15287.795mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad U9-2(11173.229mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C13-2(13186.613mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad C134-1(13699.999mil,121.259mil) on HIGH_SPEED_TOP [Unplated] And Pad R144-2(14022.047mil,793.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad C135-2(12622.047mil,764.567mil) on HIGH_SPEED_TOP [Unplated] And Pad C136-2(12922.047mil,793.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad IC14-3(12494.369mil,805.513mil) on HIGH_SPEED_TOP [Unplated] And Pad C135-2(12622.047mil,764.567mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad C136-2(12922.047mil,793.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R144-2(14022.047mil,793.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC141_2 Between Pad C141-2(9399.999mil,1000.001mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-30(12342.835mil,766.615mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C14-2(7986.613mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C15-2(8286.613mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC142_2 Between Pad IC15-8(13997.047mil,6418.425mil) on HIGH_SPEED_TOP [Unplated] And Pad C142-2(14122.047mil,6589.763mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC142_2 Between Pad L18-1(13522.047mil,6612.205mil) on HIGH_SPEED_TOP [Unplated] And Pad C142-2(14122.047mil,6589.763mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad C143-2(7991mil,-26.567mil) on HIGH_SPEED_TOP [Unplated] And Pad C144-2(8270.047mil,187.63mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad JP1-1(5720.999mil,812.001mil) on Multi-Layer And Pad C143-2(7991mil,-26.567mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad C144-2(8270.047mil,187.63mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-3(12494.369mil,805.513mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad C145-2(12222.047mil,6589.763mil) on HIGH_SPEED_TOP [Unplated] And Pad R153-2(13122.047mil,6593.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PP5V Between Pad C148-1(11122.047mil,6677.559mil) on HIGH_SPEED_TOP [Unplated] And Pad C146-1(11479.527mil,6625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PP5V Between Pad C146-1(11479.527mil,6625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R154-2(12822.047mil,6593.701mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net PP5V Between Pad C147-1(10822.047mil,6677.559mil) on HIGH_SPEED_TOP [Unplated] And Pad C148-1(11122.047mil,6677.559mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PP5V Between Pad IC16-3(8671.26mil,6662.599mil) on HIGH_SPEED_TOP [Unplated] And Pad C147-1(10822.047mil,6677.559mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC149_2 Between Pad C149-2(9422.047mil,6589.764mil) on HIGH_SPEED_TOP [Unplated] And Pad IC15-4(13847.047mil,6631.969mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC150_1 Between Pad R157-2(9122.047mil,6593.701mil) on HIGH_SPEED_TOP [Unplated] And Pad C150-1(9722.047mil,6660.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net P3V3 Between Pad C152-2(8322.047mil,6589.764mil) on HIGH_SPEED_TOP [Unplated] And Pad IC16-5(8572.835mil,6587.795mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net P3V3 Between Pad R107-2(8322.047mil,2093.701mil) on HIGH_SPEED_TOP [Unplated] And Pad C152-2(8322.047mil,6589.764mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PP5V Between Pad C153-2(8022.047mil,6589.764mil) on HIGH_SPEED_TOP [Unplated] And Pad IC16-1(8671.26mil,6587.795mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VBUS_UP Between Pad C154-1(17422.047mil,12360.63mil) on HIGH_SPEED_TOP [Unplated] And Pad R160-1(19022.047mil,12356.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad C156-1(16522.047mil,12360.63mil) on HIGH_SPEED_TOP [Unplated] And Pad C157-1(16822.047mil,12360.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R167-1(14022.047mil,12356.693mil) on HIGH_SPEED_TOP [Unplated] And Pad C156-1(16522.047mil,12360.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad C157-1(16822.047mil,12360.63mil) on HIGH_SPEED_TOP [Unplated] And Pad C158-1(17122.047mil,12360.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad C158-1(17122.047mil,12360.63mil) on HIGH_SPEED_TOP [Unplated] And Pad R161-1(18522.047mil,12356.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PLL Between Pad C160-1(15422.047mil,12360.63mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-34(19461.417mil,12114.961mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC161_2 Between Pad R172-2(11822.047mil,12293.701mil) on HIGH_SPEED_TOP [Unplated] And Pad C161-2(13186.614mil,12325.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC161_2 Between Pad C161-2(13186.614mil,12325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad Y2-1(13522.047mil,12192.52mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC166_1 Between Pad C166-1(12922.047mil,12360.63mil) on HIGH_SPEED_TOP [Unplated] And Pad R167-2(14022.047mil,12293.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PWR1 Between Pad C168-1(15522.047mil,13160.63mil) on HIGH_SPEED_TOP [Unplated] And Pad C170-1(15722.047mil,13260.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PWR1 Between Pad C170-1(15722.047mil,13260.63mil) on HIGH_SPEED_TOP [Unplated] And Pad C169-1(16206.693mil,13125.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PP5V Between Pad IC16-3(8671.259mil,6662.599mil) on HIGH_SPEED_TOP [Unplated] And Pad C147-1(10822.047mil,6677.559mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC150_2 Between Pad C150-2(9722.047mil,6589.763mil) on HIGH_SPEED_TOP [Unplated] And Pad C151-2(9922.047mil,6589.763mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC150_2 Between Pad C151-2(9922.047mil,6589.763mil) on HIGH_SPEED_TOP [Unplated] And Pad IC15-6(13897.047mil,6418.425mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C15-2(8286.613mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C16-2(8486.613mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PP5V Between Pad C153-2(8022.047mil,6589.763mil) on HIGH_SPEED_TOP [Unplated] And Pad IC16-1(8671.259mil,6587.795mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PP5V Between Track (6818.503mil,3824.197mil)(6818.503mil,3824.803mil) on HIGH_SPEED_TOP And Pad C153-2(8022.047mil,6589.763mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC155_1 Between Pad C155-1(17922.047mil,12360.631mil) on HIGH_SPEED_TOP [Unplated] And Pad R160-2(19022.047mil,12293.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC155_1 Between Pad R163-1(17722.047mil,12356.693mil) on HIGH_SPEED_TOP [Unplated] And Pad C155-1(17922.047mil,12360.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net CR Between Pad C159-1(15122.047mil,12360.631mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-14(19422.047mil,12335.433mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PLL Between Pad C160-1(15422.047mil,12360.631mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-34(19461.417mil,12114.961mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C6-2(8386.613mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C16-2(8486.613mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR1 Between Pad C168-1(15522.047mil,13160.631mil) on HIGH_SPEED_TOP [Unplated] And Pad C170-1(15722.047mil,13260.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR1 Between Pad C170-1(15722.047mil,13260.631mil) on HIGH_SPEED_TOP [Unplated] And Pad C169-1(16206.693mil,13125.197mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net PWR1 Between Pad IC19-8(16097.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] And Pad C169-1(16206.693mil,13125.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PWR1 Between Pad C169-1(16206.693mil,13125.197mil) on HIGH_SPEED_TOP [Unplated] And Pad J13-6(16571.26mil,13070.079mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad C17-2(8686.614mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C9-2(9086.614mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC175_1 Between Pad C175-1(12922.047mil,13160.63mil) on HIGH_SPEED_TOP [Unplated] And Pad J14-MP2(14433.465mil,13168.504mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad C18-2(8986.614mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U9-2(11173.228mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad C186-1(12506.693mil,15225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C185-1(12722.047mil,15260.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad J3-A4(12034.646mil,15184.252mil) on HIGH_SPEED_TOP And Pad C186-1(12506.693mil,15225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net TYPE_CC2_J3 Between Pad C20-2(9386.614mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U9-1(11173.228mil,15305.512mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad C21-2(7986.614mil,2425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U13-1(8572.244mil,2387.795mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetC22_2 Between Pad eDP1-17(3025.575mil,4250mil) on HIGH_SPEED_TOP And Pad C22-2(8286.614mil,2425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC22_2 Between Pad C22-2(8286.614mil,2425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U13-5(8471.85mil,2425.197mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetC23_2 Between Pad C23-2(9386.614mil,3725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R16-2(10022.047mil,3693.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC24_2 Between Pad C24-2(9586.614mil,3725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R17-2(9822.047mil,3693.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad D5-2(19022.047mil,1238.583mil) on HIGH_SPEED_TOP [Unplated] And Pad C25-1(19357.48mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PACK+ Between Pad R129-1(15222.047mil,1356.693mil) on HIGH_SPEED_TOP [Unplated] And Pad C25-2(19286.614mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC33_2 Between Pad C33-2(9186.614mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad Y1-1(9848.622mil,5745.866mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetC34_2 Between Pad C34-2(8886.614mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad Y1-3(9795.472mil,5704.528mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net 5V_HDMI_TX0 Between Pad C37-2(13586.614mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC3-2(14563.386mil,4562.992mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net 5V_HDMI_TX0 Between Pad U21-9(12241.732mil,4508.465mil) on HIGH_SPEED_TOP And Pad C37-2(13586.614mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net RESET_L Between Pad CON1-16(1821.512mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad C42-1(11722.047mil,11460.63mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net RESET_L Between Pad C42-1(11722.047mil,11460.63mil) on HIGH_SPEED_TOP [Unplated] And Pad R71-1(12053.543mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +1V8 Between Pad C46-1(13057.48mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C45-2(13186.614mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +1V8 Between Pad C45-2(13186.614mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R75-2(13890.551mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +1V8 Between Pad R49-2(8722.047mil,9793.701mil) on HIGH_SPEED_TOP [Unplated] And Pad C46-1(13057.48mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC47_2 Between Pad C48-2(15886.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C47-2(16086.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC47_2 Between Pad C47-2(16086.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC5-3(16771.26mil,7262.599mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC49_2 Between Pad C49-2(13886.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R81-2(14290.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC50_1 Between Pad IC5-6(16672.835mil,7187.795mil) on HIGH_SPEED_TOP [Unplated] And Pad C50-1(17457.48mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC50_2 Between Pad IC5-2(16771.26mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C50-2(17386.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC51_1 Between Pad C51-1(14557.48mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R82-1(14722.047mil,7256.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC51_1 Between Pad R83-2(14090.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C51-1(14557.48mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC56_2 Between Pad C57-2(12186.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C56-2(12386.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC56_2 Between Pad C56-2(12386.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC6-3(12971.26mil,7262.599mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC58_2 Between Pad C58-2(10186.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R86-2(10590.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad C60-2(10786.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R87-2(11090.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R89-1(9953.543mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C60-2(10786.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad C61-2(11286.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C62-2(11486.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R87-2(11090.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C61-2(11286.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad C62-2(11486.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C63-2(11686.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad C63-2(11686.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C64-2(11986.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad C64-2(11986.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad L12-1(12775.047mil,7125.197mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetC65_2 Between Pad C65-2(8986.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R90-2(9190.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +1V8 Between Pad C67-2(8786.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC7-5(9672.835mil,7188.189mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +1V8 Between Pad R49-2(8722.047mil,9793.701mil) on HIGH_SPEED_TOP [Unplated] And Pad C67-2(8786.614mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC70_2 Between Pad C70-2(11786.614mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R95-2(12290.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC80_1 Between Pad IC9-6(10872.835mil,7587.795mil) on HIGH_SPEED_TOP [Unplated] And Pad C80-1(11657.48mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC80_2 Between Pad IC9-2(10971.26mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C80-2(11586.614mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC81_1 Between Pad C81-1(8857.48mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R101-1(9053.543mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC81_1 Between Pad R102-2(8222.047mil,7593.701mil) on HIGH_SPEED_TOP [Unplated] And Pad C81-1(8857.48mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad J5-74(8732.48mil,15670.866mil) on HIGH_SPEED_TOP And Pad C81-2(8786.614mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad L14-1(8175.047mil,325.197mil) on HIGH_SPEED_TOP And Pad C81-2(8786.614mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad C81-2(8786.614mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R101-2(8990.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad C82-2(9286.614mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C83-2(9486.614mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad R101-2(8990.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C82-2(9286.614mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad C83-2(9486.614mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C84-2(9686.614mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad C84-2(9686.614mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C85-2(9986.614mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net P3V3 Between Pad IC16-5(8572.835mil,6587.795mil) on HIGH_SPEED_TOP [Unplated] And Pad C87-2(21286.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net P3V3 Between Pad C87-2(21286.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U25-38(21696.85mil,8719.685mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net LDO_3V3 Between Pad C98-2(19386.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C88-2(19586.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net LDO_3V3 Between Pad C88-2(19586.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U25-1(21661.417mil,8739.37mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net C_CC2 Between Pad C90-2(20086.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad J10-B5(20767.716mil,8495.669mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R77-2(8890.551mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C9-2(9086.614mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad C9-2(9086.614mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U3-4(10951.575mil,14276.378mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PPHV Between Pad C92-2(18386.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C93-2(18586.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PPHV Between Pad U27-9(16577.657mil,8701.476mil) on HIGH_SPEED_TOP And Pad C92-2(18386.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PPHV Between Pad C93-2(18586.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C94-2(18786.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PPHV Between Pad C94-2(18786.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U25-20(21578.74mil,8514.961mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PPHV Between Pad C95-2(15186.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C96-2(15386.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PPHV Between Pad C96-2(15386.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C97-2(15586.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PPHV Between Pad C97-2(15586.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U27-9(16577.657mil,8701.476mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net LDO_3V3 Between Pad U26-8(19015.275mil,8550.197mil) on HIGH_SPEED_TOP And Pad C98-2(19386.614mil,8725.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad CON1-11(1790.016mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad CON1-13(1805.764mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDC_MODE Between Pad CON1-18(1837.26mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad R74-2(8290.551mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO2_C0 Between Pad CON1-21(1868.756mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-10(8732.48mil,16300.788mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net UART2_RX_M0_DEBUG Between Pad CON1-22(1868.756mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad D3-2(8492.52mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO4_C3 Between Pad CON1-28(1916mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad R43-2(8290.551mil,16425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO4_C4/MIPI_CAM1_RESET_L Between Pad CON1-30(1931.748mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-56(8732.48mil,15848.031mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad CON1-69(2246.709mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad CON1-73(2278.205mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad CON1-73(2278.205mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad CON1-77(2309.701mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] 
-   Violation between Un-Routed Net Constraint: Net MDIP0_P Between Pad CON1-78(2309.701mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad L3-1(9058.465mil,3709.449mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO2_A6 Between Pad CON1-79(2325.449mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-13(9029.724mil,16271.26mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net MDIP0_N Between Pad CON1-80(2325.449mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad L3-2(9058.465mil,3740.945mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO2_A7 Between Pad CON1-81(2341.197mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-15(9029.724mil,16251.575mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net GPIO2_B0 Between Pad CON1-83(2356.945mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-17(9029.724mil,16231.89mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net GPIO2_B3 Between Pad CON1-89(2404.189mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-9(9029.724mil,16310.63mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net MDIP3_P Between Pad CON1-96(2451.433mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad L6-1(8758.465mil,3709.449mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net MDIP3_N Between Pad CON1-98(2467.181mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad L6-2(8758.465mil,3740.945mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net TX2_P Between Pad CON2-53(2120.724mil,3721mil) on HIGH_SPEED_BOT [Unplated] And Pad U6-10(10561.417mil,14208.465mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RX2_P Between Pad CON2-59(2167.968mil,3721mil) on HIGH_SPEED_BOT [Unplated] And Pad U6-7(10502.362mil,14208.465mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RX2_N Between Pad CON2-61(2183.717mil,3721mil) on HIGH_SPEED_BOT [Unplated] And Pad U6-6(10482.677mil,14208.465mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RX1_P Between Pad CON2-71(2262.457mil,3721mil) on HIGH_SPEED_BOT [Unplated] And Pad U5-7(10202.362mil,14208.465mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TTX2_P Between Pad CON2-77(2309.701mil,3721mil) on HIGH_SPEED_BOT [Unplated] And Pad U12-10(10561.417mil,15308.465mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TTX2_N Between Pad CON2-79(2325.449mil,3721mil) on HIGH_SPEED_BOT [Unplated] And Pad U12-9(10541.732mil,15308.465mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RRX2_P Between Pad CON2-83(2356.945mil,3721mil) on HIGH_SPEED_BOT [Unplated] And Pad U12-7(10502.362mil,15308.465mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TTX1_P Between Pad CON2-89(2404.189mil,3721mil) on HIGH_SPEED_BOT [Unplated] And Pad J3-A2(12034.646mil,15223.622mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RRX1_N Between Pad CON2-97(2467.181mil,3721mil) on HIGH_SPEED_BOT [Unplated] And Pad U11-6(10282.677mil,15308.465mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TYPEC1_OTG_D_N Between Pad CON2-98(2467.181mil,3599.74mil) on HIGH_SPEED_BOT [Unplated] And Pad L2-3(11485.63mil,15340.945mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PCIE20_1_RX_N Between Pad CON3-11(2741.354mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-43(9029.724mil,15975.984mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PCIE30_PORT0_RX1_N Between Pad CON3-12(2741.354mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad J4-29(16829.724mil,5413.78mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PCIE20_1_REFCLK_P Between Pad CON3-15(2772.85mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-47(9029.724mil,15936.614mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PCIE30_PORT0_TX0_P Between Pad CON3-22(2820.095mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad J4-49(16829.724mil,5216.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PCIE30_PORT0_TX0_N Between Pad CON3-24(2835.843mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad J4-47(16829.724mil,5236.614mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PCIE30_PORT0_TX1_P Between Pad CON3-28(2867.339mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad J4-37(16829.724mil,5335.039mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PCIE30_PORT1_RX2_N Between Pad CON3-36(2930.331mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad J4-17(16829.724mil,5531.89mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PCIE30_PORT1_RX3_P Between Pad CON3-40(2961.827mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad J4-7(16829.724mil,5630.315mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PCIE30_PORT1_TX2_P Between Pad CON3-46(3009.071mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad J4-25(16829.724mil,5453.15mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net GPIO0_B2 Between Pad CON3-47(3024.819mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-21(9029.724mil,16192.52mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PCIE20_1_TX_N Between Pad CON3-5(2694.11mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-37(9029.724mil,16035.039mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net GPIO4_A1/TP_2_RST_L Between Pad CON3-53(3072.063mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-55(9029.724mil,15857.874mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PCIE30_PORT1_TX3_N Between Pad CON3-54(3072.063mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad J4-11(16829.724mil,5590.945mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net GPIO4_A2 Between Pad CON3-55(3087.811mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-52(8732.48mil,15887.402mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PCIE30_PORT1_IN_REFCLK_N Between Pad CON3-60(3119.307mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad R38-2(8222.047mil,5693.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO0_D3/CC_INT_L Between Pad CON3-64(3150.803mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad U3-5(10931.89mil,14276.378mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO4_B5/PCIE30X4_WAKEn_M1_L Between Pad CON3-67(3182.299mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad R21-2(14090.551mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO0_D5 Between Pad CON3-68(3182.299mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad U9-5(11131.89mil,15376.378mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO4_B6/PCIE30X4_PERSTn_M1_L Between Pad CON3-69(3198.047mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad R19-2(14490.551mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO0_C5/UART0_TX_M0/PWM4_M0 Between Pad CON3-72(3213.795mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-20(8732.48mil,16202.362mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net GPIO1_A0/UART6_RX_M1 Between Pad CON3-73(3229.543mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-22(8732.48mil,16182.677mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net GPIO1_A1/UART6_TX_M1 Between Pad CON3-75(3245.291mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-32(8732.48mil,16084.252mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net GPIO1_A2/I2C4_SDA_M3_TP Between Pad CON3-77(3261.039mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-36(8732.48mil,16044.882mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PCIE20_1_RX_P Between Pad CON3-9(2725.606mil,1783.036mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-41(9029.724mil,15995.669mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net SDA_A Between Pad CON3-98(3418.52mil,1661.777mil) on HIGH_SPEED_BOT [Unplated] And Pad R5-2(9790.551mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net TYPEC1_SBU1_OUT_B Between Pad CON4-10(2725.606mil,3602.336mil) on HIGH_SPEED_BOT [Unplated] And Pad U10-9(10141.732mil,15308.465mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net GPIO3_A7 Between Pad CON4-100(3434.268mil,3602.336mil) on HIGH_SPEED_BOT [Unplated] And Pad U13-3(8572.244mil,2462.598mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TYPEC1_SBU2_OUT_B Between Pad CON4-12(2741.354mil,3602.336mil) on HIGH_SPEED_BOT [Unplated] And Pad U10-10(10161.417mil,15308.465mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net HDMI1_TX_SBD_N Between Pad eDP1-25(2868.095mil,4250mil) on HIGH_SPEED_TOP And Pad CON4-29(2883.087mil,3723.595mil) on HIGH_SPEED_BOT [Unplated] 
-   Violation between Un-Routed Net Constraint: Net HDMI1_TX2_P Between Pad CON4-3(2678.362mil,3723.595mil) on HIGH_SPEED_BOT [Unplated] And Pad eDP1-34(2690.929mil,4250mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net HDMI0_TX2_P Between Pad CON4-33(2914.583mil,3723.595mil) on HIGH_SPEED_BOT [Unplated] And Pad L7-4(11785.63mil,4509.449mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net HDMI0_TX1_P Between Pad CON4-39(2961.827mil,3723.595mil) on HIGH_SPEED_BOT [Unplated] And Pad L8-4(9585.63mil,4509.449mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net HDMI0_TX1_N Between Pad CON4-41(2977.575mil,3723.595mil) on HIGH_SPEED_BOT [Unplated] And Pad L8-3(9585.63mil,4540.945mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net HDMI0_TX0_P Between Pad CON4-45(3009.071mil,3723.595mil) on HIGH_SPEED_BOT [Unplated] And Pad L9-4(8885.63mil,4509.449mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net HDMI1_TX2_N Between Pad eDP1-35(2671.244mil,4250mil) on HIGH_SPEED_TOP And Pad CON4-5(2694.11mil,3723.595mil) on HIGH_SPEED_BOT [Unplated] 
-   Violation between Un-Routed Net Constraint: Net HDMI0_TX_SBD_N Between Pad CON4-59(3119.307mil,3723.595mil) on HIGH_SPEED_BOT [Unplated] And Pad U21-6(12182.677mil,4508.465mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net SD_CLK Between Pad CON4-60(3119.307mil,3602.336mil) on HIGH_SPEED_BOT [Unplated] And Pad U18-6(7982.677mil,9808.465mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net HDMITX0_CEC_M0 Between Pad CON4-67(3182.299mil,3723.595mil) on HIGH_SPEED_BOT [Unplated] And Pad Q3-2(15163.386mil,4550.788mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO3_A1/SPI4_MOSI_M1 Between Pad CON4-89(3355.528mil,3723.595mil) on HIGH_SPEED_BOT [Unplated] And Pad IC4-5(13547.047mil,11082.48mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net EN Between Pad CON4-90(3355.528mil,3602.336mil) on HIGH_SPEED_BOT [Unplated] And Pad R10-2(13890.551mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO3_A3/SPI4_CS0_M1/UART8_RX_M1 Between Pad CON4-93(3387.024mil,3723.595mil) on HIGH_SPEED_BOT [Unplated] And Pad IC4-7(13647.047mil,11082.48mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO3_B7 Between Pad eDP1-16(3045.26mil,4250mil) on HIGH_SPEED_TOP And Pad CON4-98(3418.52mil,3602.336mil) on HIGH_SPEED_BOT [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO3_A6/LCD_RST Between Pad CON4-99(3434.268mil,3723.595mil) on HIGH_SPEED_BOT [Unplated] And Pad J5-42(8732.48mil,15985.827mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetD2_1 Between Pad R61-2(16722.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] And Pad D2-1(16951.575mil,4625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R60-2(16422.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] And Pad D2-2(16892.52mil,4625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetD3_1 Between Pad D3-1(8551.575mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad J9-1(8622.047mil,11425.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net UART2_RX_M0_DEBUG Between Pad D3-2(8492.52mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R77-1(8953.543mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetD4_2 Between Pad D4-2(15780.118mil,1425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R124-2(16322.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR1 Between Pad C169-1(16206.693mil,13125.197mil) on HIGH_SPEED_TOP [Unplated] And Pad J13-6(16571.259mil,13070.079mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC171_1 Between Pad C171-1(15057.481mil,13225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad J13-MP2(16433.465mil,13168.505mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR3 Between Pad C176-1(11022.047mil,13160.631mil) on HIGH_SPEED_TOP [Unplated] And Pad C178-1(11222.047mil,13260.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR3 Between Pad C178-1(11222.047mil,13260.631mil) on HIGH_SPEED_TOP [Unplated] And Pad C177-1(11806.693mil,13125.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR3 Between Pad C177-1(11806.693mil,13125.197mil) on HIGH_SPEED_TOP [Unplated] And Pad FB5-2(12722.047mil,13198.623mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR4 Between Pad C180-1(8522.047mil,13160.631mil) on HIGH_SPEED_TOP [Unplated] And Pad C182-1(8822.047mil,13260.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR4 Between Pad C182-1(8822.047mil,13260.631mil) on HIGH_SPEED_TOP [Unplated] And Pad C181-1(9306.693mil,13125.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR4 Between Pad C181-1(9306.693mil,13125.197mil) on HIGH_SPEED_TOP [Unplated] And Pad FB7-2(10222.047mil,13198.623mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad L27-2(8025.512mil,342.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C18-2(8986.613mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad C18-2(8986.613mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U9-2(11173.229mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC183_1 Between Pad J16-5(4262.999mil,4185.001mil) on Multi-Layer And Pad C183-1(8022.047mil,13160.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC185_1 Between Pad C186-1(12506.693mil,15225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C185-1(12722.047mil,15260.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC185_1 Between Pad C185-1(12722.047mil,15260.631mil) on HIGH_SPEED_TOP [Unplated] And Pad U7-6(14081.693mil,15299.607mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC185_1 Between Pad L27-1(7958.583mil,342.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C186-1(12506.693mil,15225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C2-2(12586.613mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U2-5(13870.865mil,14187.795mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad U3-13(10931.889mil,14174.015mil) on HIGH_SPEED_TOP [Unplated] And Pad C2-2(12586.613mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC24_2 Between Pad ETH1-17(89.999mil,3804.001mil) on Multi-Layer And Pad C24-2(9586.613mil,3725.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC24_2 Between Pad C24-2(9586.613mil,3725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R17-2(9822.047mil,3693.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C26-2(15186.613mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C53-2(15186.613mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad Q3-1(15163.385mil,4499.607mil) on HIGH_SPEED_TOP [Unplated] And Pad C26-2(15186.613mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C26-2(15186.613mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U16-1(15976.297mil,5688.209mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC33_2 Between Pad C33-2(9186.613mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad Y1-1(9848.621mil,5745.867mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC34_2 Between Pad C34-2(8886.613mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad Y1-3(9795.473mil,5704.527mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +3V3_SD_SO Between Pad C36-2(10786.613mil,9825.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C35-2(11086.613mil,9825.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_SD_SO Between Pad U19-6(8282.677mil,9808.465mil) on HIGH_SPEED_TOP And Pad C36-2(10786.613mil,9825.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C38-2(7986.613mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C39-2(8286.613mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C39-2(8286.613mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C40-2(8486.613mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C40-2(8486.613mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC1-14(10398.819mil,4309.527mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net RESET_L Between Pad CON1-16(1484.969mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] And Pad C42-1(11722.047mil,11460.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net RESET_L Between Pad C42-1(11722.047mil,11460.631mil) on HIGH_SPEED_TOP [Unplated] And Pad R71-1(12053.543mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net BOOT_SARADC_IN0 Between Pad CON1-15(1484.969mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] And Pad C43-1(10222.047mil,11460.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net BOOT_SARADC_IN0 Between Pad C43-1(10222.047mil,11460.631mil) on HIGH_SPEED_TOP [Unplated] And Pad R72-1(11122.047mil,11456.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net RECOVERY Between Pad CON2-1(1373.583mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] And Pad C44-1(9022.047mil,11460.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net RECOVERY Between Pad C44-1(9022.047mil,11460.631mil) on HIGH_SPEED_TOP [Unplated] And Pad R73-1(9322.047mil,11456.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC50_1 Between Pad IC5-6(16672.835mil,7187.795mil) on HIGH_SPEED_TOP [Unplated] And Pad C50-1(17457.481mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC51_1 Between Pad C51-1(14557.481mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R82-1(14722.047mil,7256.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC51_1 Between Pad R83-2(14090.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C51-1(14557.481mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C51-2(14486.613mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC20-7(14647.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C51-2(14486.613mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R82-2(14722.047mil,7193.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C52-2(14986.613mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C53-2(15186.613mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad R82-2(14722.047mil,7193.701mil) on HIGH_SPEED_TOP [Unplated] And Pad C52-2(14986.613mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C53-2(15186.613mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C54-2(15386.613mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C54-2(15386.613mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C55-2(15686.613mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C55-2(15686.613mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad L11-1(16855.999mil,6603.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC58_2 Between Pad C58-2(10186.613mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R86-2(10590.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC59_1 Between Pad IC6-6(12872.835mil,7187.795mil) on HIGH_SPEED_TOP [Unplated] And Pad C59-1(13657.481mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C6-2(8386.613mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C7-2(8686.613mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC68_2 Between Pad C69-2(13886.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C68-2(14086.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC68_2 Between Pad C68-2(14086.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC8-3(14671.259mil,7662.599mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC70_2 Between Pad C70-2(11786.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R95-2(12290.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC71_2 Between Pad IC8-2(14671.259mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C71-2(15286.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C7-2(8686.613mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C8-2(8886.613mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad C72-2(12486.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R96-2(12790.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad C73-2(12986.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C74-2(13186.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad R96-2(12790.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C73-2(12986.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad C74-2(13186.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C75-2(13486.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad C75-2(13486.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C76-2(13686.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad C76-2(13686.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad L13-1(14753.999mil,2771.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC77_2 Between Pad C78-2(10186.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C77-2(10386.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC77_2 Between Pad C77-2(10386.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R99-2(11190.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC80_1 Between Pad IC9-6(10955.787mil,7898.599mil) on HIGH_SPEED_TOP [Unplated] And Pad C80-1(11657.481mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC81_1 Between Pad C81-1(8857.481mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R101-1(9053.543mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC81_1 Between Pad R102-2(8222.047mil,7593.701mil) on HIGH_SPEED_TOP [Unplated] And Pad C81-1(8857.481mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad C81-2(8786.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R101-2(8990.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad C8-2(8886.613mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U3-12(10912.205mil,14174.015mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad C82-2(9286.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C83-2(9486.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad R101-2(8990.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C82-2(9286.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad C83-2(9486.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C84-2(9686.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad C84-2(9686.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad C85-2(9986.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad C84-2(9686.613mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad L14-1(9821.851mil,2600.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net C_CC1 Between Pad C91-2(6947.999mil,3969.133mil) on HIGH_SPEED_TOP [Unplated] And Pad J8-A5(7057.481mil,4257.087mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net PPHV Between Pad C93-2(7199.999mil,3635.433mil) on HIGH_SPEED_TOP [Unplated] And Pad C94-2(7299.999mil,3635.433mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PPHV Between Track (6964.047mil,3705.709mil)(6964.173mil,3705.709mil) on HIGH_SPEED_TOP And Pad C93-2(7199.999mil,3635.433mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PPHV Between Pad C95-2(5649.999mil,2914.567mil) on HIGH_SPEED_TOP [Unplated] And Pad C96-2(5899.999mil,2914.567mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PPHV Between Pad C96-2(5899.999mil,2914.567mil) on HIGH_SPEED_TOP [Unplated] And Pad C97-2(6036.999mil,2913.567mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PPHV Between Pad C97-2(6036.999mil,2913.567mil) on HIGH_SPEED_TOP [Unplated] And Track (6425.047mil,2897.245mil)(6425.197mil,2897.245mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetCON1_1 Between Pad CON1-1(1374.733mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] And Pad CON1-3(1390.481mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetCON1_1 Between Pad CON1-8(1421.977mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] And Pad CON1-10(1437.725mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetCON1_1 Between Pad CON1-10(1437.725mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] And Pad R6-1(8053.543mil,1725.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad CON1-11(1453.473mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] And Pad CON1-13(1469.221mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetCON1_1 Between Pad CON1-2(1374.733mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] And Pad CON1-4(1390.481mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GPIO2_C0 Between Pad WIFI-10(1249.999mil,768.111mil) on HIGH_SPEED_TOP And Pad CON1-21(1532.213mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net UART2_RX_M0_DEBUG Between Pad CON1-22(1532.213mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] And Pad D3-2(8492.519mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GPIO2_C3 Between Pad CON1-27(1579.457mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] And Pad R42-2(8558.503mil,16427.001mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetCON1_1 Between Pad CON1-3(1390.481mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] And Pad CON1-5(1406.229mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetCON1_1 Between Pad CON1-4(1390.481mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] And Pad CON1-6(1406.229mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetCON1_1 Between Pad CON1-6(1406.229mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] And Pad CON1-5(1406.229mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetCON1_1 Between Pad CON1-5(1406.229mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] And Pad CON1-7(1421.977mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetCON1_1 Between Pad CON1-6(1406.229mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] And Pad CON1-8(1421.977mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad CON1-69(1910.165mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] And Pad CON1-73(1941.661mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetCON1_1 Between Pad CON1-7(1421.977mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] And Pad CON1-9(1437.725mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad CON1-73(1941.661mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] And Pad CON1-77(1973.157mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GPIO2_A6 Between Pad WIFI-13(1547.243mil,738.583mil) on HIGH_SPEED_TOP And Pad CON1-79(1988.905mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net P25G_MDI2_N Between Pad CON1-92(2083.393mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] And Pad U15-9(8341.733mil,3708.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net P25G_MDI3_P Between Pad CON1-96(2114.889mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] And Pad U15-7(8302.363mil,3708.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net P25G_MDI3_N Between Pad CON1-98(2130.637mil,1777.777mil) on HIGH_SPEED_TOP [Unplated] And Pad U15-6(8282.677mil,3708.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GPIO2_B7 Between Pad WIFI-8(1249.999mil,787.795mil) on HIGH_SPEED_TOP And Pad CON1-99(2146.385mil,1899.037mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SSTX2_P Between Pad J2-B2(246.999mil,1553.945mil) on HIGH_SPEED_TOP And Pad CON2-53(1783.031mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SSTX2_P Between Pad CON2-53(1783.031mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] And Pad U5-10(10261.417mil,14208.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SSTX1_N Between Pad J2-A3(313.929mil,1721.267mil) on HIGH_SPEED_TOP And Pad CON2-67(1893.267mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SSTX1_N Between Pad CON2-67(1893.267mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] And Pad U6-9(10541.733mil,14208.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net I2C7_SCL_M0 Between Pad CON2-7(1420.827mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] And Pad R11-2(9590.551mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SSRX1_P Between Pad J2-B11(246.999mil,1731.111mil) on HIGH_SPEED_TOP And Pad CON2-71(1924.763mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SSRX1_P Between Pad CON2-71(1924.763mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] And Pad U6-7(10502.363mil,14208.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SSRX1_N Between Pad J2-B10(246.999mil,1711.425mil) on HIGH_SPEED_TOP And Pad CON2-73(1940.511mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SSRX1_N Between Pad CON2-73(1940.511mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] And Pad U6-6(10482.677mil,14208.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SSTX2_P Between Pad J3-B2(246.999mil,2369.631mil) on HIGH_SPEED_TOP And Pad CON2-77(1972.007mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SSTX2_P Between Pad CON2-77(1972.007mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] And Pad U12-7(10502.363mil,15308.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SSRX2_P Between Pad J3-A11(313.929mil,2359.787mil) on HIGH_SPEED_TOP And Pad CON2-83(2019.251mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SSRX2_P Between Pad CON2-83(2019.251mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] And Pad U12-10(10561.417mil,15308.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SSRX2_N Between Pad J3-A10(313.929mil,2379.473mil) on HIGH_SPEED_TOP And Pad CON2-85(2034.999mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SSRX2_N Between Pad CON2-85(2034.999mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] And Pad U12-9(10541.733mil,15308.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SSRX1_P Between Pad J3-B11(246.999mil,2546.795mil) on HIGH_SPEED_TOP And Pad CON2-95(2113.739mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SSRX1_P Between Pad CON2-95(2113.739mil,3840.001mil) on HIGH_SPEED_TOP [Unplated] And Pad U11-10(10361.417mil,15308.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_OTG_D_N Between Pad CON2-98(2129.487mil,3718.741mil) on HIGH_SPEED_TOP [Unplated] And Pad L2-3(11485.629mil,15340.945mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VBAT_RTC Between Pad CON3-100(3094.653mil,1778.001mil) on HIGH_SPEED_TOP [Unplated] And Pad RTC_BAT-1(12550.999mil,2745.001mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net PCIE30_PORT0_RX1_N Between Pad CON3-12(2401.741mil,1778.001mil) on HIGH_SPEED_TOP [Unplated] And Pad NVME-29(4449.417mil,3767.677mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net PCIE30_PORT0_TX0_N Between Pad CON3-24(2496.229mil,1778.001mil) on HIGH_SPEED_TOP [Unplated] And Pad NVME-47(4626.583mil,3767.677mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net PCIE20_1_TX_P Between Pad WIFI-35(1547.243mil,522.047mil) on HIGH_SPEED_TOP And Pad CON3-3(2338.747mil,1899.259mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PCIE30_PORT0_TX1_N Between Pad CON3-30(2543.473mil,1778.001mil) on HIGH_SPEED_TOP [Unplated] And Pad NVME-35(4508.473mil,3767.677mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net PCIE30_PORT1_RX2_N Between Pad CON3-36(2590.717mil,1778.001mil) on HIGH_SPEED_TOP [Unplated] And Pad NVME-17(4331.307mil,3767.677mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net PCIE30_PORT1_TX2_P Between Pad CON3-46(2669.457mil,1778.001mil) on HIGH_SPEED_TOP [Unplated] And Pad NVME-25(4410.047mil,3767.677mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net PCIE30_PORT1_TX2_N Between Pad CON3-48(2685.205mil,1778.001mil) on HIGH_SPEED_TOP [Unplated] And Pad NVME-23(4390.363mil,3767.677mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net PCIE20_1_TX_N Between Pad WIFI-37(1547.243mil,502.363mil) on HIGH_SPEED_TOP And Pad CON3-5(2354.495mil,1899.259mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GPIO4_A2 Between Pad WIFI-52(1249.999mil,354.725mil) on HIGH_SPEED_TOP And Pad CON3-55(2748.197mil,1899.259mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PCIE30_PORT1_IN_REFCLK_N Between Pad CON3-60(2779.693mil,1778.001mil) on HIGH_SPEED_TOP [Unplated] And Pad R38-2(8222.047mil,5693.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GPIO0_D3/CC_INT_L Between Pad CON3-64(2811.189mil,1778.001mil) on HIGH_SPEED_TOP [Unplated] And Pad U3-5(10931.889mil,14276.379mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PCIE20_1_RX_P Between Pad WIFI-41(1547.243mil,462.993mil) on HIGH_SPEED_TOP And Pad CON3-9(2385.993mil,1899.259mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net I2C6_SDA_M0 Between Pad CON3-98(3078.905mil,1778.001mil) on HIGH_SPEED_TOP [Unplated] And Pad R5-2(9790.551mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SBU1 Between Pad J3-A8(313.929mil,2418.843mil) on HIGH_SPEED_TOP And Pad CON4-10(2386.607mil,3718.335mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SBU1 Between Pad CON4-10(2386.607mil,3718.335mil) on HIGH_SPEED_TOP [Unplated] And Pad U10-10(10161.417mil,15308.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GPIO3_A7 Between Pad CON4-100(3095.267mil,3718.335mil) on HIGH_SPEED_TOP [Unplated] And Pad U13-3(8572.243mil,2462.599mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net HDMI1_TX0_P Between Pad CON4-15(2433.851mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad eDP1-28(2809.039mil,4250.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net HDMI1_TX0_N Between Pad CON4-17(2449.599mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad eDP1-29(2789.355mil,4250.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net USB20_HOST0_D_P Between Pad CON4-22(2481.095mil,3718.335mil) on HIGH_SPEED_TOP [Unplated] And Pad L19-4(8985.629mil,12309.449mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net USB20_HOST0_D_N Between Pad CON4-24(2496.843mil,3718.335mil) on HIGH_SPEED_TOP [Unplated] And Pad L19-3(8985.629mil,12340.945mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI1_TX_SBD_P Between Pad CON4-27(2528.339mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad eDP1-26(2848.409mil,4250.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net HDMI1_TX_SBD_N Between Pad CON4-29(2544.087mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad eDP1-25(2868.095mil,4250.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net HDMI1_TX2_P Between Pad CON4-3(2339.363mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad eDP1-34(2690.929mil,4250.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX2_P Between Pad CON4-33(2575.583mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad L7-4(11785.629mil,4509.449mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX2_N Between Pad CON4-35(2591.331mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad L7-3(11785.629mil,4540.945mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX1_N Between Pad CON4-41(2638.575mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad L8-3(9585.629mil,4540.945mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX0_N Between Pad CON4-47(2685.819mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad L9-3(8885.629mil,4540.945mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI1_TX2_N Between Pad CON4-5(2355.111mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad eDP1-35(2671.243mil,4250.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net SDMMC0_D2 Between Pad CON4-52(2717.315mil,3718.335mil) on HIGH_SPEED_TOP [Unplated] And Pad R44-1(9822.047mil,9856.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net SDMMC0_D3 Between Pad CON4-54(2733.063mil,3718.335mil) on HIGH_SPEED_TOP [Unplated] And Pad R45-1(9622.047mil,9856.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net SDMMC0_CMD Between Pad CON4-56(2748.811mil,3718.335mil) on HIGH_SPEED_TOP [Unplated] And Pad R46-1(9422.047mil,9856.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX_SBD_P Between Pad J6-17(2089.653mil,4292.497mil) on HIGH_SPEED_TOP And Pad CON4-57(2764.559mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX_SBD_P Between Pad CON4-57(2764.559mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad U21-7(12202.363mil,4508.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +3V3_SD_SO Between Pad J7-4(605.117mil,641.339mil) on HIGH_SPEED_TOP And Pad CON4-58(2764.559mil,3718.335mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_SD_SO Between Pad CON4-58(2764.559mil,3718.335mil) on HIGH_SPEED_TOP [Unplated] And Pad U19-6(8282.677mil,9808.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SBU2_OUT Between Pad J2-B8(246.999mil,1672.055mil) on HIGH_SPEED_TOP And Pad CON4-6(2355.111mil,3718.335mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SBU2_OUT Between Pad CON4-6(2355.111mil,3718.335mil) on HIGH_SPEED_TOP [Unplated] And Pad U4-9(10041.733mil,14208.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net SDMMC0_D0 Between Pad CON4-64(2811.803mil,3718.335mil) on HIGH_SPEED_TOP [Unplated] And Pad R47-1(9222.047mil,9856.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMITX0_SDA_M0 Between Pad CON4-65(2827.551mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad R57-1(14053.543mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMITX0_CEC_M0 Between Pad CON4-67(2843.299mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad Q3-2(15163.385mil,4550.787mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX_ON_H Between Pad CON4-69(2859.047mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad IC1-10(10296.457mil,4309.527mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GPIO3_D0/I2C5_SDA_M0_TP Between Pad CON4-79(2937.787mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad U25-8(6771.26mil,3675.197mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GPIO3_D5/PWM11_M3/LCD_2_BL Between Pad WIFI-54(1249.999mil,335.039mil) on HIGH_SPEED_TOP And Pad CON4-85(2985.031mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GPIO3_A1/SPI4_MOSI_M1 Between Pad CON4-89(3016.527mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad IC4-5(13547.047mil,11082.481mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI1_TX1_P Between Pad CON4-9(2386.607mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad eDP1-31(2749.985mil,4250.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GPIO3_A5 Between Pad CON4-97(3079.519mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] And Pad IC4-1(13697.047mil,11367.913mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GPIO3_A6/LCD_RST Between Pad WIFI-42(1249.999mil,453.149mil) on HIGH_SPEED_TOP And Pad CON4-99(3095.267mil,3839.595mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetD1_1 Between Pad R56-2(16222.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] And Pad D1-1(17151.575mil,4625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad Q3-1(15163.385mil,4499.607mil) on HIGH_SPEED_TOP [Unplated] And Pad D1-2(17092.519mil,4625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net UART2_RX_M0_DEBUG Between Pad D3-2(8492.519mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R77-1(8953.543mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad RT1-2(15022.047mil,1325.197mil) on Multi-Layer And Pad D5-2(19022.047mil,1238.583mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC142_2 Between Pad D7-1(12622.047mil,6662.992mil) on HIGH_SPEED_TOP [Unplated] And Pad L18-1(13522.047mil,6612.205mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad eDP1-15(3064.945mil,4250mil) on HIGH_SPEED_TOP And Pad eDP1-14(3084.63mil,4250mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetC22_2 Between Pad eDP1-18(3005.89mil,4250mil) on HIGH_SPEED_TOP And Pad eDP1-17(3025.575mil,4250mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetC22_2 Between Pad eDP1-19(2986.205mil,4250mil) on HIGH_SPEED_TOP And Pad eDP1-18(3005.89mil,4250mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad eDP1-22(2927.15mil,4250mil) on HIGH_SPEED_TOP And Pad eDP1-21(2946.835mil,4250mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad eDP1-23(2907.465mil,4250mil) on HIGH_SPEED_TOP And Pad eDP1-22(2927.15mil,4250mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad eDP1-24(2887.78mil,4250mil) on HIGH_SPEED_TOP And Pad eDP1-23(2907.465mil,4250mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net P25G_MDI0_O_N Between Pad L3-3(8985.63mil,3740.945mil) on HIGH_SPEED_TOP [Unplated] And Pad ETH1-10(10542.047mil,3685.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net P25G_MDI0_O_P Between Pad L3-4(8985.63mil,3709.449mil) on HIGH_SPEED_TOP [Unplated] And Pad ETH1-11(10462.047mil,3685.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetC23_2 Between Pad R16-2(10022.047mil,3693.701mil) on HIGH_SPEED_TOP [Unplated] And Pad ETH1-13(10918.047mil,3075.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetETH1_16 Between Pad ETH1-16(10326.047mil,3075.197mil) on Multi-Layer And Pad R15-1(11322.047mil,3756.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC24_2 Between Pad R17-2(9822.047mil,3693.701mil) on HIGH_SPEED_TOP [Unplated] And Pad ETH1-17(10326.047mil,2975.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net P25G_MDI1_O_N Between Pad L4-3(9185.63mil,3740.945mil) on HIGH_SPEED_TOP [Unplated] And Pad ETH1-5(10502.047mil,3585.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net P25G_MDI3_O_N Between Pad L6-3(8685.63mil,3740.945mil) on HIGH_SPEED_TOP [Unplated] And Pad ETH1-9(10702.047mil,3685.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net PWR1 Between Pad FB1-2(16795.472mil,13225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad FB1-1(16848.622mil,13225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PWR1 Between Pad J13-6(16571.26mil,13070.079mil) on HIGH_SPEED_TOP [Unplated] And Pad FB1-2(16795.472mil,13225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetIC1_2 Between Pad IC1-2(10373.228mil,4540.866mil) on HIGH_SPEED_TOP [Unplated] And Pad R62-1(11322.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC116_1 Between Pad IC12-20(21406.378mil,1286.811mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-1(21637.716mil,1184.449mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC116_1 Between Pad IC12-1(21637.716mil,1184.449mil) on HIGH_SPEED_TOP [Unplated] And Pad TP3-TP(22022.047mil,1425.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetIC12_16 Between Pad R127-2(14522.047mil,1293.701mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-16(21406.378mil,1389.173mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetIC12_17 Between Pad R128-2(14722.047mil,1293.701mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-17(21406.378mil,1363.583mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VTB Between Pad R120-2(20622.047mil,1293.701mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-18(21406.378mil,1337.992mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetIC12_19 Between Pad R120-1(20622.047mil,1356.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-19(21406.378mil,1312.402mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad IC12-24(21406.378mil,1184.449mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-23(21406.378mil,1210.039mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad IC12-23(21406.378mil,1210.039mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-9(21637.716mil,1389.173mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC4 Between Pad IC12-3(21637.716mil,1235.63mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-4(21637.716mil,1261.22mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC4 Between Pad IC12-3(21637.716mil,1235.63mil) on HIGH_SPEED_TOP [Unplated] And Pad R126-2(21800mil,1099.126mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net TX2P_P Between Pad IC1-3(10347.638mil,4540.866mil) on HIGH_SPEED_TOP [Unplated] And Pad U22-1(12461.417mil,4541.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetIC14_2 Between Pad R146-1(12022.047mil,856.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-2(12496.85mil,785.827mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC138_2 Between Pad IC14-21(12412.205mil,760.236mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-25(12422.047mil,825.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC138_2 Between Pad IC14-21(12412.205mil,760.236mil) on HIGH_SPEED_TOP [Unplated] And Pad L17-2(15095.669mil,625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC137_2 Between Pad IC14-23(12463.386mil,761.693mil) on HIGH_SPEED_TOP [Unplated] And Pad Q9-7(14532.087mil,750.669mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PGND Between Pad IC14-24(12446.654mil,825.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-9(12446.654mil,889.646mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad IC14-6(12496.85mil,864.567mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-28(12501.26mil,883.78mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad IC14-5(12494.37mil,844.882mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-6(12496.85mil,864.567mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetIC1_5 Between Pad IC1-5(10296.457mil,4540.866mil) on HIGH_SPEED_TOP [Unplated] And Pad R63-1(10522.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC142_2 Between Pad D7-1(12622.047mil,6662.993mil) on HIGH_SPEED_TOP [Unplated] And Pad L18-1(13522.047mil,6612.205mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad eDP1-15(3064.945mil,4250.001mil) on HIGH_SPEED_TOP And Pad eDP1-14(3084.629mil,4250.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad eDP1-22(2927.149mil,4250.001mil) on HIGH_SPEED_TOP And Pad eDP1-21(2946.835mil,4250.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad eDP1-23(2907.465mil,4250.001mil) on HIGH_SPEED_TOP And Pad eDP1-22(2927.149mil,4250.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad eDP1-24(2887.779mil,4250.001mil) on HIGH_SPEED_TOP And Pad eDP1-23(2907.465mil,4250.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net P25G_MDI0_O_N Between Pad ETH1-10(799.999mil,3588.001mil) on Multi-Layer And Pad L3-3(8985.629mil,3740.945mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net P25G_MDI0_O_P Between Pad ETH1-11(799.999mil,3668.001mil) on Multi-Layer And Pad L3-4(8985.629mil,3709.449mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetETH1_14 Between Pad ETH1-14(89.999mil,3212.001mil) on Multi-Layer And Pad R14-1(11122.047mil,3756.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetETH1_16 Between Pad ETH1-16(189.999mil,3804.001mil) on Multi-Layer And Pad R15-1(11322.047mil,3756.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net P25G_MDI1_O_P Between Pad ETH1-4(699.999mil,3548.001mil) on Multi-Layer And Pad L4-4(9185.629mil,3709.449mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net P25G_MDI1_O_N Between Pad ETH1-5(699.999mil,3628.001mil) on Multi-Layer And Pad L4-3(9185.629mil,3740.945mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR1 Between Pad FB1-2(16795.473mil,13225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad FB1-1(16848.621mil,13225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR1 Between Pad J13-6(16571.259mil,13070.079mil) on HIGH_SPEED_TOP [Unplated] And Pad FB1-2(16795.473mil,13225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR3 Between Pad FB5-2(12722.047mil,13198.623mil) on HIGH_SPEED_TOP [Unplated] And Pad FB5-1(12722.047mil,13251.771mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR3 Between Pad FB5-2(12722.047mil,13198.623mil) on HIGH_SPEED_TOP [Unplated] And Pad IC20-8(14697.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR4 Between Pad FB7-2(10222.047mil,13198.623mil) on HIGH_SPEED_TOP [Unplated] And Pad FB7-1(10222.047mil,13251.771mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PWR4 Between Pad FB7-2(10222.047mil,13198.623mil) on HIGH_SPEED_TOP [Unplated] And Pad IC20-5(14547.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX_ON_H Between Pad IC1-4(10322.047mil,4540.867mil) on HIGH_SPEED_TOP [Unplated] And Pad IC1-1(10398.819mil,4540.867mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX_ON_H Between Pad IC1-1(10398.819mil,4540.867mil) on HIGH_SPEED_TOP [Unplated] And Pad IC2-4(10822.047mil,4540.867mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX_ON_H Between Pad IC1-10(10296.457mil,4309.527mil) on HIGH_SPEED_TOP [Unplated] And Pad IC1-13(10373.229mil,4309.527mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX_ON_H Between Pad IC1-10(10296.457mil,4309.527mil) on HIGH_SPEED_TOP [Unplated] And Pad IC1-4(10322.047mil,4540.867mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TX1P_N Between Pad J6-6(1916.425mil,4292.497mil) on HIGH_SPEED_TOP And Pad IC1-11(10322.047mil,4309.527mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TX1P_N Between Pad IC1-11(10322.047mil,4309.527mil) on HIGH_SPEED_TOP [Unplated] And Pad U22-6(12382.677mil,4508.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetIC1_12 Between Pad R65-1(9122.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC1-12(10347.637mil,4309.527mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad IC1-14(10398.819mil,4309.527mil) on HIGH_SPEED_TOP [Unplated] And Pad IC2-14(10898.819mil,4309.527mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetIC1_2 Between Pad IC1-2(10373.229mil,4540.867mil) on HIGH_SPEED_TOP [Unplated] And Pad R62-1(11322.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC116_1 Between Pad IC12-20(21406.377mil,1286.811mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-1(21637.717mil,1184.449mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC116_1 Between Pad IC12-1(21637.717mil,1184.449mil) on HIGH_SPEED_TOP [Unplated] And Pad TP3-TP(22022.047mil,1425.197mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetIC12_16 Between Pad R127-2(14522.047mil,1293.701mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-16(21406.377mil,1389.173mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetIC12_17 Between Pad R128-2(14722.047mil,1293.701mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-17(21406.377mil,1363.583mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VTB Between Pad R120-2(20622.047mil,1293.701mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-18(21406.377mil,1337.993mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PRES Between Pad R129-2(15222.047mil,1293.701mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-22(21406.377mil,1235.631mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad IC12-24(21406.377mil,1184.449mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-23(21406.377mil,1210.039mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad IC12-23(21406.377mil,1210.039mil) on HIGH_SPEED_TOP [Unplated] And Pad IC12-9(21637.717mil,1389.173mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetIC14_14 Between Pad R148-1(9922.047mil,856.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-14(12347.243mil,864.567mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetIC14_1 Between Pad IC14-27(12501.259mil,766.615mil) on HIGH_SPEED_TOP [Unplated] And Pad R145-1(13722.047mil,856.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad IC14-6(12496.851mil,864.567mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-28(12501.259mil,883.779mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad IC14-5(12494.369mil,844.883mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-6(12496.851mil,864.567mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetIC14_8 Between Pad R150-2(8199.999mil,978.347mil) on HIGH_SPEED_TOP [Unplated] And Pad IC14-8(12466.339mil,889.645mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad IC15-2(13947.047mil,6631.969mil) on HIGH_SPEED_TOP [Unplated] And Pad R144-2(14022.047mil,793.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad R153-2(13122.047mil,6593.701mil) on HIGH_SPEED_TOP [Unplated] And Pad IC15-2(13947.047mil,6631.969mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetIC15_3 Between Pad R153-1(13122.047mil,6656.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC15-3(13897.047mil,6631.969mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net NetIC15_5 Between Pad R156-1(10222.047mil,6656.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC15-5(13847.047mil,6418.425mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PP5V Between Pad IC16-1(8671.26mil,6587.795mil) on HIGH_SPEED_TOP [Unplated] And Pad IC16-3(8671.26mil,6662.599mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TX2P_N Between Pad J6-3(1869.181mil,4292.497mil) on HIGH_SPEED_TOP And Pad IC1-6(10270.865mil,4540.867mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TX2P_N Between Pad IC1-6(10270.865mil,4540.867mil) on HIGH_SPEED_TOP [Unplated] And Pad U22-2(12441.733mil,4541.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net PP5V Between Pad IC16-1(8671.259mil,6587.795mil) on HIGH_SPEED_TOP [Unplated] And Pad IC16-3(8671.259mil,6662.599mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net PRTPWR1 Between Pad R162-1(18222.047mil,12356.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-12(19461.417mil,12335.433mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad IC17-23(19311.811mil,12225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-15(19402.362mil,12335.433mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R161-1(18522.047mil,12356.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-15(19402.362mil,12335.433mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PRTPWR2 Between Pad IC19-4(15947.047mil,12331.969mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-16(19382.677mil,12335.433mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net OCS_N3 Between Pad IC20-2(14647.047mil,12331.969mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-19(19311.811mil,12303.937mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net DN1_P Between Pad L20-1(9258.465mil,12309.449mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-2(19532.283mil,12166.142mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PRTPWR4 Between Pad IC20-4(14547.047mil,12331.969mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-20(19311.811mil,12284.252mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetIC17_22 Between Pad R171-1(12653.543mil,12325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-22(19311.811mil,12244.882mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetIC17_24 Between Pad R170-1(12322.047mil,12356.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-24(19311.811mil,12205.512mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetIC17_22 Between Pad R171-1(12653.543mil,12325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-22(19311.811mil,12244.883mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net NetIC17_25 Between Pad R169-1(12122.047mil,12356.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-25(19311.811mil,12185.827mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC166_1 Between Pad R167-2(14022.047mil,12293.701mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-26(19311.811mil,12166.142mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net UP_N Between Pad L19-2(9058.465mil,12340.945mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-30(19382.677mil,12114.961mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net UP_P Between Pad L19-1(9058.465mil,12309.449mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-31(19402.362mil,12114.961mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC161_2 Between Pad Y2-1(13522.047mil,12192.52mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-33(19441.732mil,12114.961mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetIC17_35 Between Pad R168-1(13722.047mil,12356.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-35(19481.102mil,12114.961mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net DN3_P Between Pad L23-1(8058.465mil,12309.449mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-7(19532.283mil,12264.567mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net DN4_P Between Pad L22-1(8358.465mil,12309.449mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-9(19532.283mil,12303.937mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net TX1P_P Between Pad IC1-8(10245.275mil,4309.528mil) on HIGH_SPEED_TOP [Unplated] And Pad U22-7(12402.362mil,4508.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC155_1 Between Pad R160-2(19022.047mil,12293.701mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-27(19311.811mil,12146.457mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net DN2_N Between Pad L21-2(9458.465mil,12340.945mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-3(19532.283mil,12185.827mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net UP_P Between Pad L19-1(9058.465mil,12309.449mil) on HIGH_SPEED_TOP [Unplated] And Pad IC17-31(19402.363mil,12114.961mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net NetIC18_1 Between Pad R161-2(18522.047mil,12293.701mil) on HIGH_SPEED_TOP [Unplated] And Pad IC18-1(18897.047mil,12331.969mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad IC18-5(18747.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] And Pad IC18-7(18847.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad IC19-7(16047.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] And Pad IC18-5(18747.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net PWR1 Between Pad IC18-6(18797.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] And Pad IC18-8(18897.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net PWR1 Between Pad IC19-8(16097.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] And Pad IC18-6(18797.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetIC1_9 Between Pad R64-1(9822.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC1-9(10270.866mil,4309.528mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net PRTPWR1 Between Pad IC19-1(16097.047mil,12331.969mil) on HIGH_SPEED_TOP [Unplated] And Pad R164-2(16322.047mil,12293.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetIC2_12 Between Pad R69-1(9322.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC2-12(10847.638mil,4309.528mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetIC2_2 Between Pad IC2-2(10873.228mil,4540.866mil) on HIGH_SPEED_TOP [Unplated] And Pad R66-1(11522.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net TX0P_P Between Pad IC2-3(10847.638mil,4540.866mil) on HIGH_SPEED_TOP [Unplated] And Pad U23-1(12761.417mil,4541.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TX0P_N Between Pad IC2-6(10770.866mil,4540.866mil) on HIGH_SPEED_TOP [Unplated] And Pad U23-2(12741.732mil,4541.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetIC2_9 Between Pad R68-1(10022.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC2-9(10770.866mil,4309.528mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net 5V_HDMI_TX0 Between Pad IC3-2(14563.386mil,4562.992mil) on HIGH_SPEED_TOP [Unplated] And Pad J8-18(17470.547mil,4199.213mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net GPIO3_A3/SPI4_CS0_M1/UART8_RX_M1 Between Pad IC4-7(13647.047mil,11082.48mil) on HIGH_SPEED_TOP [Unplated] And Pad R75-1(13953.543mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +1V8 Between Pad IC4-8(13697.047mil,11082.48mil) on HIGH_SPEED_TOP [Unplated] And Pad R75-2(13890.551mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC50_2 Between Pad L11-2(16310.047mil,7125.197mil) on HIGH_SPEED_TOP And Pad IC5-2(16771.26mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC47_2 Between Pad IC5-3(16771.26mil,7262.599mil) on HIGH_SPEED_TOP [Unplated] And Pad R80-2(16990.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad IC20-7(14647.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] And Pad IC19-7(16047.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad U2-5(13870.865mil,14187.795mil) on HIGH_SPEED_TOP [Unplated] And Pad IC20-7(14647.047mil,12118.425mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX_ON_H Between Pad IC2-4(10822.047mil,4540.867mil) on HIGH_SPEED_TOP [Unplated] And Pad IC2-1(10898.819mil,4540.867mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX_ON_H Between Pad IC2-10(10796.457mil,4309.527mil) on HIGH_SPEED_TOP [Unplated] And Pad IC2-13(10873.229mil,4309.527mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX_ON_H Between Pad IC2-10(10796.457mil,4309.527mil) on HIGH_SPEED_TOP [Unplated] And Pad IC2-4(10822.047mil,4540.867mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad IC2-14(10898.819mil,4309.527mil) on HIGH_SPEED_TOP [Unplated] And Pad IC3-3(14480.709mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetIC2_2 Between Pad IC2-2(10873.229mil,4540.867mil) on HIGH_SPEED_TOP [Unplated] And Pad R66-1(11522.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad IC3-3(14480.709mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] And Pad Q3-1(15163.385mil,4499.607mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net NetC51_1 Between Pad R82-1(14722.047mil,7256.693mil) on HIGH_SPEED_TOP [Unplated] And Pad IC5-4(16672.835mil,7262.599mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC49_2 Between Pad R81-2(14290.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC5-5(16672.835mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC56_2 Between Pad IC6-3(12971.26mil,7262.599mil) on HIGH_SPEED_TOP [Unplated] And Pad R85-2(13190.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net NetC58_2 Between Pad R86-2(10590.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC6-5(12872.835mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC65_2 Between Pad IC7-1(9771.26mil,7188.189mil) on HIGH_SPEED_TOP [Unplated] And Pad R89-2(9890.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC65_2 Between Pad R90-2(9190.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC7-1(9771.26mil,7188.189mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetIC7_3 Between Pad R90-1(9253.543mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC7-3(9771.259mil,7262.205mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC71_2 Between Pad L13-2(14610.299mil,2771.001mil) on HIGH_SPEED_TOP And Pad IC8-2(14671.259mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC68_2 Between Pad IC8-3(14671.259mil,7662.599mil) on HIGH_SPEED_TOP [Unplated] And Pad R94-2(14890.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net NetC70_2 Between Pad R95-2(12290.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC8-5(14572.835mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC80_2 Between Pad L14-2(8069.047mil,325.197mil) on HIGH_SPEED_TOP And Pad IC9-2(10971.26mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC81_1 Between Pad R101-1(9053.543mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC9-4(10872.835mil,7662.599mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net C_CC2 Between Pad J10-B5(20767.716mil,8495.669mil) on HIGH_SPEED_TOP And Pad U25-29(21696.85mil,8577.953mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetC175_1 Between Pad J14-MP2(14433.465mil,13168.504mil) on HIGH_SPEED_TOP [Unplated] And Pad J14-MP1(14610.63mil,13168.504mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net RX2_N Between Pad U6-6(10482.677mil,14208.465mil) on HIGH_SPEED_TOP And Pad J2-A10(11634.646mil,14046.457mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RX2_P Between Pad U6-7(10502.362mil,14208.465mil) on HIGH_SPEED_TOP And Pad J2-A11(11634.646mil,14026.772mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RX1_P Between Pad U5-7(10202.362mil,14208.465mil) on HIGH_SPEED_TOP And Pad J2-B11(11567.717mil,14213.78mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TX2_P Between Pad U6-10(10561.417mil,14208.465mil) on HIGH_SPEED_TOP And Pad J2-B2(11567.717mil,14036.614mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RRX2_P Between Pad U12-7(10502.362mil,15308.465mil) on HIGH_SPEED_TOP And Pad J3-A11(12034.646mil,15026.772mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad J3-B9(11967.717mil,15174.409mil) on HIGH_SPEED_TOP And Pad J3-A4(12034.646mil,15184.252mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TYPEC1_SBU1_OUT_B Between Pad U10-9(10141.732mil,15308.465mil) on HIGH_SPEED_TOP And Pad J3-A8(12034.646mil,15085.827mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad J3-B4(11967.717mil,15075.984mil) on HIGH_SPEED_TOP And Pad J3-A9(12034.646mil,15066.142mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RRX1_N Between Pad U11-9(10341.732mil,15308.465mil) on HIGH_SPEED_TOP And Pad J3-B10(11967.717mil,15194.094mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TTX2_P Between Pad U12-10(10561.417mil,15308.465mil) on HIGH_SPEED_TOP And Pad J3-B2(11967.717mil,15036.614mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TTX2_N Between Pad U12-9(10541.732mil,15308.465mil) on HIGH_SPEED_TOP And Pad J3-B3(11967.717mil,15056.299mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad J3-B4(11967.717mil,15075.984mil) on HIGH_SPEED_TOP And Pad J3-B9(11967.717mil,15174.409mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TYPE_CC2_J3 Between Pad U9-14(11151.575mil,15274.016mil) on HIGH_SPEED_TOP [Unplated] And Pad J3-B5(11967.717mil,15095.669mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TYPEC1_SBU2_OUT_B Between Pad U10-10(10161.417mil,15308.465mil) on HIGH_SPEED_TOP And Pad J3-B8(11967.717mil,15154.725mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad U9-2(11173.228mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad J3-B9(11967.717mil,15174.409mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad J4-3(16829.724mil,5669.685mil) on HIGH_SPEED_TOP And Pad J4-1(16829.724mil,5689.37mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetJ4_10 Between Pad LED1-1(14922.047mil,5756.693mil) on HIGH_SPEED_TOP [Unplated] And Pad J4-10(16532.48mil,5600.788mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetJ4_50 Between Pad R19-1(14553.543mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad J4-50(16532.48mil,5207.087mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetJ4_52 Between Pad R20-1(14353.543mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad J4-52(16532.48mil,5187.402mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PCIE30_REFCLK_A_N Between Pad R29-2(13322.047mil,5693.701mil) on HIGH_SPEED_TOP [Unplated] And Pad J4-53(16829.724mil,5177.559mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetJ4_54 Between Pad R21-1(14153.543mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad J4-54(16532.48mil,5167.717mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad J4-73(16829.724mil,4980.709mil) on HIGH_SPEED_TOP And Pad J4-71(16829.724mil,5000.394mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad J4-75(16829.724mil,4961.024mil) on HIGH_SPEED_TOP And Pad J4-73(16829.724mil,4980.709mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetJ5_14 Between Pad R43-1(8353.543mil,16425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad J5-14(8732.48mil,16261.417mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad J5-4(8732.48mil,16359.843mil) on HIGH_SPEED_TOP And Pad J5-2(8732.48mil,16379.528mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad J5-72(8732.48mil,15690.551mil) on HIGH_SPEED_TOP And Pad J5-4(8732.48mil,16359.843mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad J5-74(8732.48mil,15670.866mil) on HIGH_SPEED_TOP And Pad J5-72(8732.48mil,15690.551mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net SD_CMD Between Pad R46-2(9422.047mil,9793.701mil) on HIGH_SPEED_TOP [Unplated] And Pad J7-3(10420.079mil,9120.079mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net SD_CLK Between Pad U18-6(7982.677mil,9808.465mil) on HIGH_SPEED_TOP And Pad J7-5(10506.693mil,9120.079mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net SD_D0 Between Pad R47-2(9222.047mil,9793.701mil) on HIGH_SPEED_TOP [Unplated] And Pad J7-7(10593.307mil,9120.079mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net SD_D1 Between Pad R48-2(8922.047mil,9793.701mil) on HIGH_SPEED_TOP [Unplated] And Pad J7-8(10636.614mil,9120.079mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TX2P_P Between Pad U22-10(12461.417mil,4508.465mil) on HIGH_SPEED_TOP And Pad J8-1(17470.547mil,4466.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net CEC Between Pad R61-1(16722.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] And Pad J8-13(17470.547mil,4277.953mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net SCL Between Pad R56-1(16222.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] And Pad J8-15(17470.547mil,4246.457mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net HDMI0_TX_SBD_N Between Pad R54-1(13722.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] And Pad J8-19(17470.547mil,4183.465mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TX1P_P Between Pad U22-7(12402.362mil,4508.465mil) on HIGH_SPEED_TOP And Pad J8-4(17470.547mil,4419.685mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TX0P_P Between Pad U23-10(12761.417mil,4508.465mil) on HIGH_SPEED_TOP And Pad J8-7(17470.547mil,4372.441mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TX0P_N Between Pad U23-9(12741.732mil,4508.465mil) on HIGH_SPEED_TOP And Pad J8-9(17470.547mil,4340.945mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK+ Between Pad JP2-1(9722.047mil,8675.197mil) on Multi-Layer And Pad R111-1(11722.047mil,8756.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net TS Between Pad R115-2(9922.047mil,8593.701mil) on HIGH_SPEED_TOP [Unplated] And Pad JP3-1(13922.047mil,8675.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net TS Between Pad JP3-1(13922.047mil,8675.197mil) on Multi-Layer And Pad R116-1(14622.047mil,8756.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetJP3_2 Between Pad R117-2(10222.047mil,8593.701mil) on HIGH_SPEED_TOP [Unplated] And Pad JP3-2(13922.047mil,8575.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net TX3P_OUT_P Between Pad L10-1(8758.465mil,4509.449mil) on HIGH_SPEED_TOP [Unplated] And Pad R68-2(10022.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC77_2 Between Pad IC9-3(11054.213mil,7973.401mil) on HIGH_SPEED_TOP [Unplated] And Pad R99-2(11190.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC81_1 Between Pad R101-1(9053.543mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad IC9-4(10955.787mil,7973.401mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC171_1 Between Pad J13-MP2(16433.465mil,13168.505mil) on HIGH_SPEED_TOP [Unplated] And Pad J13-MP1(16610.629mil,13168.505mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net DN4_OUT_P Between Pad J16-3(3964.969mil,4078.307mil) on Multi-Layer And Pad L22-4(8285.629mil,12309.449mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC183_1 Between Pad J16-6(3745.677mil,4185.001mil) on Multi-Layer And Pad J16-5(4262.999mil,4185.001mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetJ17_2 Between Pad J17-2(12622.047mil,11425.197mil) on Multi-Layer And Pad R70-2(14322.047mil,11393.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC1_1 Between Pad J2-B9(246.999mil,1691.741mil) on HIGH_SPEED_TOP And Pad J2-A4(313.929mil,1701.583mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_D_N Between Pad J2-B7(246.999mil,1652.371mil) on HIGH_SPEED_TOP And Pad J2-A7(313.929mil,1622.843mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_D_N Between Pad J2-A7(313.929mil,1622.843mil) on HIGH_SPEED_TOP And Pad U4-6(9982.677mil,14208.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC1_1 Between Pad J2-B4(246.999mil,1593.315mil) on HIGH_SPEED_TOP And Pad J2-A9(313.929mil,1583.473mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC1_1 Between Pad J2-A9(313.929mil,1583.473mil) on HIGH_SPEED_TOP And Pad L26-1(7958.583mil,101.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC1_1 Between Pad J2-B4(246.999mil,1593.315mil) on HIGH_SPEED_TOP And Pad J2-B9(246.999mil,1691.741mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC185_1 Between Pad J3-B9(246.999mil,2507.425mil) on HIGH_SPEED_TOP And Pad J3-A4(313.929mil,2517.267mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_D_P Between Pad J3-B6(246.999mil,2448.371mil) on HIGH_SPEED_TOP And Pad J3-A6(313.929mil,2477.897mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_D_P Between Pad J3-A6(313.929mil,2477.897mil) on HIGH_SPEED_TOP And Pad U10-7(10102.363mil,15308.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC185_1 Between Pad J3-B4(246.999mil,2409.001mil) on HIGH_SPEED_TOP And Pad J3-A9(313.929mil,2399.157mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC185_1 Between Pad J3-A9(313.929mil,2399.157mil) on HIGH_SPEED_TOP And Pad L27-1(7958.583mil,342.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC185_1 Between Pad J3-B4(246.999mil,2409.001mil) on HIGH_SPEED_TOP And Pad J3-B9(246.999mil,2507.425mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net SD_D3 Between Pad J7-2(605.117mil,554.725mil) on HIGH_SPEED_TOP And Pad U18-9(8041.733mil,9808.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net SD_CMD Between Pad J7-3(605.117mil,598.031mil) on HIGH_SPEED_TOP And Pad U18-7(8002.363mil,9808.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net SD_D0 Between Pad J7-7(605.117mil,771.259mil) on HIGH_SPEED_TOP And Pad U19-10(8361.417mil,9808.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net SD_DET Between Pad J7-CD(605.117mil,857.875mil) on HIGH_SPEED_TOP And Pad U19-7(8302.363mil,9808.465mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net C_USB_P Between Pad J8-B6(7008.267mil,4324.015mil) on HIGH_SPEED_TOP And Pad J8-A6(7037.795mil,4257.087mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net C_USB_N Between Pad J8-A7(6998.425mil,4257.087mil) on HIGH_SPEED_TOP And Pad J8-B7(7027.953mil,4324.015mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad JP1-1(5720.999mil,812.001mil) on Multi-Layer And Pad U27-25(6535.433mil,2916.929mil) on HIGH_SPEED_TOP 
    Violation between Un-Routed Net Constraint: Net TX3P_OUT_N Between Pad L10-2(8758.465mil,4540.945mil) on HIGH_SPEED_TOP [Unplated] And Pad R69-2(9322.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad L12-1(12775.047mil,7125.197mil) on HIGH_SPEED_TOP And Pad R18-2(16122.047mil,5693.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC137_2 Between Pad Q8-3(14713.504mil,699.016mil) on HIGH_SPEED_TOP [Unplated] And Pad L17-1(15548.425mil,625.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC137_2 Between Pad L17-1(15548.425mil,625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad TP4-TP(15722.047mil,825.197mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_D_N Between Pad U4-5(9982.677mil,14241.929mil) on HIGH_SPEED_TOP And Pad L1-2(11258.465mil,14240.945mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad NVME-74(4892.331mil,3470.433mil) on HIGH_SPEED_TOP And Pad L13-1(14753.999mil,2771.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad WIFI-2(1249.999mil,846.851mil) on HIGH_SPEED_TOP And Pad L14-1(9821.851mil,2600.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net VBUS Between Track (6964.047mil,3794.291mil)(6964.173mil,3794.291mil) on HIGH_SPEED_TOP And Pad L15-2(7349.999mil,3933.465mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC104_2 Between Pad U27-28(6482.283mil,2916.929mil) on HIGH_SPEED_TOP And Pad L16-1(7049.999mil,2980.217mil) on HIGH_SPEED_TOP 
    Violation between Un-Routed Net Constraint: Net PP5V Between Pad R154-2(12822.047mil,6593.701mil) on HIGH_SPEED_TOP [Unplated] And Pad L18-2(13522.047mil,6238.189mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PP5V Between Pad L18-2(13522.047mil,6238.189mil) on HIGH_SPEED_TOP [Unplated] And Pad U25-34(21692.913mil,8656.693mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TX2P_OUT_P Between Pad R62-2(11322.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] And Pad L7-1(11858.465mil,4509.449mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net TX2P_OUT_N Between Pad R63-2(10522.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] And Pad L7-2(11858.465mil,4540.945mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net TX0P_OUT_P Between Pad L9-1(8958.465mil,4509.449mil) on HIGH_SPEED_TOP [Unplated] And Pad R66-2(11522.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net TX0P_OUT_N Between Pad L9-2(8958.465mil,4540.945mil) on HIGH_SPEED_TOP [Unplated] And Pad R67-2(11022.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetLED2_2 Between Pad LED2-2(8222.047mil,7193.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R92-1(9422.047mil,7256.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net LDO_3V3 Between Pad LED3-1(8522.047mil,8754.724mil) on HIGH_SPEED_TOP And Pad R109-1(16722.047mil,8656.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PACK+ Between Pad R143-2(22222.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] And Pad LED4-1(22522.047mil,1454.724mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetLED4_2 Between Pad LED4-2(22522.047mil,1395.669mil) on HIGH_SPEED_TOP And Pad R123-1(22822.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetBT1_2 Between Pad R131-1(18222.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] And Pad LED5-1(18422.047mil,1454.724mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetLED5_2 Between Pad LED5-2(18422.047mil,1395.669mil) on HIGH_SPEED_TOP And Pad R130-1(18722.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_D_P Between Pad U10-7(10102.363mil,15308.465mil) on HIGH_SPEED_TOP And Pad L2-1(11558.465mil,15309.449mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad L25-1(8777.464mil,153mil) on HIGH_SPEED_TOP [Unplated] And Pad R138-2(9122.047mil,1240.157mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net P25G_MDI2_N Between Pad U15-2(8341.733mil,3741.929mil) on HIGH_SPEED_TOP And Pad L5-2(8558.465mil,3740.945mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net P25G_MDI3_P Between Pad U15-7(8302.363mil,3708.465mil) on HIGH_SPEED_TOP And Pad L6-1(8758.465mil,3709.449mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net P25G_MDI3_N Between Pad U15-5(8282.677mil,3741.929mil) on HIGH_SPEED_TOP And Pad L6-2(8758.465mil,3740.945mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TX1P_OUT_P Between Pad L8-1(9658.465mil,4509.449mil) on HIGH_SPEED_TOP [Unplated] And Pad R64-2(9822.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TX1P_OUT_N Between Pad R65-2(9122.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] And Pad L8-2(9658.465mil,4540.945mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetLED1_2 Between Pad LED1-2(14922.047mil,5693.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R18-1(16122.047mil,5756.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net STAT Between Pad LED3-2(6040.999mil,3340.473mil) on HIGH_SPEED_TOP And Pad U27-1(6446.113mil,2914.223mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetBT1_2 Between Pad R131-1(18222.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] And Pad LED5-1(18422.047mil,1454.725mil) on HIGH_SPEED_TOP 
    Violation between Un-Routed Net Constraint: Net NetLED7_2 Between Pad LED7-2(13622.047mil,1395.669mil) on HIGH_SPEED_TOP And Pad R134-1(13922.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad Q1-1(15463.386mil,4499.606mil) on HIGH_SPEED_TOP [Unplated] And Pad R51-2(15590.551mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net SCL Between Pad Q1-3(15380.709mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R56-1(16222.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net SCL Between Pad U20-6(11982.677mil,4508.465mil) on HIGH_SPEED_TOP And Pad Q1-3(15380.709mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetLED8_2 Between Pad LED8-2(14322.047mil,12293.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R165-1(15722.047mil,12356.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetMask_1 Between Pad R72-2(11122.047mil,11393.701mil) on HIGH_SPEED_TOP [Unplated] And Pad Mask-1(11510.629mil,11390.551mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad NVME-1(4173.827mil,3767.677mil) on HIGH_SPEED_TOP And Pad NVME-3(4193.511mil,3767.677mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad NVME-12(4282.095mil,3470.433mil) on HIGH_SPEED_TOP And Pad NVME-14(4301.779mil,3470.433mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad NVME-4(4203.355mil,3470.433mil) on HIGH_SPEED_TOP And Pad NVME-12(4282.095mil,3470.433mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad NVME-14(4301.779mil,3470.433mil) on HIGH_SPEED_TOP And Pad NVME-16(4321.465mil,3470.433mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad NVME-16(4321.465mil,3470.433mil) on HIGH_SPEED_TOP And Pad NVME-18(4341.149mil,3470.433mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad NVME-18(4341.149mil,3470.433mil) on HIGH_SPEED_TOP And Pad NVME-70(4852.961mil,3470.433mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad NVME-2(4183.669mil,3470.433mil) on HIGH_SPEED_TOP And Pad NVME-4(4203.355mil,3470.433mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetNVME_50 Between Pad NVME-50(4656.111mil,3470.433mil) on HIGH_SPEED_TOP And Pad R19-1(14553.543mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net PCIE30_REFCLK_A_N Between Pad NVME-53(4685.637mil,3767.677mil) on HIGH_SPEED_TOP And Pad R30-2(12922.047mil,5693.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetNVME_54 Between Pad NVME-54(4695.481mil,3470.433mil) on HIGH_SPEED_TOP And Pad TP1-TP(13822.047mil,5725.197mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad NVME-70(4852.961mil,3470.433mil) on HIGH_SPEED_TOP And Pad NVME-72(4872.645mil,3470.433mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad NVME-71(4862.803mil,3767.677mil) on HIGH_SPEED_TOP And Pad NVME-73(4882.489mil,3767.677mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +3V3_NVME Between Pad NVME-72(4872.645mil,3470.433mil) on HIGH_SPEED_TOP And Pad NVME-74(4892.331mil,3470.433mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad NVME-73(4882.489mil,3767.677mil) on HIGH_SPEED_TOP And Pad NVME-75(4902.173mil,3767.677mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetJ17_2 Between Pad R70-2(14322.047mil,11393.701mil) on HIGH_SPEED_TOP [Unplated] And Pad Power-1(14710.629mil,11390.551mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetJ17_2 Between Pad Power-1(14710.629mil,11390.551mil) on HIGH_SPEED_TOP And Pad TP2-TP(15022.047mil,11425.197mil) on Multi-Layer 
    Violation between Un-Routed Net Constraint: Net NetQ2_1 Between Pad Q2-1(13149.547mil,4564.197mil) on HIGH_SPEED_TOP And Pad R58-2(14922.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net HDMITX0_CEC_M0 Between Pad Q3-2(15163.386mil,4550.788mil) on HIGH_SPEED_TOP [Unplated] And Pad R60-1(16422.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net CEC Between Pad Q3-3(15080.709mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R61-1(16722.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net CEC Between Pad U21-10(12261.417mil,4508.465mil) on HIGH_SPEED_TOP And Pad Q3-3(15080.709mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetQ5_1 Between Pad R53-2(12922.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] And Pad Q5-1(13363.386mil,4499.606mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetQ5_1 Between Pad Q5-1(13363.386mil,4499.606mil) on HIGH_SPEED_TOP [Unplated] And Pad R54-2(13722.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC137_2 Between Pad Q8-2(14713.504mil,751.378mil) on HIGH_SPEED_TOP [Unplated] And Pad Q8-1(14713.504mil,803.74mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC137_2 Between Pad Q8-3(14713.504mil,699.016mil) on HIGH_SPEED_TOP [Unplated] And Pad Q8-2(14713.504mil,751.378mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC137_2 Between Pad Q9-7(14532.087mil,750.669mil) on HIGH_SPEED_TOP [Unplated] And Pad Q8-2(14713.504mil,751.378mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetQ9_4 Between Pad R145-2(13722.047mil,793.701mil) on HIGH_SPEED_TOP [Unplated] And Pad Q9-4(14313.504mil,646.654mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net EN Between Pad R10-2(13890.551mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U8-4(14270.866mil,15362.599mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net P3V3 Between Pad R103-2(8022.047mil,2093.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R107-2(8322.047mil,2093.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetR104_2 Between Pad R104-2(17222.047mil,8593.701mil) on HIGH_SPEED_TOP [Unplated] And Pad U26-1(19228.819mil,8550.197mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetR106_2 Between Pad R106-2(17822.047mil,8593.701mil) on HIGH_SPEED_TOP [Unplated] And Pad U26-3(19228.819mil,8650.197mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net LDO_3V3 Between Pad R109-1(16722.047mil,8656.693mil) on HIGH_SPEED_TOP [Unplated] And Pad R110-1(17022.047mil,8656.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net LDO_3V3 Between Pad R110-1(17022.047mil,8656.693mil) on HIGH_SPEED_TOP [Unplated] And Pad U26-8(19015.275mil,8550.197mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK+ Between Pad R111-1(11722.047mil,8756.693mil) on HIGH_SPEED_TOP [Unplated] And Pad U27-22(16447.244mil,8593.701mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetR111_2 Between Pad R111-2(11722.047mil,8693.701mil) on HIGH_SPEED_TOP [Unplated] And Pad U27-18(16448.228mil,8656.693mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PROG Between Pad R112-2(8022.047mil,8693.701mil) on HIGH_SPEED_TOP [Unplated] And Pad U27-20(16447.244mil,8625.197mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net ILIM_HIZ Between Pad R114-2(12022.047mil,8593.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R113-1(14322.047mil,8756.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net ILIM_HIZ Between Pad R113-1(14322.047mil,8756.693mil) on HIGH_SPEED_TOP [Unplated] And Pad U27-17(16449.213mil,8672.441mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net REGN Between Pad R113-2(14322.047mil,8693.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R116-2(14622.047mil,8693.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net TS Between Pad R116-1(14622.047mil,8756.693mil) on HIGH_SPEED_TOP [Unplated] And Pad U27-16(16465.699mil,8689.419mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net REGN Between Pad R116-2(14622.047mil,8693.701mil) on HIGH_SPEED_TOP [Unplated] And Pad U27-5(16596.85mil,8625.197mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net HDMITX0_CEC_M0 Between Pad Q3-2(15163.385mil,4550.787mil) on HIGH_SPEED_TOP [Unplated] And Pad R60-1(16422.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetQ5_1 Between Pad R53-2(12922.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] And Pad Q5-1(13363.385mil,4499.607mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetQ5_1 Between Pad Q5-1(13363.385mil,4499.607mil) on HIGH_SPEED_TOP [Unplated] And Pad R54-2(13722.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VCC_SYS Between Pad R144-2(14022.047mil,793.701mil) on HIGH_SPEED_TOP [Unplated] And Pad Q8-8(14932.087mil,802.047mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GPIO3_D0/I2C5_SDA_M0_TP Between Pad U25-8(6771.26mil,3675.197mil) on HIGH_SPEED_TOP And Pad R103-1(8022.047mil,2156.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetR111_2 Between Pad U27-18(6573.819mil,2818.505mil) on HIGH_SPEED_TOP And Pad R111-2(6749.999mil,2618.505mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net I2C7_SCL_M0 Between Pad R11-2(9590.551mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U9-6(11112.205mil,15376.379mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net VTB Between Pad RT1-1(15022.047mil,1425.197mil) on Multi-Layer And Pad R120-2(20622.047mil,1293.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VC4 Between Pad R126-2(21800mil,1099.126mil) on HIGH_SPEED_TOP [Unplated] And Pad R123-2(22822.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetD4_2 Between Pad R124-2(16322.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R125-1(16622.047mil,1356.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net PACK+ Between Pad R126-1(21800mil,1162.118mil) on HIGH_SPEED_TOP [Unplated] And Pad R143-2(22222.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad R127-1(14522.047mil,1356.693mil) on HIGH_SPEED_TOP [Unplated] And Pad R128-1(14722.047mil,1356.693mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad R128-1(14722.047mil,1356.693mil) on HIGH_SPEED_TOP [Unplated] And Pad RT1-2(15022.047mil,1325.197mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net PACK+ Between Pad R129-1(15222.047mil,1356.693mil) on HIGH_SPEED_TOP [Unplated] And Pad U27-23(16447.244mil,8577.953mil) on HIGH_SPEED_TOP 
    Violation between Un-Routed Net Constraint: Net VC3 Between Pad R131-2(18222.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R130-2(18722.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GPIO0_D5 Between Pad U9-5(11131.89mil,15376.378mil) on HIGH_SPEED_TOP [Unplated] And Pad R13-1(11353.543mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad U9-4(11151.575mil,15376.378mil) on HIGH_SPEED_TOP [Unplated] And Pad R13-2(11290.551mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net VC2 Between Pad R133-2(16022.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R132-2(17122.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net VC1 Between Pad R137-2(13322.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R134-2(13922.047mil,1393.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad R138-2(9122.047mil,1240.158mil) on HIGH_SPEED_TOP [Unplated] And Pad R135-1(10522.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R14-2(11122.047mil,3693.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R15-2(11322.047mil,3693.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R87-2(11090.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R14-2(11122.047mil,3693.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad U13-1(8572.244mil,2387.795mil) on HIGH_SPEED_TOP And Pad R14-2(11122.047mil,3693.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GNDPWR Between Pad R138-2(9122.047mil,1240.157mil) on HIGH_SPEED_TOP [Unplated] And Pad R135-1(10522.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net NetC116_1 Between Pad TP3-TP(22022.047mil,1425.197mil) on Multi-Layer And Pad R143-1(22222.047mil,1456.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetIC14_14 Between Pad R149-2(9649.999mil,937.007mil) on HIGH_SPEED_TOP [Unplated] And Pad R148-1(9922.047mil,856.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetIC15_3 Between Pad R155-2(10522.047mil,6593.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R153-1(13122.047mil,6656.693mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net NetIC15_5 Between Pad R158-2(8822.047mil,6593.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R156-1(10222.047mil,6656.693mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net NetIC18_1 Between Pad R162-2(18222.047mil,12293.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R161-2(18522.047mil,12293.701mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net PRTPWR1 Between Pad R164-2(16322.047mil,12293.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R162-1(18222.047mil,12356.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad U3-4(10951.575mil,14276.378mil) on HIGH_SPEED_TOP [Unplated] And Pad R167-1(14022.047mil,12356.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R18-2(16122.047mil,5693.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R22-2(16390.551mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetJ4_54 Between Pad TP1-TP(13822.047mil,5725.197mil) on Multi-Layer And Pad R21-1(14153.543mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetNVME_54 Between Pad TP1-TP(13822.047mil,5725.197mil) on Multi-Layer And Pad R21-1(14153.543mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net ISET_1 Between Pad R2-2(13090.551mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R3-2(13290.551mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R22-2(16390.551mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R60-2(16422.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetR24_2 Between Pad R24-2(11422.047mil,5693.701mil) on HIGH_SPEED_TOP [Unplated] And Pad U17-4(12344.547mil,5586.811mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetC34_2 Between Pad Y1-3(9795.472mil,5704.528mil) on HIGH_SPEED_TOP And Pad R25-1(11122.047mil,5756.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetR27_1 Between Pad R27-1(10353.543mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U17-8(12344.547mil,5689.173mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net CLK_P Between Pad U17-20(12099.547mil,5510.039mil) on HIGH_SPEED_TOP And Pad R28-1(13622.047mil,5756.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC34_2 Between Pad Y1-3(9795.473mil,5704.527mil) on HIGH_SPEED_TOP And Pad R25-1(11122.047mil,5756.693mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetR25_2 Between Pad R25-2(11122.047mil,5693.701mil) on HIGH_SPEED_TOP [Unplated] And Pad U17-6(12344.547mil,5637.993mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetR26_1 Between Pad R26-1(10753.543mil,5725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U17-7(12344.547mil,5663.583mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net CLK_N Between Pad U17-19(12099.547mil,5535.631mil) on HIGH_SPEED_TOP And Pad R29-1(13322.047mil,5756.693mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net PCIE30_REFCLK_A_N Between Pad R30-2(12922.047mil,5693.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R29-2(13322.047mil,5693.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net ISET_1 Between Pad R3-2(13290.551mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U2-3(13973.228mil,14262.599mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net CLK2_N Between Pad R33-1(10422.047mil,5756.693mil) on HIGH_SPEED_TOP [Unplated] And Pad U17-13(12099.547mil,5689.173mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net ISET_1 Between Pad R3-2(13290.551mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U2-3(13973.229mil,14262.599mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net PCIE30_PORT1_IN_REFCLK_N Between Pad R38-2(8222.047mil,5693.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R33-2(10422.047mil,5693.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net SD_CMD Between Pad U18-7(8002.362mil,9808.465mil) on HIGH_SPEED_TOP And Pad R46-2(9422.047mil,9793.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net SD_D3 Between Pad U18-9(8041.733mil,9808.465mil) on HIGH_SPEED_TOP And Pad R45-2(9622.047mil,9793.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net SD_CMD Between Pad U18-7(8002.363mil,9808.465mil) on HIGH_SPEED_TOP And Pad R46-2(9422.047mil,9793.701mil) on HIGH_SPEED_TOP [Unplated] 
    Violation between Un-Routed Net Constraint: Net SD_D0 Between Pad U19-10(8361.417mil,9808.465mil) on HIGH_SPEED_TOP And Pad R47-2(9222.047mil,9793.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net SD_D1 Between Pad U19-9(8341.732mil,9808.465mil) on HIGH_SPEED_TOP And Pad R48-2(8922.047mil,9793.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R51-2(15590.551mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R52-2(15790.551mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net SDA_A Between Pad R5-2(9790.551mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U3-7(10892.52mil,14276.378mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R52-2(15790.551mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R55-2(15990.551mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net HDMI0_TX_SBD_N Between Pad U21-5(12182.677mil,4541.929mil) on HIGH_SPEED_TOP And Pad R54-1(13722.047mil,4556.693mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R55-2(15990.551mil,4525.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R60-2(16422.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetR71_2 Between Pad R71-2(11990.551mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad ResetSW-1(12410.63mil,11390.551mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net +1V8 Between Pad R75-2(13890.551mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R76-2(14090.551mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R77-2(8890.551mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R92-2(9422.047mil,7193.701mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC47_2 Between Pad R80-2(16990.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R79-2(17190.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net ISET Between Pad R8-2(13490.551mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R9-2(13690.551mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC56_2 Between Pad R85-2(13190.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R84-2(13390.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad R92-2(9422.047mil,7193.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R89-1(9953.543mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net ISET Between Pad R9-2(13690.551mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U8-3(14373.228mil,15362.599mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net TYPEC1_SBU2_OUT_B Between Pad U10-10(10161.417mil,15308.465mil) on HIGH_SPEED_TOP And Pad U10-1(10161.417mil,15341.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TYPEC1_SBU1_OUT_B Between Pad U10-9(10141.732mil,15308.465mil) on HIGH_SPEED_TOP And Pad U10-2(10141.732mil,15341.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad U1-1(13762.401mil,14199.606mil) on HIGH_SPEED_TOP And Pad U1-2(13762.401mil,14225.197mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RRX1_N Between Pad U11-9(10341.732mil,15308.465mil) on HIGH_SPEED_TOP And Pad U11-2(10341.732mil,15341.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RRX1_N Between Pad U11-6(10282.677mil,15308.465mil) on HIGH_SPEED_TOP And Pad U11-5(10282.677mil,15341.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RRX1_N Between Pad U11-6(10282.677mil,15308.465mil) on HIGH_SPEED_TOP And Pad U11-9(10341.732mil,15308.465mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad U1-2(13762.401mil,14225.197mil) on HIGH_SPEED_TOP And Pad U1-3(13762.401mil,14250.788mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TTX2_P Between Pad U12-10(10561.417mil,15308.465mil) on HIGH_SPEED_TOP And Pad U12-1(10561.417mil,15341.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TTX2_N Between Pad U12-9(10541.732mil,15308.465mil) on HIGH_SPEED_TOP And Pad U12-2(10541.732mil,15341.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RRX2_P Between Pad U12-7(10502.362mil,15308.465mil) on HIGH_SPEED_TOP And Pad U12-4(10502.362mil,15341.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetC22_2 Between Pad U13-6(8471.85mil,2387.795mil) on HIGH_SPEED_TOP And Pad U13-5(8471.85mil,2425.197mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net P25G_MDIP0_P Between Pad U14-10(8061.417mil,3708.465mil) on HIGH_SPEED_TOP And Pad U14-1(8061.417mil,3741.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net P25G_MDIN0_N Between Pad U14-9(8041.732mil,3708.465mil) on HIGH_SPEED_TOP And Pad U14-2(8041.732mil,3741.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net P25G_MDIP1_P Between Pad U14-7(8002.362mil,3708.465mil) on HIGH_SPEED_TOP And Pad U14-4(8002.362mil,3741.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net P25G_MDIP2_P Between Pad U15-10(8361.417mil,3708.465mil) on HIGH_SPEED_TOP And Pad U15-1(8361.417mil,3741.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net P25G_MDIP3_P Between Pad U15-7(8302.362mil,3708.465mil) on HIGH_SPEED_TOP And Pad U15-4(8302.362mil,3741.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad U17-2(12344.547mil,5535.63mil) on HIGH_SPEED_TOP And Pad U17-3(12344.547mil,5561.221mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetC33_2 Between Pad Y1-1(9848.622mil,5745.866mil) on HIGH_SPEED_TOP And Pad U17-5(12344.547mil,5612.402mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net SD_CMD Between Pad U18-7(8002.362mil,9808.465mil) on HIGH_SPEED_TOP And Pad U18-4(8002.362mil,9841.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net SD_CLK Between Pad U18-6(7982.677mil,9808.465mil) on HIGH_SPEED_TOP And Pad U18-5(7982.677mil,9841.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net SD_DET Between Pad U19-7(8302.363mil,9808.465mil) on HIGH_SPEED_TOP And Pad R50-2(8522.047mil,9793.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net I2C6_SDA_M0 Between Pad R5-2(9790.551mil,14225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U3-7(10892.519mil,14276.379mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetD1_1 Between Pad R59-2(14222.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] And Pad R56-2(16222.047mil,4493.701mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetCON1_1 Between Pad R6-1(8053.543mil,1725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R7-1(8353.543mil,1725.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetR6_2 Between Pad R6-2(7990.551mil,1725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R7-2(8290.551mil,1725.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetR71_2 Between Pad R71-2(11990.551mil,11425.197mil) on HIGH_SPEED_TOP [Unplated] And Pad Reset-1(12410.629mil,11390.551mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetR6_2 Between Pad R7-2(8290.551mil,1725.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R85-1(13253.543mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetR73_2 Between Pad R73-2(9322.047mil,11393.701mil) on HIGH_SPEED_TOP [Unplated] And Pad Recovery-1(9710.629mil,11390.551mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetR6_2 Between Pad R80-1(17053.543mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R79-1(17253.543mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetR6_2 Between Pad R93-1(15153.543mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R80-1(17053.543mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetR8_2 Between Pad R8-2(13490.551mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R9-2(13690.551mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetR6_2 Between Pad R85-1(13253.543mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R84-1(13453.543mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetR6_2 Between Pad R84-1(13453.543mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R94-1(14953.543mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetIC7_3 Between Pad R91-2(7990.551mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R90-1(9253.543mil,7225.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetR8_2 Between Pad R9-2(13690.551mil,15325.197mil) on HIGH_SPEED_TOP [Unplated] And Pad U8-3(14373.229mil,15362.599mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetR6_2 Between Pad R94-1(14953.543mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R93-1(15153.543mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC68_2 Between Pad R94-2(14890.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R93-2(15090.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NetC77_2 Between Pad R99-2(11190.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] And Pad R98-2(11390.551mil,7625.197mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SBU1 Between Pad U10-10(10161.417mil,15308.465mil) on HIGH_SPEED_TOP And Pad U10-1(10161.417mil,15341.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U10-8(10122.047mil,15308.465mil) on HIGH_SPEED_TOP And Pad U10-3(10122.047mil,15341.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_D_P Between Pad U10-7(10102.363mil,15308.465mil) on HIGH_SPEED_TOP And Pad U10-4(10102.363mil,15341.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-1(13762.401mil,14199.607mil) on HIGH_SPEED_TOP And Pad U1-2(13762.401mil,14225.197mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SSRX1_P Between Pad U11-10(10361.417mil,15308.465mil) on HIGH_SPEED_TOP And Pad U11-1(10361.417mil,15341.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U11-8(10322.047mil,15308.465mil) on HIGH_SPEED_TOP And Pad U11-3(10322.047mil,15341.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-2(13762.401mil,14225.197mil) on HIGH_SPEED_TOP And Pad U1-3(13762.401mil,14250.787mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-7(13722.047mil,14225.197mil) on HIGH_SPEED_TOP And Pad U1-2(13762.401mil,14225.197mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SSRX2_P Between Pad U12-10(10561.417mil,15308.465mil) on HIGH_SPEED_TOP And Pad U12-1(10561.417mil,15341.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SSRX2_N Between Pad U12-9(10541.733mil,15308.465mil) on HIGH_SPEED_TOP And Pad U12-2(10541.733mil,15341.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U12-8(10522.047mil,15308.465mil) on HIGH_SPEED_TOP And Pad U12-3(10522.047mil,15341.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC1_SSTX2_P Between Pad U12-7(10502.363mil,15308.465mil) on HIGH_SPEED_TOP And Pad U12-4(10502.363mil,15341.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC1_1 Between Pad U1-5(13681.693mil,14225.197mil) on HIGH_SPEED_TOP And Pad U1-4(13681.693mil,14250.787mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U14-8(8022.047mil,3708.465mil) on HIGH_SPEED_TOP And Pad U14-3(8022.047mil,3741.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC1_1 Between Pad U1-6(13681.693mil,14199.607mil) on HIGH_SPEED_TOP And Pad U1-5(13681.693mil,14225.197mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net P25G_MDI2_N Between Pad U15-9(8341.733mil,3708.465mil) on HIGH_SPEED_TOP And Pad U15-2(8341.733mil,3741.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U15-8(8322.047mil,3708.465mil) on HIGH_SPEED_TOP And Pad U15-3(8322.047mil,3741.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net P25G_MDI3_P Between Pad U15-7(8302.363mil,3708.465mil) on HIGH_SPEED_TOP And Pad U15-4(8302.363mil,3741.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net P25G_MDI3_N Between Pad U15-6(8282.677mil,3708.465mil) on HIGH_SPEED_TOP And Pad U15-5(8282.677mil,3741.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U17-2(12344.547mil,5535.631mil) on HIGH_SPEED_TOP And Pad U17-3(12344.547mil,5561.221mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC33_2 Between Pad Y1-1(9848.621mil,5745.867mil) on HIGH_SPEED_TOP And Pad U17-5(12344.547mil,5612.401mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net SD_D3 Between Pad U18-9(8041.733mil,9808.465mil) on HIGH_SPEED_TOP And Pad U18-2(8041.733mil,9841.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U18-8(8022.047mil,9808.465mil) on HIGH_SPEED_TOP And Pad U18-3(8022.047mil,9841.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net SD_CMD Between Pad U18-7(8002.363mil,9808.465mil) on HIGH_SPEED_TOP And Pad U18-4(8002.363mil,9841.929mil) on HIGH_SPEED_TOP 
    Violation between Un-Routed Net Constraint: Net SD_D0 Between Pad U19-10(8361.417mil,9808.465mil) on HIGH_SPEED_TOP And Pad U19-1(8361.417mil,9841.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net SD_D1 Between Pad U19-9(8341.732mil,9808.465mil) on HIGH_SPEED_TOP And Pad U19-2(8341.732mil,9841.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net SCL Between Pad U20-6(11982.677mil,4508.465mil) on HIGH_SPEED_TOP And Pad U20-5(11982.677mil,4541.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net CEC Between Pad U21-10(12261.417mil,4508.465mil) on HIGH_SPEED_TOP And Pad U21-1(12261.417mil,4541.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net 5V_HDMI_TX0 Between Pad U21-9(12241.732mil,4508.465mil) on HIGH_SPEED_TOP And Pad U21-2(12241.732mil,4541.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net HDMI0_TX_SBD_N Between Pad U21-6(12182.677mil,4508.465mil) on HIGH_SPEED_TOP And Pad U21-5(12182.677mil,4541.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TX2P_P Between Pad U22-10(12461.417mil,4508.465mil) on HIGH_SPEED_TOP And Pad U22-1(12461.417mil,4541.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TX1P_P Between Pad U22-7(12402.362mil,4508.465mil) on HIGH_SPEED_TOP And Pad U22-4(12402.362mil,4541.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TX0P_P Between Pad U23-10(12761.417mil,4508.465mil) on HIGH_SPEED_TOP And Pad U23-1(12761.417mil,4541.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TX0P_N Between Pad U23-9(12741.732mil,4508.465mil) on HIGH_SPEED_TOP And Pad U23-2(12741.732mil,4541.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad U24-1(21862.401mil,8699.606mil) on HIGH_SPEED_TOP And Pad U24-2(21862.401mil,8725.197mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad U24-2(21862.401mil,8725.197mil) on HIGH_SPEED_TOP And Pad U24-3(21862.401mil,8750.788mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad U25-11(21547.244mil,8656.693mil) on HIGH_SPEED_TOP And Pad U25-10(21547.244mil,8672.441mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad U25-12(21547.244mil,8640.945mil) on HIGH_SPEED_TOP And Pad U25-11(21547.244mil,8656.693mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad U25-14(21547.244mil,8609.449mil) on HIGH_SPEED_TOP And Pad U25-12(21547.244mil,8640.945mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetU25_15 Between Pad U25-15(21547.244mil,8593.701mil) on HIGH_SPEED_TOP And Via (21581.89mil,8581.496mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
-   Violation between Un-Routed Net Constraint: Net PPHV Between Pad U25-20(21578.74mil,8514.961mil) on HIGH_SPEED_TOP And Pad U25-21(21596.457mil,8514.961mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PPHV Between Pad U25-21(21596.457mil,8514.961mil) on HIGH_SPEED_TOP And Pad U25-22(21614.173mil,8514.961mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net NetU25_15 Between Via (21662.205mil,8581.496mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT And Pad U25-30(21696.85mil,8593.701mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PP5V Between Pad U25-34(21692.913mil,8656.693mil) on HIGH_SPEED_TOP And Pad U25-35(21692.913mil,8672.441mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PPHV Between Pad U27-2(16596.85mil,8577.953mil) on HIGH_SPEED_TOP And Pad U27-3(16596.85mil,8593.701mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK+ Between Pad U27-23(16447.244mil,8577.953mil) on HIGH_SPEED_TOP And Pad U27-22(16447.244mil,8593.701mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PPHV Between Pad U27-3(16596.85mil,8593.701mil) on HIGH_SPEED_TOP And Pad U27-8(16596.85mil,8672.441mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PPHV Between Pad U27-9(16577.657mil,8701.476mil) on HIGH_SPEED_TOP And Pad U27-8(16596.85mil,8672.441mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net VDD33A Between Pad U3-4(10951.575mil,14276.378mil) on HIGH_SPEED_TOP [Unplated] And Pad U9-4(11151.575mil,15376.378mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net RX1_P Between Pad U5-7(10202.362mil,14208.465mil) on HIGH_SPEED_TOP And Pad U5-4(10202.362mil,14241.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net TX2_P Between Pad U6-10(10561.417mil,14208.465mil) on HIGH_SPEED_TOP And Pad U6-1(10561.417mil,14241.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RX2_P Between Pad U6-7(10502.362mil,14208.465mil) on HIGH_SPEED_TOP And Pad U6-4(10502.362mil,14241.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net RX2_N Between Pad U6-6(10482.677mil,14208.465mil) on HIGH_SPEED_TOP And Pad U6-5(10482.677mil,14241.929mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad U7-1(14162.401mil,15299.606mil) on HIGH_SPEED_TOP And Pad U7-2(14162.401mil,15325.197mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net PACK- Between Pad U7-2(14162.401mil,15325.197mil) on HIGH_SPEED_TOP And Pad U7-3(14162.401mil,15350.788mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad U7-5(14081.693mil,15325.197mil) on HIGH_SPEED_TOP And Pad U7-4(14081.693mil,15350.788mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad U7-6(14081.693mil,15299.606mil) on HIGH_SPEED_TOP And Pad U7-5(14081.693mil,15325.197mil) on HIGH_SPEED_TOP 
-   Violation between Un-Routed Net Constraint: Net VBUS_5V0_TYPEC1 Between Pad U7-6(14081.693mil,15299.606mil) on HIGH_SPEED_TOP And Pad U8-1(14373.228mil,15287.795mil) on HIGH_SPEED_TOP [Unplated] 
-   Violation between Un-Routed Net Constraint: Net TYPE_CC2_J3 Between Pad U9-14(11151.575mil,15274.016mil) on HIGH_SPEED_TOP [Unplated] And Pad U9-1(11173.228mil,15305.512mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U19-8(8322.047mil,9808.465mil) on HIGH_SPEED_TOP And Pad U19-3(8322.047mil,9841.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net SD_DET Between Pad U19-7(8302.363mil,9808.465mil) on HIGH_SPEED_TOP And Pad U19-4(8302.363mil,9841.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +3V3_SD_SO Between Pad U19-6(8282.677mil,9808.465mil) on HIGH_SPEED_TOP And Pad U19-5(8282.677mil,9841.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U20-8(12022.047mil,4508.465mil) on HIGH_SPEED_TOP And Pad U20-3(12022.047mil,4541.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U21-8(12222.047mil,4508.465mil) on HIGH_SPEED_TOP And Pad U21-3(12222.047mil,4541.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net HDMI0_TX_SBD_P Between Pad U21-7(12202.363mil,4508.465mil) on HIGH_SPEED_TOP And Pad U21-4(12202.363mil,4541.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TX2P_N Between Pad U22-9(12441.733mil,4508.465mil) on HIGH_SPEED_TOP And Pad U22-2(12441.733mil,4541.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U22-8(12422.047mil,4508.465mil) on HIGH_SPEED_TOP And Pad U22-3(12422.047mil,4541.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TX1P_N Between Pad U22-6(12382.677mil,4508.465mil) on HIGH_SPEED_TOP And Pad U22-5(12382.677mil,4541.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U23-8(12722.047mil,4508.465mil) on HIGH_SPEED_TOP And Pad U23-3(12722.047mil,4541.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U24-2(7159.645mil,3900.001mil) on HIGH_SPEED_TOP And Pad U24-1(7159.645mil,3925.591mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U24-3(7159.645mil,3874.409mil) on HIGH_SPEED_TOP And Pad U24-2(7159.645mil,3900.001mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad U2-5(13870.865mil,14187.795mil) on HIGH_SPEED_TOP [Unplated] And Pad U8-5(14270.865mil,15287.795mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GND Between Track (6818.503mil,3675.197mil)(6834.251mil,3675.197mil) on HIGH_SPEED_TOP And Pad U25-14(6865.748mil,3675.197mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net PPHV Between Pad U27-8(6425.197mil,2802.757mil) on HIGH_SPEED_TOP And Pad U27-3(6425.197mil,2881.497mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net PPHV Between Track (6425.047mil,2897.245mil)(6425.197mil,2897.245mil) on HIGH_SPEED_TOP And Pad U27-3(6425.197mil,2881.497mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net PPHV Between Pad U27-8(6425.197mil,2802.757mil) on HIGH_SPEED_TOP And Pad U27-9(6444.389mil,2773.721mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad U3-12(10912.205mil,14174.015mil) on HIGH_SPEED_TOP [Unplated] And Pad U3-13(10931.889mil,14174.015mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad U3-13(10931.889mil,14174.015mil) on HIGH_SPEED_TOP [Unplated] And Pad U9-12(11112.205mil,15274.015mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SBU2_OUT Between Pad U4-9(10041.733mil,14208.465mil) on HIGH_SPEED_TOP And Pad U4-2(10041.733mil,14241.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U4-8(10022.047mil,14208.465mil) on HIGH_SPEED_TOP And Pad U4-3(10022.047mil,14241.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_D_N Between Pad U4-6(9982.677mil,14208.465mil) on HIGH_SPEED_TOP And Pad U4-5(9982.677mil,14241.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SSTX2_P Between Pad U5-10(10261.417mil,14208.465mil) on HIGH_SPEED_TOP And Pad U5-1(10261.417mil,14241.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U5-8(10222.047mil,14208.465mil) on HIGH_SPEED_TOP And Pad U5-3(10222.047mil,14241.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SSTX1_N Between Pad U6-9(10541.733mil,14208.465mil) on HIGH_SPEED_TOP And Pad U6-2(10541.733mil,14241.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-8(10522.047mil,14208.465mil) on HIGH_SPEED_TOP And Pad U6-3(10522.047mil,14241.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SSRX1_P Between Pad U6-7(10502.363mil,14208.465mil) on HIGH_SPEED_TOP And Pad U6-4(10502.363mil,14241.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net TYPEC0_SSRX1_N Between Pad U6-6(10482.677mil,14208.465mil) on HIGH_SPEED_TOP And Pad U6-5(10482.677mil,14241.929mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U7-1(14162.401mil,15299.607mil) on HIGH_SPEED_TOP And Pad U7-2(14162.401mil,15325.197mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U7-2(14162.401mil,15325.197mil) on HIGH_SPEED_TOP And Pad U7-3(14162.401mil,15350.787mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC185_1 Between Pad U7-5(14081.693mil,15325.197mil) on HIGH_SPEED_TOP And Pad U7-4(14081.693mil,15350.787mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC185_1 Between Pad U7-6(14081.693mil,15299.607mil) on HIGH_SPEED_TOP And Pad U7-5(14081.693mil,15325.197mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad U9-12(11112.205mil,15274.015mil) on HIGH_SPEED_TOP [Unplated] And Pad U9-13(11131.889mil,15274.015mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad WIFI-4(1249.999mil,827.165mil) on HIGH_SPEED_TOP And Pad WIFI-2(1249.999mil,846.851mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad WIFI-72(1249.999mil,157.875mil) on HIGH_SPEED_TOP And Pad WIFI-4(1249.999mil,827.165mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net GPIO3_D5/PWM11_M3/LCD_2_BL Between Pad WIFI-70(1249.999mil,177.559mil) on HIGH_SPEED_TOP And Pad WIFI-54(1249.999mil,335.039mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net +3V3_WIFI Between Pad WIFI-74(1249.999mil,138.189mil) on HIGH_SPEED_TOP And Pad WIFI-72(1249.999mil,157.875mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net VBUS Between Track (6849.999mil,3824.197mil)(6849.999mil,3824.803mil) on HIGH_SPEED_TOP And Track (6964.047mil,3794.291mil)(6964.173mil,3794.291mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net VBUS Between Track (6964.047mil,3757.875mil)(6964.173mil,3757.875mil) on HIGH_SPEED_TOP And Track (6964.047mil,3775.591mil)(6964.173mil,3775.591mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net VBUS Between Track (6964.047mil,3775.591mil)(6964.173mil,3775.591mil) on HIGH_SPEED_TOP And Track (6964.047mil,3794.291mil)(6964.173mil,3794.291mil) on HIGH_SPEED_TOP 
 Rule Violations :500
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
@@ -547,4 +547,4 @@ Rule Violations :0
 
 Violations Detected : 500
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
