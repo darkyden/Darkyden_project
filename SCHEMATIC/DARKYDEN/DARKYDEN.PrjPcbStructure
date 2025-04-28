@@ -1,22 +1,23 @@
-Record=TopLevelDocument|FileName=12V_FROM_BATTERY.SchDoc|SheetNumber=18
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=BATTERY_GESTION.SchDoc|SheetNumber=17
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=CM3588.SchDoc|SheetNumber=22
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=CONNECTEUR_1.SchDoc|SheetNumber=11
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=CONNECTEUR_2.SchDoc|SheetNumber=12
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=CONNECTEUR_3.SchDoc|SheetNumber=13
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=CONNECTEUR_4.SchDoc|SheetNumber=14
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=eDP.SchDoc|SheetNumber=15
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=ETHERNET.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=HDMI.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=NVME.SchDoc|SheetNumber=5
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=P3V3_PP5V_GESTION.SchDoc|SheetNumber=19
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=Power.SchDoc|SheetNumber=8
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=POWER_PCie.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=POWERSYSTEM.SchDoc|SheetNumber=16
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=SDCARD.SchDoc|SheetNumber=7
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=SystemCTL.SchDoc|SheetNumber=9
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=USB2_0.SchDoc|SheetNumber=20
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=USB2_0_Connector.SchDoc|SheetNumber=21
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=USBC_A.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=USBC_B.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=12V_FROM_BATTERY.SchDoc|FileName=WIFI.SchDoc|SheetNumber=10
+Record=TopLevelDocument|FileName=DARKYDEN_TOP_LEVEL.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=1V8_3V3_5V|SchDesignator=1V8_3V3_5V|FileName=1V8_3V3_5V.SchDoc|SheetNumber=21|SymbolType=Normal|RawFileName=1V8_3V3_5V.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=12V_FROM_BATTERY|SchDesignator=12V_FROM_BATTERY|FileName=12V_FROM_BATTERY.SchDoc|SheetNumber=19|SymbolType=Normal|RawFileName=12V_FROM_BATTERY.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=BATTERY_GESTION|SchDesignator=BATTERY_GESTION|FileName=BATTERY_GESTION.SchDoc|SheetNumber=18|SymbolType=Normal|RawFileName=BATTERY_GESTION.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=CON1|SchDesignator=CON1|FileName=CONNECTEUR_1.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=CONNECTEUR_1.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=CON2|SchDesignator=CON2|FileName=CONNECTEUR_2.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=CONNECTEUR_2.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=CON3|SchDesignator=CON3|FileName=CONNECTEUR_3.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=CONNECTEUR_3.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=CON4|SchDesignator=CON4|FileName=CONNECTEUR_4.SchDoc|SheetNumber=6|SymbolType=Normal|RawFileName=CONNECTEUR_4.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=eDP|SchDesignator=eDP|FileName=eDP.SchDoc|SheetNumber=16|SymbolType=Normal|RawFileName=eDP.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=ETHERNET|SchDesignator=ETHERNET|FileName=ETHERNET.SchDoc|SheetNumber=11|SymbolType=Normal|RawFileName=ETHERNET.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=HDMI|SchDesignator=HDMI|FileName=HDMI.SchDoc|SheetNumber=12|SymbolType=Normal|RawFileName=HDMI.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=NVME|SchDesignator=NVME|FileName=NVME.SchDoc|SheetNumber=13|SymbolType=Normal|RawFileName=NVME.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=P3V3_PP5V_GESTION|SchDesignator=P3V3_PP5V_GESTION|FileName=P3V3_PP5V_GESTION.SchDoc|SheetNumber=20|SymbolType=Normal|RawFileName=P3V3_PP5V_GESTION.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=POWER_PCie|SchDesignator=POWER_PCie|FileName=POWER_PCie.SchDoc|SheetNumber=22|SymbolType=Normal|RawFileName=POWER_PCie.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=POWERSYSTEM|SchDesignator=POWERSYSTEM|FileName=POWERSYSTEM.SchDoc|SheetNumber=17|SymbolType=Normal|RawFileName=POWERSYSTEM.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=SD_CARD|SchDesignator=SD_CARD|FileName=SDCARD.SchDoc|SheetNumber=14|SymbolType=Normal|RawFileName=SDCARD.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=SYST_CTL|SchDesignator=SYST_CTL|FileName=SystemCTL.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=SystemCTL.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=USB2_0|SchDesignator=USB2_0|FileName=USB2_0.SchDoc|SheetNumber=9|SymbolType=Normal|RawFileName=USB2_0.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=USB2_0_CONNECTOR|SchDesignator=USB2_0_CONNECTOR|FileName=USB2_0_Connector.SchDoc|SheetNumber=10|SymbolType=Normal|RawFileName=USB2_0_Connector.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=USBC_A|SchDesignator=USBC_A|FileName=USBC_A.SchDoc|SheetNumber=7|SymbolType=Normal|RawFileName=USBC_A.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=USBC_B|SchDesignator=USBC_B|FileName=USBC_B.SchDoc|SheetNumber=8|SymbolType=Normal|RawFileName=USBC_B.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|Designator=WIFI|SchDesignator=WIFI|FileName=WIFI.SchDoc|SheetNumber=15|SymbolType=Normal|RawFileName=WIFI.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=DARKYDEN_TOP_LEVEL.SchDoc|FileName=CM3588.SchDoc|SheetNumber=23
