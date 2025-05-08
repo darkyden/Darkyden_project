@@ -1,18 +1,199 @@
 Protel Design System Design Rule Check
 PCB File : D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc
-Date     : 2025-05-02
-Time     : 7:30:54 PM
+Date     : 2025-05-07
+Time     : 11:10:11 PM
+
+WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
+   Polygon named: NONET_L08_P001 In net GND On HIGH_SPEED_BOT
+   Polygon named: NONET_L01_P000 In net GND On HIGH_SPEED_TOP
+
+WARNING: Zero hole size multi-layer pad(s) detected
+   Pad Free-Pewake TP(3947.999mil,474.001mil) on Multi-Layer on Net PEWAKE
+
+WARNING: Multilayer Pads with 0 size Hole found
+   Pad Free-Pewake TP(3947.999mil,474.001mil) on Multi-Layer
+
+Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad C24-2(239.001mil,862.433mil) on HIGH_SPEED_BOT And Track (215.907mil,792.567mil)(266.339mil,842.999mil) on HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad C24-2(239.001mil,862.433mil) on HIGH_SPEED_BOT And Track (266.339mil,842.999mil)(355.001mil,842.999mil) on HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (1.848mil < 4mil) Between Pad IC14-8(8415.551mil,3590.237mil) on HIGH_SPEED_TOP And Track (8410.239mil,3622.457mil)(8435.237mil,3597.461mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.939mil < 4mil) Between Pad IC14-8(8415.551mil,3590.237mil) on HIGH_SPEED_TOP And Via (8410.239mil,3622.475mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (3.071mil < 4mil) Between Pad J2-A11(306.811mil,3380.883mil) on HIGH_SPEED_TOP And Track (296.047mil,3360.135mil)(298.015mil,3362.103mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.071mil < 4mil) Between Pad J2-A11(306.811mil,3380.883mil) on HIGH_SPEED_TOP And Track (298.015mil,3362.103mil)(313.843mil,3362.103mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.071mil < 4mil) Between Pad J2-A11(306.811mil,3380.883mil) on HIGH_SPEED_TOP And Track (313.843mil,3362.103mil)(350.999mil,3324.945mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (0.76mil < 4mil) Between Pad J2-A9(306.811mil,3420.253mil) on HIGH_SPEED_TOP And Track (315.591mil,3437.673mil)(321.449mil,3431.815mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (0.76mil < 4mil) Between Pad J2-A9(306.811mil,3420.253mil) on HIGH_SPEED_TOP And Track (321.449mil,3431.815mil)(427.267mil,3431.815mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (2.13mil < 4mil) Between Pad J2-B10(239.881mil,3548.205mil) on HIGH_SPEED_TOP And Track (252.977mil,3530.291mil)(261.953mil,3539.267mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (2.938mil < 4mil) Between Pad J2-B10(239.881mil,3548.205mil) on HIGH_SPEED_TOP And Track (261.953mil,3539.267mil)(305.929mil,3539.267mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (1.406mil < 4mil) Between Pad J2-B3(239.881mil,3410.411mil) on HIGH_SPEED_TOP And Track (250.141mil,3430.135mil)(259.155mil,3421.123mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (1.421mil < 4mil) Between Pad J2-B3(239.881mil,3410.411mil) on HIGH_SPEED_TOP And Track (259.155mil,3421.123mil)(305.895mil,3421.123mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.975mil < 4mil) Between Pad J3-A11(306.929mil,2407.787mil) on HIGH_SPEED_TOP And Track (297.049mil,2386.135mil)(299.017mil,2388.103mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.975mil < 4mil) Between Pad J3-A11(306.929mil,2407.787mil) on HIGH_SPEED_TOP And Track (299.017mil,2388.103mil)(306.929mil,2388.103mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.975mil < 4mil) Between Pad J3-A11(306.929mil,2407.787mil) on HIGH_SPEED_TOP And Track (306.929mil,2388.103mil)(314.843mil,2388.103mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.975mil < 4mil) Between Pad J3-A11(306.929mil,2407.787mil) on HIGH_SPEED_TOP And Track (314.843mil,2388.103mil)(352.001mil,2350.945mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.977mil < 4mil) Between Pad J3-A2(306.929mil,2604.637mil) on HIGH_SPEED_TOP And Track (297.049mil,2626.291mil)(299.017mil,2624.323mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.977mil < 4mil) Between Pad J3-A2(306.929mil,2604.637mil) on HIGH_SPEED_TOP And Track (299.017mil,2624.323mil)(306.929mil,2624.323mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.977mil < 4mil) Between Pad J3-A2(306.929mil,2604.637mil) on HIGH_SPEED_TOP And Track (306.929mil,2624.323mil)(314.843mil,2624.323mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.977mil < 4mil) Between Pad J3-A2(306.929mil,2604.637mil) on HIGH_SPEED_TOP And Track (314.843mil,2624.323mil)(348.001mil,2657.479mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.395mil < 4mil) Between Pad J3-B10(239.999mil,2575.111mil) on HIGH_SPEED_TOP And Track (253.979mil,2556.291mil)(262.953mil,2565.267mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (1.389mil < 4mil) Between Pad J3-B3(239.999mil,2437.315mil) on HIGH_SPEED_TOP And Track (251.143mil,2456.133mil)(260.155mil,2447.121mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (1.59mil < 4mil) Between Pad J3-B3(239.999mil,2437.315mil) on HIGH_SPEED_TOP And Track (260.155mil,2447.121mil)(306.895mil,2447.121mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.754mil < 4mil) Between Pad L1-2(546.495mil,3465.371mil) on HIGH_SPEED_TOP And Track (518.499mil,3451.501mil)(542.999mil,3427.001mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.731mil < 4mil) Between Pad L2-2(546.583mil,2492.251mil) on HIGH_SPEED_TOP And Track (519.501mil,2477.499mil)(544.001mil,2452.999mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad LED1-2(4969.999mil,404.505mil) on HIGH_SPEED_TOP And Track (4969.999mil,404.505mil)(4971.999mil,402.505mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.779mil < 4mil) Between Pad R15-1(319.001mil,869.495mil) on HIGH_SPEED_BOT And Track (266.339mil,842.999mil)(355.001mil,842.999mil) on HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad R151-2(8653.447mil,3660.031mil) on HIGH_SPEED_TOP And Track (8657.763mil,3636.001mil)(8695.449mil,3673.685mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.709mil < 4mil) Between Pad U25-7(9259.173mil,3685.497mil) on HIGH_SPEED_TOP And Track (9226.055mil,3679.291mil)(9259.899mil,3713.135mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.032mil < 4mil) Between Pad U3-10(901.181mil,3534.583mil) on HIGH_SPEED_TOP And Track (919.961mil,3484.307mil)(919.961mil,3564.835mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.936mil < 4mil) Between Pad U3-11(869.685mil,3512.929mil) on HIGH_SPEED_TOP And Track (854.797mil,3489.691mil)(858.351mil,3493.245mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.936mil < 4mil) Between Pad U3-11(869.685mil,3512.929mil) on HIGH_SPEED_TOP And Track (858.351mil,3493.245mil)(869.685mil,3493.245mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.936mil < 4mil) Between Pad U3-11(869.685mil,3512.929mil) on HIGH_SPEED_TOP And Track (869.685mil,3473.559mil)(869.685mil,3493.245mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.936mil < 4mil) Between Pad U3-14(869.685mil,3453.875mil) on HIGH_SPEED_TOP And Track (869.685mil,3473.559mil)(869.685mil,3493.245mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.936mil < 4mil) Between Pad U3-5(972.047mil,3473.559mil) on HIGH_SPEED_TOP And Track (971.141mil,3406.641mil)(971.141mil,3453.875mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (1.496mil < 4mil) Between Pad U4-3(429.135mil,3592.103mil) on HIGH_SPEED_TOP And Track (306.811mil,3577.733mil)(419.057mil,3577.733mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (1.496mil < 4mil) Between Pad U4-3(429.135mil,3592.103mil) on HIGH_SPEED_TOP And Track (419.057mil,3577.733mil)(424.371mil,3572.419mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (1.848mil < 4mil) Between Pad U6-1(429.135mil,3348.481mil) on HIGH_SPEED_TOP And Track (372.285mil,3380.883mil)(424.371mil,3328.797mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.936mil < 4mil) Between Pad U9-10(901.277mil,2561.487mil) on HIGH_SPEED_TOP And Track (920.961mil,2510.307mil)(920.961mil,2561.487mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.936mil < 4mil) Between Pad U9-10(901.277mil,2561.487mil) on HIGH_SPEED_TOP And Track (920.961mil,2561.487mil)(920.961mil,2590.833mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.938mil < 4mil) Between Pad U9-11(869.781mil,2539.835mil) on HIGH_SPEED_TOP And Track (862.781mil,2513.149mil)(862.781mil,2520.149mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.938mil < 4mil) Between Pad U9-11(869.781mil,2539.835mil) on HIGH_SPEED_TOP And Track (862.781mil,2513.149mil)(869.781mil,2520.149mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.936mil < 4mil) Between Pad U9-14(869.781mil,2480.779mil) on HIGH_SPEED_TOP And Track (862.781mil,2500.463mil)(862.781mil,2513.149mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.936mil < 4mil) Between Pad U9-5(972.143mil,2500.463mil) on HIGH_SPEED_TOP And Track (972.143mil,2421.857mil)(972.143mil,2480.779mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.938mil < 4mil) Between Pad U9-8(940.647mil,2561.487mil) on HIGH_SPEED_TOP And Track (920.961mil,2510.307mil)(920.961mil,2561.487mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.938mil < 4mil) Between Pad U9-8(940.647mil,2561.487mil) on HIGH_SPEED_TOP And Track (920.961mil,2561.487mil)(920.961mil,2590.833mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.352mil < 4mil) Between Pad Y1-1(2864.503mil,1216.093mil) on HIGH_SPEED_TOP And Track (2874.267mil,1182.549mil)(2905.843mil,1214.125mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Region (0 hole(s)) HIGH_SPEED_TOP And Track (2141.631mil,1182.897mil)(2193.065mil,1234.331mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Region (0 hole(s)) HIGH_SPEED_TOP And Track (2141.631mil,1182.897mil)(2193.065mil,1234.331mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Region (0 hole(s)) HIGH_SPEED_TOP And Track (2193.065mil,1234.331mil)(2215.483mil,1234.331mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (2.176mil < 4mil) Between Region (0 hole(s)) HIGH_SPEED_TOP And Track (5090.851mil,735.205mil)(5114.001mil,758.355mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Region (0 hole(s)) HIGH_SPEED_TOP And Track (5114.001mil,758.355mil)(5208.285mil,758.355mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Region (0 hole(s)) Keep-Out Layer And Track (2141.631mil,1182.897mil)(2193.065mil,1234.331mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Region (0 hole(s)) Keep-Out Layer And Track (2193.065mil,1234.331mil)(2215.483mil,1234.331mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3mil < 4mil) Between Region (0 hole(s)) Keep-Out Layer And Via (132.001mil,742.999mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (3.352mil < 4mil) Between Track (239.865mil,3449.819mil)(259.393mil,3449.819mil) on HIGH_SPEED_TOP And Via (271.897mil,3465.877mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (3.778mil < 4mil) Between Track (240.867mil,2475.817mil)(260.393mil,2475.817mil) on HIGH_SPEED_TOP And Via (273.001mil,2492.333mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (3.78mil < 4mil) Between Track (252.977mil,3530.291mil)(261.953mil,3539.267mil) on HIGH_SPEED_TOP And Via (272.897mil,3519.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (1.514mil < 4mil) Between Track (259.155mil,3421.123mil)(305.895mil,3421.123mil) on HIGH_SPEED_TOP And Via (271.897mil,3440.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (3.352mil < 4mil) Between Track (259.393mil,3449.819mil)(268.211mil,3441.001mil) on HIGH_SPEED_TOP And Via (271.897mil,3465.877mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (1.972mil < 4mil) Between Track (260.155mil,2447.121mil)(306.895mil,2447.121mil) on HIGH_SPEED_TOP And Via (273.001mil,2466.999mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (3.778mil < 4mil) Between Track (260.393mil,2475.817mil)(269.213mil,2466.999mil) on HIGH_SPEED_TOP And Via (273.001mil,2492.333mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (1.818mil < 4mil) Between Track (261.953mil,3539.267mil)(305.929mil,3539.267mil) on HIGH_SPEED_TOP And Via (272.897mil,3519.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Track (271.999mil,3441.001mil)(272.591mil,3440.409mil) on SIGNAL And Via (271.897mil,3440.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Track (272.591mil,3440.409mil)(289.591mil,3440.409mil) on SIGNAL And Via (271.897mil,3440.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Track (272.999mil,3520.001mil)(303.999mil,3520.001mil) on SIGNAL And Via (272.897mil,3519.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (0.694mil < 4mil) Between Track (289.591mil,3440.409mil)(409.999mil,3320.001mil) on SIGNAL And Via (271.897mil,3440.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (3.938mil < 4mil) Between Track (298.015mil,3362.103mil)(313.843mil,3362.103mil) on HIGH_SPEED_TOP And Track (306.811mil,3380.883mil)(372.285mil,3380.883mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.938mil < 4mil) Between Track (306.811mil,3380.883mil)(372.285mil,3380.883mil) on HIGH_SPEED_TOP And Track (313.843mil,3362.103mil)(350.999mil,3324.945mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.919mil < 4mil) Between Track (306.811mil,3380.883mil)(372.285mil,3380.883mil) on HIGH_SPEED_TOP And Track (372.285mil,3400.567mil)(424.371mil,3348.481mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Track (306.811mil,3400.567mil)(372.285mil,3400.567mil) on HIGH_SPEED_TOP And Track (378.999mil,3407.001mil)(382.789mil,3407.001mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (2.318mil < 4mil) Between Track (306.811mil,3400.567mil)(372.285mil,3400.567mil) on HIGH_SPEED_TOP And Track (382.789mil,3407.001mil)(387.919mil,3412.131mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Track (306.811mil,3400.567mil)(372.285mil,3400.567mil) on HIGH_SPEED_TOP And Via (378.897mil,3406.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (0.426mil < 4mil) Between Track (306.811mil,3577.733mil)(419.057mil,3577.733mil) on HIGH_SPEED_TOP And Track (346.999mil,3632.001mil)(385.999mil,3593.001mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (0.426mil < 4mil) Between Track (306.811mil,3577.733mil)(419.057mil,3577.733mil) on HIGH_SPEED_TOP And Track (385.999mil,3593.001mil)(461.685mil,3593.001mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.919mil < 4mil) Between Track (306.929mil,2407.787mil)(336.213mil,2407.787mil) on HIGH_SPEED_TOP And Track (336.211mil,2427.473mil)(388.315mil,2375.369mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.919mil < 4mil) Between Track (336.211mil,2427.473mil)(388.315mil,2375.369mil) on HIGH_SPEED_TOP And Track (336.213mil,2407.787mil)(388.315mil,2355.685mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.919mil < 4mil) Between Track (336.213mil,2407.787mil)(388.315mil,2355.685mil) on HIGH_SPEED_TOP And Track (388.315mil,2375.369mil)(429.221mil,2375.369mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.954mil < 4mil) Between Track (368.953mil,3310.001mil)(461.685mil,3310.001mil) on HIGH_SPEED_TOP And Track (372.285mil,3380.883mil)(424.371mil,3328.797mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.954mil < 4mil) Between Track (368.953mil,3310.001mil)(461.685mil,3310.001mil) on HIGH_SPEED_TOP And Track (424.371mil,3328.797mil)(429.135mil,3328.797mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.919mil < 4mil) Between Track (372.285mil,3380.883mil)(424.371mil,3328.797mil) on HIGH_SPEED_TOP And Track (372.285mil,3400.567mil)(424.371mil,3348.481mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.919mil < 4mil) Between Track (372.285mil,3380.883mil)(424.371mil,3328.797mil) on HIGH_SPEED_TOP And Track (424.371mil,3348.481mil)(429.135mil,3348.481mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Track (372.285mil,3400.567mil)(424.371mil,3348.481mil) on HIGH_SPEED_TOP And Track (378.999mil,3407.001mil)(382.789mil,3407.001mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (1.977mil < 4mil) Between Track (372.285mil,3400.567mil)(424.371mil,3348.481mil) on HIGH_SPEED_TOP And Track (382.789mil,3407.001mil)(387.919mil,3412.131mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Track (372.285mil,3400.567mil)(424.371mil,3348.481mil) on HIGH_SPEED_TOP And Via (378.897mil,3406.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (0.426mil < 4mil) Between Track (385.999mil,3593.001mil)(461.685mil,3593.001mil) on HIGH_SPEED_TOP And Track (419.057mil,3577.733mil)(424.371mil,3572.419mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.802mil < 4mil) Between Track (385.999mil,3593.001mil)(461.685mil,3593.001mil) on HIGH_SPEED_TOP And Track (462.599mil,3611.623mil)(506.377mil,3611.623mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.808mil < 4mil) Between Track (429.221mil,2618.999mil)(462.685mil,2618.999mil) on HIGH_SPEED_TOP And Track (462.685mil,2599.315mil)(463.749mil,2600.379mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.812mil < 4mil) Between Track (429.221mil,2618.999mil)(462.685mil,2618.999mil) on HIGH_SPEED_TOP And Track (462.685mil,2638.685mil)(463.749mil,2637.623mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.808mil < 4mil) Between Track (429.221mil,2618.999mil)(462.685mil,2618.999mil) on HIGH_SPEED_TOP And Track (463.749mil,2600.379mil)(507.379mil,2600.379mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.812mil < 4mil) Between Track (429.221mil,2618.999mil)(462.685mil,2618.999mil) on HIGH_SPEED_TOP And Track (463.749mil,2637.623mil)(507.377mil,2637.623mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Track (488.999mil,3705.001mil)(884.999mil,3705.001mil) on SIGNAL And Via (884.897mil,3704.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Track (4969.999mil,339.001mil)(4969.999mil,404.505mil) on HIGH_SPEED_TOP And Track (4969.999mil,404.505mil)(4971.999mil,402.505mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Track (802.999mil,3188.001mil)(849.999mil,3235.001mil) on SIGNAL And Via (849.897mil,3234.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Track (8526.449mil,1748.685mil)(8597.449mil,1819.685mil) on LOW_SPEED And Via (8577.243mil,1818.685mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (0.294mil < 4mil) Between Track (8597.449mil,1819.685mil)(8706.449mil,1819.685mil) on LOW_SPEED And Via (8577.243mil,1818.685mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (3.938mil < 4mil) Between Track (884.323mil,3534.583mil)(901.181mil,3534.583mil) on HIGH_SPEED_TOP And Track (919.961mil,3484.307mil)(919.961mil,3564.835mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.938mil < 4mil) Between Track (901.181mil,3534.583mil)(901.181mil,3600.173mil) on HIGH_SPEED_TOP And Track (919.961mil,3484.307mil)(919.961mil,3564.835mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.938mil < 4mil) Between Track (901.181mil,3534.583mil)(901.181mil,3600.173mil) on HIGH_SPEED_TOP And Track (919.961mil,3564.835mil)(960.709mil,3605.583mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (0.574mil < 4mil) Between Track (9285.577mil,4048.465mil)(9285.577mil,4273.773mil) on HIGH_SPEED_TOP And Track (9292.549mil,4183.027mil)(9292.549mil,4210.343mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (0.574mil < 4mil) Between Track (9285.577mil,4048.465mil)(9285.577mil,4273.773mil) on HIGH_SPEED_TOP And Track (9292.549mil,4183.027mil)(9311.863mil,4163.713mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (0.574mil < 4mil) Between Track (9285.577mil,4048.465mil)(9285.577mil,4273.773mil) on HIGH_SPEED_TOP And Track (9292.549mil,4210.343mil)(9339.711mil,4257.505mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.126mil < 4mil) Between Track (9416.653mil,3851.889mil)(9431.449mil,3866.685mil) on HIGH_SPEED_TOP And Track (9419.449mil,3877.685mil)(9436.449mil,3877.685mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.126mil < 4mil) Between Track (9419.449mil,3877.685mil)(9436.449mil,3877.685mil) on HIGH_SPEED_TOP And Track (9431.449mil,3866.685mil)(9453.837mil,3866.685mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.126mil < 4mil) Between Track (9431.449mil,3866.685mil)(9453.837mil,3866.685mil) on HIGH_SPEED_TOP And Track (9436.449mil,3877.685mil)(9456.449mil,3897.685mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.959mil < 4mil) Between Track (972.143mil,2421.857mil)(972.143mil,2480.779mil) on HIGH_SPEED_TOP And Track (972.143mil,2500.463mil)(973.049mil,2499.559mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (3.959mil < 4mil) Between Track (972.143mil,2421.857mil)(972.143mil,2480.779mil) on HIGH_SPEED_TOP And Track (973.049mil,2499.559mil)(997.441mil,2499.559mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (1.334mil < 4mil) Between Via (271.897mil,3440.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT And Via (271.897mil,3465.877mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (2.685mil < 4mil) Between Via (271.897mil,3465.877mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT And Via (272.897mil,3492.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (3mil < 4mil) Between Via (272.897mil,3492.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT And Via (272.897mil,3519.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (1.334mil < 4mil) Between Via (273.001mil,2466.999mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT And Via (273.001mil,2492.333mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (2.685mil < 4mil) Between Via (273.001mil,2492.333mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT And Via (274.001mil,2518.999mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (3.019mil < 4mil) Between Via (507.897mil,3383.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT And Via (508.897mil,3356.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+   Violation between Clearance Constraint: (3.019mil < 4mil) Between Via (509.001mil,2409.999mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT And Via (510.001mil,2382.999mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+Rule Violations :115
+
+Processing Rule : Clearance Constraint (Gap=10mil) (inpoly),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad C24-2(239.001mil,862.433mil) on HIGH_SPEED_BOT And Track (215.907mil,792.567mil)(266.339mil,842.999mil) on HIGH_SPEED_BOT Location : [X = 1639.688mil][Y = 2418.749mil]
+   Violation between Short-Circuit Constraint: Between Pad C24-2(239.001mil,862.433mil) on HIGH_SPEED_BOT And Track (266.339mil,842.999mil)(355.001mil,842.999mil) on HIGH_SPEED_BOT Location : [X = 1642.346mil][Y = 2418.749mil]
+   Violation between Short-Circuit Constraint: Between Pad LED1-2(4969.999mil,404.505mil) on HIGH_SPEED_TOP And Track (4969.999mil,404.505mil)(4971.999mil,402.505mil) on HIGH_SPEED_TOP Location : [X = 6348.952mil][Y = 1978.308mil]
+   Violation between Short-Circuit Constraint: Between Pad R151-2(8653.447mil,3660.031mil) on HIGH_SPEED_TOP And Track (8657.763mil,3636.001mil)(8695.449mil,3673.685mil) on HIGH_SPEED_TOP Location : [X = 10040.492mil][Y = 5222.789mil]
+   Violation between Short-Circuit Constraint: Between Track (271.999mil,3441.001mil)(272.591mil,3440.409mil) on SIGNAL And Via (271.897mil,3440.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT Location : [X = 1650.248mil][Y = 5015.508mil]
+   Violation between Short-Circuit Constraint: Between Track (272.591mil,3440.409mil)(289.591mil,3440.409mil) on SIGNAL And Via (271.897mil,3440.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT Location : [X = 1653.7mil][Y = 5015.212mil]
+   Violation between Short-Circuit Constraint: Between Track (272.999mil,3520.001mil)(303.999mil,3520.001mil) on SIGNAL And Via (272.897mil,3519.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT Location : [X = 1654.404mil][Y = 5094.804mil]
+   Violation between Short-Circuit Constraint: Between Track (306.811mil,3400.567mil)(372.285mil,3400.567mil) on HIGH_SPEED_TOP And Track (378.999mil,3407.001mil)(382.789mil,3407.001mil) on HIGH_SPEED_TOP Location : [X = 1753.595mil][Y = 4978.587mil]
+   Violation between Short-Circuit Constraint: Between Track (306.811mil,3400.567mil)(372.285mil,3400.567mil) on HIGH_SPEED_TOP And Via (378.897mil,3406.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT Location : [X = 1750.099mil][Y = 4975.504mil]
+   Violation between Short-Circuit Constraint: Between Track (372.285mil,3400.567mil)(424.371mil,3348.481mil) on HIGH_SPEED_TOP And Track (378.999mil,3407.001mil)(382.789mil,3407.001mil) on HIGH_SPEED_TOP Location : [X = 1754.051mil][Y = 4978.494mil]
+   Violation between Short-Circuit Constraint: Between Track (372.285mil,3400.567mil)(424.371mil,3348.481mil) on HIGH_SPEED_TOP And Via (378.897mil,3406.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT Location : [X = 1753.88mil][Y = 4974.855mil]
+   Violation between Short-Circuit Constraint: Between Track (488.999mil,3705.001mil)(884.999mil,3705.001mil) on SIGNAL And Via (884.897mil,3704.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT Location : [X = 2259.398mil][Y = 5279.804mil]
+   Violation between Short-Circuit Constraint: Between Track (4969.999mil,339.001mil)(4969.999mil,404.505mil) on HIGH_SPEED_TOP And Track (4969.999mil,404.505mil)(4971.999mil,402.505mil) on HIGH_SPEED_TOP Location : [X = 6347.952mil][Y = 1978.308mil]
+   Violation between Short-Circuit Constraint: Between Track (802.999mil,3188.001mil)(849.999mil,3235.001mil) on SIGNAL And Via (849.897mil,3234.543mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT Location : [X = 2224.75mil][Y = 4806.528mil]
+   Violation between Short-Circuit Constraint: Between Track (8526.449mil,1748.685mil)(8597.449mil,1819.685mil) on LOW_SPEED And Via (8577.243mil,1818.685mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT Location : [X = 9962.075mil][Y = 3386.609mil]
+Rule Violations :15
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Tolerance=63.5mm) (Disabled)(InDifferentialPairClass('eDP'))
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+   Violation between Modified Polygon: Polygon Shelved  (NONET_L01_P000) on HIGH_SPEED_TOP 
+   Violation between Modified Polygon: Polygon Shelved  (NONET_L08_P001) on HIGH_SPEED_BOT 
+Rule Violations :2
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+3V3'))
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Tolerance=63.5mm) (InDifferentialPairClass('USBC_A') And  InDifferentialPairClass('USBC_B'))
+Processing Rule : Width Constraint (Min=6mil) (Max=50mil) (Preferred=6mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+5V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+1V8'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+3V3_SD_SO'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+3V3_SD_SO'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+3V3_PI6C'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+3V3_NVME'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+12'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+3V3_WIFI'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 132
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
