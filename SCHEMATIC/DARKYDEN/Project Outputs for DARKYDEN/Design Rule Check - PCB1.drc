@@ -1,200 +1,314 @@
 Protel Design System Design Rule Check
 PCB File : D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc
-Date     : 2025-05-09
-Time     : 11:12:19 PM
+Date     : 2025-05-14
+Time     : 10:44:50 PM
 
-WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
-   Polygon named: NONET_L08_P001 In net GND On HIGH_SPEED_BOT
-   Polygon named: NONET_L01_P000 In net GND On HIGH_SPEED_TOP
+Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad C10-2(951.173mil,2525.017mil) on HIGH_SPEED_TOP And Track (943.275mil,2525.017mil)(943.275mil,2525.921mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad C10-2(951.173mil,2525.017mil) on HIGH_SPEED_TOP And Track (943.275mil,2525.017mil)(951.173mil,2525.017mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad C10-2(951.173mil,2525.017mil) on HIGH_SPEED_TOP And Track (943.275mil,2525.921mil)(943.275mil,2575.249mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad C13-2(756.515mil,2094.859mil) on HIGH_SPEED_TOP And Track (623.999mil,2088.001mil)(749.657mil,2088.001mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad C13-2(756.515mil,2094.859mil) on HIGH_SPEED_TOP And Track (749.657mil,2088.001mil)(756.515mil,2094.859mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad C13-2(756.515mil,2094.859mil) on HIGH_SPEED_TOP And Track (756.515mil,2094.859mil)(756.515mil,2138.515mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad C18-2(951.277mil,1551.921mil) on HIGH_SPEED_TOP And Track (944.277mil,1551.921mil)(944.277mil,1601.247mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad C18-2(951.277mil,1551.921mil) on HIGH_SPEED_TOP And Track (944.277mil,1551.921mil)(951.277mil,1551.921mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad C3-2(700.515mil,3096.859mil) on HIGH_SPEED_TOP And Track (620.859mil,3096.859mil)(700.515mil,3096.859mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad C3-2(700.515mil,3096.859mil) on HIGH_SPEED_TOP And Track (694.999mil,3102.373mil)(694.999mil,3138.001mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad C3-2(700.515mil,3096.859mil) on HIGH_SPEED_TOP And Track (694.999mil,3102.373mil)(700.515mil,3096.859mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (162.999mil,2969.111mil)(225.463mil,2969.111mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (225.463mil,2968.537mil)(225.463mil,2969.111mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (225.463mil,2968.537mil)(225.629mil,2968.371mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (225.463mil,2969.111mil)(225.463mil,2970.001mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (225.463mil,2969.111mil)(225.463mil,2970.001mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (225.629mil,2968.371mil)(226.999mil,2967.001mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (226.999mil,2967.001mil)(226.999mil,2969.111mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (226.999mil,2969.111mil)(226.999mil,3051.567mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad L27-2(226.465mil,1995.999mil) on HIGH_SPEED_TOP And Track (226.465mil,1994.535mil)(226.465mil,1995.999mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad L27-2(226.465mil,1995.999mil) on HIGH_SPEED_TOP And Track (226.465mil,1994.535mil)(228.001mil,1992.999mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad L27-2(226.465mil,1995.999mil) on HIGH_SPEED_TOP And Track (228.001mil,1992.999mil)(228.001mil,1995.999mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad L27-2(226.465mil,1995.999mil) on HIGH_SPEED_TOP And Track (228.001mil,1995.999mil)(228.001mil,2077.567mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad U2-1(782.599mil,3189.819mil) on HIGH_SPEED_TOP And Track (728.197mil,3171.197mil)(775.787mil,3171.197mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad U2-1(782.599mil,3189.819mil) on HIGH_SPEED_TOP And Track (775.787mil,3171.197mil)(782.599mil,3178.007mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad U2-1(782.599mil,3189.819mil) on HIGH_SPEED_TOP And Track (782.599mil,3178.007mil)(782.599mil,3189.819mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad U3-2(917.867mil,2647.221mil) on HIGH_SPEED_TOP And Track (916.275mil,2602.249mil)(916.275mil,2646.111mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad U3-2(917.867mil,2647.221mil) on HIGH_SPEED_TOP And Track (916.275mil,2646.111mil)(917.897mil,2646.111mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad U3-2(917.867mil,2647.221mil) on HIGH_SPEED_TOP And Track (917.867mil,2647.221mil)(917.897mil,2647.253mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad U3-2(917.867mil,2647.221mil) on HIGH_SPEED_TOP And Track (917.897mil,2646.111mil)(917.897mil,2647.221mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad U3-2(917.867mil,2647.221mil) on HIGH_SPEED_TOP And Track (917.897mil,2647.221mil)(917.897mil,2647.253mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad U8-1(838.599mil,2187.819mil) on HIGH_SPEED_TOP And Track (787.197mil,2169.197mil)(831.787mil,2169.197mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad U8-1(838.599mil,2187.819mil) on HIGH_SPEED_TOP And Track (831.787mil,2169.197mil)(838.599mil,2176.007mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad U8-1(838.599mil,2187.819mil) on HIGH_SPEED_TOP And Track (838.599mil,2176.007mil)(838.599mil,2187.819mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (Collision < 4mil) Between Pad U9-2(917.961mil,1674.125mil) on HIGH_SPEED_TOP And Track (917.277mil,1628.247mil)(917.277mil,1674.125mil) on HIGH_SPEED_TOP 
+   Violation between Clearance Constraint: (2.346mil < 4mil) Between Pad U9-2(917.961mil,1674.125mil) on HIGH_SPEED_TOP And Via (917.277mil,1645.999mil) from HIGH_SPEED_TOP to HIGH_SPEED_BOT 
+Rule Violations :36
 
-Processing Rule : Un-Routed Net Constraint ( (All) )
+Processing Rule : Clearance Constraint (Gap=8mil) (inpoly),(All)
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Tolerance=6mil) (InDifferentialPairClass('USBC_A') or  InDifferentialPairClass('USBC_B'))
-   Violation between Matched Net Lengths: Between Net TYPEC0_D_N And Net TYPEC0_D_P Actual Difference against TYPEC0_D_P is: 4643.657mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSRX1_N And Net TYPEC0_SSRX1_P Actual Difference against TYPEC0_SSRX1_P is: 51.073mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX1_N And Net TYPEC0_SSTX1_P Actual Difference against TYPEC0_SSTX1_P is: 26.329mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_N And Net TYPEC0_SSTX2_P Actual Difference against TYPEC0_SSTX2_P is: 3891.139mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net TYPEC1_D_N And Net TYPEC1_D_P Actual Difference against TYPEC1_D_P is: 1946.423mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net TYPEC1_OTG_D_N And Net TYPEC1_OTG_D_P Actual Difference against TYPEC1_OTG_D_P is: 154.557mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net TYPEC1_SSRX1_N And Net TYPEC1_SSRX1_P Actual Difference against TYPEC1_SSRX1_P is: 1962.104mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net TYPEC1_SSRX2_N And Net TYPEC1_SSRX2_P Actual Difference against TYPEC1_SSRX2_P is: 85.282mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net TYPEC1_SSTX1_N And Net TYPEC1_SSTX1_P Actual Difference against TYPEC1_SSTX1_P is: 1947.132mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net TYPEC1_SSTX2_N And Net TYPEC1_SSTX2_P Actual Difference against TYPEC1_SSTX2_P is: 3951.351mil, Tolerance : 6mil. 
-Rule Violations :10
-
-Processing Rule : Matched Lengths(Tolerance=6mil) (InDifferentialPairClass('eDP'))
-   Violation between Matched Net Lengths: Between Net HDMI1_TX_SBD_N And Net HDMI1_TX_SBD_P Actual Difference against HDMI1_TX_SBD_P is: 22.835mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net HDMI1_TX0_N And Net HDMI1_TX0_P Actual Difference against HDMI1_TX0_P is: 25.832mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net HDMI1_TX2_N And Net HDMI1_TX2_P Actual Difference against HDMI1_TX2_P is: 29.451mil, Tolerance : 6mil. 
-Rule Violations :3
-
-Processing Rule : Matched Lengths(Tolerance=50mil) (InDifferentialPairClass('eDP'))
-   Violation between Matched Net Lengths: Differential Pair HDMI1_TX_SBD Actual Length Difference against diff pair HDMI1_TX0 is: 410.125mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair HDMI1_TX2 Actual Length Difference against diff pair HDMI1_TX0 is: 305.647mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair HDMI1_TX3 Actual Length Difference against diff pair HDMI1_TX0 is: 128.094mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Between Net HDMI1_TX_SBD_N And Net HDMI1_TX0_N Length:534.922mil is not within 50mil tolerance of Length:946.546mil (361.624mil short) 
-   Violation between Matched Net Lengths: Between Net HDMI1_TX_SBD_P And Net HDMI1_TX0_N Length:512.087mil is not within 50mil tolerance of Length:946.546mil (384.459mil short) 
-   Violation between Matched Net Lengths: Between Net HDMI1_TX0_N And Net HDMI1_TX2_N Length:642.708mil is not within 50mil tolerance of Length:946.546mil (253.837mil short) 
-   Violation between Matched Net Lengths: Between Net HDMI1_TX0_N And Net HDMI1_TX2_P Length:613.258mil is not within 50mil tolerance of Length:946.546mil (283.288mil short) 
-   Violation between Matched Net Lengths: Between Net HDMI1_TX0_N And Net HDMI1_TX3_N Length:807.181mil is not within 50mil tolerance of Length:946.546mil (89.365mil short) 
-   Violation between Matched Net Lengths: Between Net HDMI1_TX0_N And Net HDMI1_TX3_P Length:803.89mil is not within 50mil tolerance of Length:946.546mil (92.656mil short) 
-Rule Violations :9
-
-Processing Rule : Matched Lengths(Tolerance=50mil) (InDifferentialPairClass('USBC_A') or  InDifferentialPairClass('USBC_B'))
-   Violation between Matched Net Lengths: Differential Pair TYPEC0_D Actual Length Difference against diff pair TYPEC0_SSTX2 is: 1594.602mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair TYPEC0_OTG Actual Length Difference against diff pair TYPEC0_SSTX2 is: 6309.813mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair TYPEC0_SSRX1 Actual Length Difference against diff pair TYPEC0_SSTX2 is: 5269.65mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair TYPEC0_SSRX2 Actual Length Difference against diff pair TYPEC0_SSTX2 is: 5703.172mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair TYPEC0_SSTX1 Actual Length Difference against diff pair TYPEC0_SSTX2 is: 3680.989mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair TYPEC0_SSTX2 Actual Length Difference against diff pair TYPEC1_SSTX2 is: 503.606mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair TYPEC1_D Actual Length Difference against diff pair TYPEC0_SSTX2 is: 6825.354mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair TYPEC1_OTG_D Actual Length Difference against diff pair TYPEC0_SSTX2 is: 4002.126mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair TYPEC1_SSRX1 Actual Length Difference against diff pair TYPEC0_SSTX2 is: 1584.744mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair TYPEC1_SSRX2 Actual Length Difference against diff pair TYPEC0_SSTX2 is: 4484.172mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair TYPEC1_SSTX1 Actual Length Difference against diff pair TYPEC0_SSTX2 is: 3962.11mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair TYPEC1_SSTX2 Actual Length Difference against diff pair TYPEC0_SSTX2 is: 503.606mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Between Net TYPEC0_D_N And Net TYPEC0_SSTX2_N Length:4742.654mil is not within 50mil tolerance of Length:10604.654mil (5812mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_D_P And Net TYPEC0_SSTX2_N Length:9386.311mil is not within 50mil tolerance of Length:10604.654mil (1168.343mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_OTG_N And Net TYPEC0_SSTX2_N Length:2351.301mil is not within 50mil tolerance of Length:10604.654mil (8203.354mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_OTG_P And Net TYPEC0_SSTX2_N Length:2347.243mil is not within 50mil tolerance of Length:10604.654mil (8207.412mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSRX1_N And Net TYPEC0_SSTX2_N Length:3414.972mil is not within 50mil tolerance of Length:10604.654mil (7139.682mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSRX1_P And Net TYPEC0_SSTX2_N Length:3363.899mil is not within 50mil tolerance of Length:10604.654mil (7190.756mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSRX2_N And Net TYPEC0_SSTX2_N Length:2957.411mil is not within 50mil tolerance of Length:10604.654mil (7597.243mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSRX2_P And Net TYPEC0_SSTX2_N Length:2954.415mil is not within 50mil tolerance of Length:10604.654mil (7600.239mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX1_N And Net TYPEC0_SSTX2_N Length:4964.931mil is not within 50mil tolerance of Length:10604.654mil (5589.723mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX1_P And Net TYPEC0_SSTX2_N Length:4991.26mil is not within 50mil tolerance of Length:10604.654mil (5563.394mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_N And Net TYPEC1_D_N Length:860.519mil is not within 50mil tolerance of Length:10604.654mil (9694.135mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_N And Net TYPEC1_D_P Length:2806.942mil is not within 50mil tolerance of Length:10604.654mil (7747.712mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_N And Net TYPEC1_OTG_D_N Length:4579.681mil is not within 50mil tolerance of Length:10604.654mil (5974.974mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_N And Net TYPEC1_OTG_D_P Length:4734.237mil is not within 50mil tolerance of Length:10604.654mil (5820.417mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_N And Net TYPEC1_SSRX1_N Length:8055.393mil is not within 50mil tolerance of Length:10604.654mil (2499.261mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_N And Net TYPEC1_SSRX1_P Length:6093.289mil is not within 50mil tolerance of Length:10604.654mil (4461.365mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_N And Net TYPEC1_SSRX2_N Length:4217.554mil is not within 50mil tolerance of Length:10604.654mil (6337.1mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_N And Net TYPEC1_SSRX2_P Length:4132.272mil is not within 50mil tolerance of Length:10604.654mil (6422.383mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_N And Net TYPEC1_SSTX1_N Length:5670.541mil is not within 50mil tolerance of Length:10604.654mil (4884.114mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_N And Net TYPEC1_SSTX1_P Length:3723.409mil is not within 50mil tolerance of Length:10604.654mil (6831.246mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_N And Net TYPEC1_SSTX2_N Length:10131.154mil is not within 50mil tolerance of Length:10604.654mil (423.5mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_N And Net TYPEC1_SSTX2_P Length:6179.803mil is not within 50mil tolerance of Length:10604.654mil (4374.851mil short) 
-   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_P And Net TYPEC1_SSTX2_N Length:6713.516mil is not within 50mil tolerance of Length:10131.154mil (3367.638mil short) 
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad C10-2(951.173mil,2525.017mil) on HIGH_SPEED_TOP And Track (943.275mil,2525.017mil)(943.275mil,2525.921mil) on HIGH_SPEED_TOP Location : [X = 2321.228mil][Y = 4100.272mil]
+   Violation between Short-Circuit Constraint: Between Pad C10-2(951.173mil,2525.017mil) on HIGH_SPEED_TOP And Track (943.275mil,2525.017mil)(951.173mil,2525.017mil) on HIGH_SPEED_TOP Location : [X = 2325.177mil][Y = 4099.82mil]
+   Violation between Short-Circuit Constraint: Between Pad C10-2(951.173mil,2525.017mil) on HIGH_SPEED_TOP And Track (943.275mil,2525.921mil)(943.275mil,2575.249mil) on HIGH_SPEED_TOP Location : [X = 2321.228mil][Y = 4108.58mil]
+   Violation between Short-Circuit Constraint: Between Pad C13-2(756.515mil,2094.859mil) on HIGH_SPEED_TOP And Track (623.999mil,2088.001mil)(749.657mil,2088.001mil) on HIGH_SPEED_TOP Location : [X = 2122.269mil][Y = 3662.804mil]
+   Violation between Short-Circuit Constraint: Between Pad C13-2(756.515mil,2094.859mil) on HIGH_SPEED_TOP And Track (749.657mil,2088.001mil)(756.515mil,2094.859mil) on HIGH_SPEED_TOP Location : [X = 2131.039mil][Y = 3666.233mil]
+   Violation between Short-Circuit Constraint: Between Pad C13-2(756.515mil,2094.859mil) on HIGH_SPEED_TOP And Track (756.515mil,2094.859mil)(756.515mil,2138.515mil) on HIGH_SPEED_TOP Location : [X = 2134.468mil][Y = 3681.385mil]
+   Violation between Short-Circuit Constraint: Between Pad C18-2(951.277mil,1551.921mil) on HIGH_SPEED_TOP And Track (944.277mil,1551.921mil)(944.277mil,1601.247mil) on HIGH_SPEED_TOP Location : [X = 2322.23mil][Y = 3135.032mil]
+   Violation between Short-Circuit Constraint: Between Pad C18-2(951.277mil,1551.921mil) on HIGH_SPEED_TOP And Track (944.277mil,1551.921mil)(951.277mil,1551.921mil) on HIGH_SPEED_TOP Location : [X = 2325.73mil][Y = 3126.724mil]
+   Violation between Short-Circuit Constraint: Between Pad C3-2(700.515mil,3096.859mil) on HIGH_SPEED_TOP And Track (620.859mil,3096.859mil)(700.515mil,3096.859mil) on HIGH_SPEED_TOP Location : [X = 2069.698mil][Y = 4671.662mil]
+   Violation between Short-Circuit Constraint: Between Pad C3-2(700.515mil,3096.859mil) on HIGH_SPEED_TOP And Track (694.999mil,3102.373mil)(694.999mil,3138.001mil) on HIGH_SPEED_TOP Location : [X = 2072.952mil][Y = 4686.142mil]
+   Violation between Short-Circuit Constraint: Between Pad C3-2(700.515mil,3096.859mil) on HIGH_SPEED_TOP And Track (694.999mil,3102.373mil)(700.515mil,3096.859mil) on HIGH_SPEED_TOP Location : [X = 2075.71mil][Y = 4674.419mil]
+   Violation between Short-Circuit Constraint: Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (162.999mil,2969.111mil)(225.463mil,2969.111mil) on HIGH_SPEED_TOP Location : [X = 1593.587mil][Y = 4543.914mil]
+   Violation between Short-Circuit Constraint: Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (225.463mil,2968.537mil)(225.463mil,2969.111mil) on HIGH_SPEED_TOP Location : [X = 1603.416mil][Y = 4543.627mil]
+   Violation between Short-Circuit Constraint: Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (225.463mil,2968.537mil)(225.629mil,2968.371mil) on HIGH_SPEED_TOP Location : [X = 1603.499mil][Y = 4543.257mil]
+   Violation between Short-Circuit Constraint: Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (225.463mil,2969.111mil)(225.463mil,2970.001mil) on HIGH_SPEED_TOP Location : [X = 1603.416mil][Y = 4544.359mil]
+   Violation between Short-Circuit Constraint: Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (225.463mil,2969.111mil)(225.463mil,2970.001mil) on HIGH_SPEED_TOP Location : [X = 1603.416mil][Y = 4544.359mil]
+   Violation between Short-Circuit Constraint: Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (225.629mil,2968.371mil)(226.999mil,2967.001mil) on HIGH_SPEED_TOP Location : [X = 1604.267mil][Y = 4542.489mil]
+   Violation between Short-Circuit Constraint: Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (226.999mil,2967.001mil)(226.999mil,2969.111mil) on HIGH_SPEED_TOP Location : [X = 1604.952mil][Y = 4542.859mil]
+   Violation between Short-Circuit Constraint: Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP And Track (226.999mil,2969.111mil)(226.999mil,3051.567mil) on HIGH_SPEED_TOP Location : [X = 1604.952mil][Y = 4555.637mil]
+   Violation between Short-Circuit Constraint: Between Pad L27-2(226.465mil,1995.999mil) on HIGH_SPEED_TOP And Track (226.465mil,1994.535mil)(226.465mil,1995.999mil) on HIGH_SPEED_TOP Location : [X = 1604.418mil][Y = 3570.07mil]
+   Violation between Short-Circuit Constraint: Between Pad L27-2(226.465mil,1995.999mil) on HIGH_SPEED_TOP And Track (226.465mil,1994.535mil)(228.001mil,1992.999mil) on HIGH_SPEED_TOP Location : [X = 1605.186mil][Y = 3568.57mil]
+   Violation between Short-Circuit Constraint: Between Pad L27-2(226.465mil,1995.999mil) on HIGH_SPEED_TOP And Track (228.001mil,1992.999mil)(228.001mil,1995.999mil) on HIGH_SPEED_TOP Location : [X = 1605.954mil][Y = 3569.302mil]
+   Violation between Short-Circuit Constraint: Between Pad L27-2(226.465mil,1995.999mil) on HIGH_SPEED_TOP And Track (228.001mil,1995.999mil)(228.001mil,2077.567mil) on HIGH_SPEED_TOP Location : [X = 1605.954mil][Y = 3582.525mil]
+   Violation between Short-Circuit Constraint: Between Pad U2-1(782.599mil,3189.819mil) on HIGH_SPEED_TOP And Track (728.197mil,3171.197mil)(775.787mil,3171.197mil) on HIGH_SPEED_TOP Location : [X = 2153.789mil][Y = 4746.049mil]
+   Violation between Short-Circuit Constraint: Between Pad U2-1(782.599mil,3189.819mil) on HIGH_SPEED_TOP And Track (775.787mil,3171.197mil)(782.599mil,3178.007mil) on HIGH_SPEED_TOP Location : [X = 2157.195mil][Y = 4749.454mil]
+   Violation between Short-Circuit Constraint: Between Pad U2-1(782.599mil,3189.819mil) on HIGH_SPEED_TOP And Track (782.599mil,3178.007mil)(782.599mil,3189.819mil) on HIGH_SPEED_TOP Location : [X = 2160.552mil][Y = 4758.716mil]
+   Violation between Short-Circuit Constraint: Between Pad U3-2(917.867mil,2647.221mil) on HIGH_SPEED_TOP And Track (916.275mil,2602.249mil)(916.275mil,2646.111mil) on HIGH_SPEED_TOP Location : [X = 2295.082mil][Y = 4217.59mil]
+   Violation between Short-Circuit Constraint: Between Pad U3-2(917.867mil,2647.221mil) on HIGH_SPEED_TOP And Track (916.275mil,2646.111mil)(917.897mil,2646.111mil) on HIGH_SPEED_TOP Location : [X = 2295.82mil][Y = 4220.914mil]
+   Violation between Short-Circuit Constraint: Between Pad U3-2(917.867mil,2647.221mil) on HIGH_SPEED_TOP And Track (917.867mil,2647.221mil)(917.897mil,2647.253mil) on HIGH_SPEED_TOP Location : [X = 2295.835mil][Y = 4222.04mil]
+   Violation between Short-Circuit Constraint: Between Pad U3-2(917.867mil,2647.221mil) on HIGH_SPEED_TOP And Track (917.897mil,2646.111mil)(917.897mil,2647.221mil) on HIGH_SPEED_TOP Location : [X = 2295.85mil][Y = 4221.469mil]
+   Violation between Short-Circuit Constraint: Between Pad U3-2(917.867mil,2647.221mil) on HIGH_SPEED_TOP And Track (917.897mil,2647.221mil)(917.897mil,2647.253mil) on HIGH_SPEED_TOP Location : [X = 2295.85mil][Y = 4222.04mil]
+   Violation between Short-Circuit Constraint: Between Pad U8-1(838.599mil,2187.819mil) on HIGH_SPEED_TOP And Track (787.197mil,2169.197mil)(831.787mil,2169.197mil) on HIGH_SPEED_TOP Location : [X = 2209.789mil][Y = 3744.049mil]
+   Violation between Short-Circuit Constraint: Between Pad U8-1(838.599mil,2187.819mil) on HIGH_SPEED_TOP And Track (831.787mil,2169.197mil)(838.599mil,2176.007mil) on HIGH_SPEED_TOP Location : [X = 2213.195mil][Y = 3747.454mil]
+   Violation between Short-Circuit Constraint: Between Pad U8-1(838.599mil,2187.819mil) on HIGH_SPEED_TOP And Track (838.599mil,2176.007mil)(838.599mil,2187.819mil) on HIGH_SPEED_TOP Location : [X = 2216.552mil][Y = 3756.716mil]
+   Violation between Short-Circuit Constraint: Between Pad U9-2(917.961mil,1674.125mil) on HIGH_SPEED_TOP And Track (917.277mil,1628.247mil)(917.277mil,1674.125mil) on HIGH_SPEED_TOP Location : [X = 2295.63mil][Y = 3245.049mil]
 Rule Violations :35
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net USBC_A_VBUS Between Pad U3-2(917.867mil,2647.221mil) on HIGH_SPEED_TOP [Unplated] And Pad C10-2(951.173mil,2525.017mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net USBC_B_VBUS Between Pad L27-2(226.465mil,1995.999mil) on HIGH_SPEED_TOP [Unplated] And Pad C13-2(756.515mil,2094.859mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net USBC_B_VBUS Between Pad C13-2(756.515mil,2094.859mil) on HIGH_SPEED_TOP [Unplated] And Pad U8-1(838.599mil,2187.819mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net USBC_B_VBUS Between Pad C13-2(756.515mil,2094.859mil) on HIGH_SPEED_TOP [Unplated] And Pad U9-2(917.961mil,1674.125mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net USBC_B_VBUS Between Pad U9-2(917.961mil,1674.125mil) on HIGH_SPEED_TOP [Unplated] And Pad C18-2(951.277mil,1551.921mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net USBC_A_VBUS Between Pad L26-2(226.369mil,2969.111mil) on HIGH_SPEED_TOP [Unplated] And Pad C3-2(700.515mil,3096.859mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net USBC_A_VBUS Between Pad C3-2(700.515mil,3096.859mil) on HIGH_SPEED_TOP [Unplated] And Pad U2-1(782.599mil,3189.819mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Un-Routed Net Constraint: Net USBC_A_VBUS Between Pad C3-2(700.515mil,3096.859mil) on HIGH_SPEED_TOP [Unplated] And Pad U3-2(917.867mil,2647.221mil) on HIGH_SPEED_TOP [Unplated] 
+   Violation between Isolated copper: Split Plane  (GND) on GND PLANE1. Dead copper detected. Copper area is : 6021.215 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on GND PLANE1. Dead copper detected. Copper area is : 6322.928 sq. mils
+   Violation between Un-Routed Net Constraint: Net USBC_BVBUS Between Track (159.537mil,1995.999mil)(164.001mil,1995.999mil) on HIGH_SPEED_TOP And Track (226.465mil,1994.535mil)(226.465mil,1995.999mil) on HIGH_SPEED_TOP 
+   Violation between Un-Routed Net Constraint: Net NetC131_2 Between Track (7554.788mil,4025.842mil)(7554.867mil,4025.763mil) on HIGH_SPEED_TOP And Track (7574.551mil,4025.763mil)(7574.551mil,4081.11mil) on HIGH_SPEED_TOP 
+Rule Violations :12
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+12'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+3V3_NVME'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+3V3'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+5V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=50mil) (Preferred=6mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+3V3_WIFI'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+3V3_SD_SO'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=7.874mil) (Max=16mil) (Preferred=15mil) (InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+3V3_SD_SO'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+3V3_PI6C'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.906mil) (Max=196.85mil) (Preferred=7.874mil) (InNet('+1V8'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=6mil) (InDifferentialPairClass('NVME_DIFF'))
+   Violation between Matched Net Lengths: Between Net NVME_REFCLK_A_N And Net NVME_REFCLK_A_P Actual Difference against NVME_REFCLK_A_P is: 57.934mil, Tolerance : 6mil. 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_IN_REFCLK_N And Net PCIE30_PORT0_IN_REFCLK_P Actual Difference against PCIE30_PORT0_IN_REFCLK_P is: 8.779mil, Tolerance : 6mil. 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_RX1_N And Net PCIE30_PORT0_RX1_P Actual Difference against PCIE30_PORT0_RX1_P is: 18.114mil, Tolerance : 6mil. 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_IN_REFCLK_N And Net PCIE30_PORT1_IN_REFCLK_P Actual Difference against PCIE30_PORT1_IN_REFCLK_P is: 65.919mil, Tolerance : 6mil. 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX2_N And Net PCIE30_PORT1_RX2_P Actual Difference against PCIE30_PORT1_RX2_P is: 8.129mil, Tolerance : 6mil. 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX3_N And Net PCIE30_PORT1_RX3_P Actual Difference against PCIE30_PORT1_RX3_P is: 124.849mil, Tolerance : 6mil. 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_TX2_N And Net PCIE30_PORT1_TX2_P Actual Difference against PCIE30_PORT1_TX2_P is: 8.707mil, Tolerance : 6mil. 
+   Violation between Matched Net Lengths: Between Net WIFI_REFCLK_A_N And Net WIFI_REFCLK_A_P Actual Difference against WIFI_REFCLK_A_P is: 18.906mil, Tolerance : 6mil. 
+Rule Violations :8
+
+Processing Rule : Matched Lengths(Tolerance=200mil) (InDifferentialPairClass('NVME_DIFF'))
+   Violation between Matched Net Lengths: Differential Pair CLK Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 3804.314mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair CLK1 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 3874.924mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair CLK2 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 3880.924mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair CLK3 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 3810.14mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair NVME_REFCLK_A Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 1206.685mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT0_IN_REFCLK Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 3447.675mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT0_RX0 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 385.93mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT0_RX1 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 211.228mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT0_TX0 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 596.796mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT0_TX1 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 651.413mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT1_IN_REFCLK Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 3143.622mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT1_RX2 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 367.771mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT1_RX3 Actual Length Difference against diff pair PCIE30_PORT0_RX1 is: 211.228mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT1_TX2 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 588.185mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT1_TX3 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 569.766mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair WIFI_REFCLK_A Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 2649.43mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Between Net CLK_N And Net PCIE30_PORT1_RX3_P Length:279.46mil is not within 200mil tolerance of Length:4146.199mil (3666.738mil short) 
+   Violation between Matched Net Lengths: Between Net CLK_P And Net PCIE30_PORT1_RX3_P Length:279.46mil is not within 200mil tolerance of Length:4146.199mil (3666.739mil short) 
+   Violation between Matched Net Lengths: Between Net CLK1_N And Net PCIE30_PORT1_RX3_P Length:208.85mil is not within 200mil tolerance of Length:4146.199mil (3737.349mil short) 
+   Violation between Matched Net Lengths: Between Net CLK1_P And Net PCIE30_PORT1_RX3_P Length:208.85mil is not within 200mil tolerance of Length:4146.199mil (3737.349mil short) 
+   Violation between Matched Net Lengths: Between Net CLK2_N And Net PCIE30_PORT1_RX3_P Length:202.85mil is not within 200mil tolerance of Length:4146.199mil (3743.349mil short) 
+   Violation between Matched Net Lengths: Between Net CLK2_P And Net PCIE30_PORT1_RX3_P Length:202.85mil is not within 200mil tolerance of Length:4146.199mil (3743.349mil short) 
+   Violation between Matched Net Lengths: Between Net CLK3_N And Net PCIE30_PORT1_RX3_P Length:273.634mil is not within 200mil tolerance of Length:4146.199mil (3672.565mil short) 
+   Violation between Matched Net Lengths: Between Net CLK3_P And Net PCIE30_PORT1_RX3_P Length:273.634mil is not within 200mil tolerance of Length:4146.199mil (3672.565mil short) 
+   Violation between Matched Net Lengths: Between Net NVME_REFCLK_A_N And Net PCIE30_PORT1_RX3_P Length:2906.056mil is not within 200mil tolerance of Length:4146.199mil (1040.142mil short) 
+   Violation between Matched Net Lengths: Between Net NVME_REFCLK_A_P And Net PCIE30_PORT1_RX3_P Length:2848.122mil is not within 200mil tolerance of Length:4146.199mil (1098.076mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_IN_REFCLK_N And Net PCIE30_PORT1_RX3_P Length:631.71mil is not within 200mil tolerance of Length:4146.199mil (3314.488mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_IN_REFCLK_P And Net PCIE30_PORT1_RX3_P Length:640.489mil is not within 200mil tolerance of Length:4146.199mil (3305.71mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_RX0_N And Net PCIE30_PORT1_RX3_P Length:3697.844mil is not within 200mil tolerance of Length:4146.199mil (248.354mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_RX0_P And Net PCIE30_PORT1_RX3_P Length:3697.844mil is not within 200mil tolerance of Length:4146.199mil (248.354mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_RX1_N And Net PCIE30_PORT1_RX3_P Length:3863.489mil is not within 200mil tolerance of Length:4146.199mil (82.71mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_RX1_P And Net PCIE30_PORT1_RX3_P Length:3881.603mil is not within 200mil tolerance of Length:4146.199mil (64.596mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_TX0_N And Net PCIE30_PORT1_RX3_P Length:3484.653mil is not within 200mil tolerance of Length:4146.199mil (461.545mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_TX0_P And Net PCIE30_PORT1_RX3_P Length:3489.302mil is not within 200mil tolerance of Length:4146.199mil (456.896mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_TX1_N And Net PCIE30_PORT1_RX3_P Length:3432.837mil is not within 200mil tolerance of Length:4146.199mil (513.362mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_TX1_P And Net PCIE30_PORT1_RX3_P Length:3431.885mil is not within 200mil tolerance of Length:4146.199mil (514.313mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_IN_REFCLK_N And Net PCIE30_PORT1_RX3_P Length:907.193mil is not within 200mil tolerance of Length:4146.199mil (3039.006mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_IN_REFCLK_P And Net PCIE30_PORT1_RX3_P Length:973.112mil is not within 200mil tolerance of Length:4146.199mil (2973.087mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX2_N And Net PCIE30_PORT1_RX3_P Length:3720.068mil is not within 200mil tolerance of Length:4146.199mil (226.131mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX2_P And Net PCIE30_PORT1_RX3_P Length:3711.939mil is not within 200mil tolerance of Length:4146.199mil (234.26mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX3_P And Net PCIE30_PORT1_TX2_N Length:3491.236mil is not within 200mil tolerance of Length:4146.199mil (454.963mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX3_P And Net PCIE30_PORT1_TX2_P Length:3499.942mil is not within 200mil tolerance of Length:4146.199mil (446.256mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX3_P And Net PCIE30_PORT1_TX3_N Length:3515.742mil is not within 200mil tolerance of Length:4146.199mil (430.457mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX3_P And Net PCIE30_PORT1_TX3_P Length:3512.274mil is not within 200mil tolerance of Length:4146.199mil (433.924mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX3_P And Net WIFI_REFCLK_A_N Length:1424.891mil is not within 200mil tolerance of Length:4146.199mil (2521.307mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX3_P And Net WIFI_REFCLK_A_P Length:1443.797mil is not within 200mil tolerance of Length:4146.199mil (2502.401mil short) 
+Rule Violations :46
+
+Processing Rule : Matched Lengths(Tolerance=200mil) (InDifferentialPairClass('WIFI_DIFF'))
+   Violation between Matched Net Lengths: Differential Pair PCIE20_1_RX Actual Length Difference against diff pair USB20_HOST1_D is: 1794.75mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair PCIE20_1_TX Actual Length Difference against diff pair USB20_HOST1_D is: 1963.053mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair USB20_HOST1_D Actual Length Difference against diff pair PCIE20_1_RX is: 1794.75mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair WIFI_REFCLK_A Actual Length Difference against diff pair USB20_HOST1_D is: 3055.041mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Between Net PCIE20_1_RX_N And Net USB20_HOST1_D_P Length:2674.559mil is not within 200mil tolerance of Length:4498.917mil (1624.358mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE20_1_RX_P And Net USB20_HOST1_D_N Length:2714.712mil is not within 200mil tolerance of Length:4479.855mil (1565.142mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE20_1_RX_P And Net USB20_HOST1_D_P Length:2714.712mil is not within 200mil tolerance of Length:4498.917mil (1584.205mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE20_1_TX_N And Net USB20_HOST1_D_P Length:2517.389mil is not within 200mil tolerance of Length:4498.917mil (1781.528mil short) 
+   Violation between Matched Net Lengths: Between Net PCIE20_1_TX_P And Net USB20_HOST1_D_P Length:2535.276mil is not within 200mil tolerance of Length:4498.917mil (1763.641mil short) 
+   Violation between Matched Net Lengths: Between Net USB20_HOST1_D_P And Net WIFI_REFCLK_A_N Length:1424.891mil is not within 200mil tolerance of Length:4498.917mil (2874.026mil short) 
+   Violation between Matched Net Lengths: Between Net USB20_HOST1_D_P And Net WIFI_REFCLK_A_P Length:1443.797mil is not within 200mil tolerance of Length:4498.917mil (2855.12mil short) 
+Rule Violations :11
+
+Processing Rule : Matched Lengths(Tolerance=6mil) (InDifferentialPairClass('WIFI_DIFF'))
+   Violation between Matched Net Lengths: Between Net PCIE20_1_RX_N And Net PCIE20_1_RX_P Actual Difference against PCIE20_1_RX_P is: 40.154mil, Tolerance : 6mil. 
+   Violation between Matched Net Lengths: Between Net PCIE20_1_TX_N And Net PCIE20_1_TX_P Actual Difference against PCIE20_1_TX_P is: 17.887mil, Tolerance : 6mil. 
+   Violation between Matched Net Lengths: Between Net USB20_HOST1_D_N And Net USB20_HOST1_D_P Actual Difference against USB20_HOST1_D_P is: 19.062mil, Tolerance : 6mil. 
+   Violation between Matched Net Lengths: Between Net WIFI_REFCLK_A_N And Net WIFI_REFCLK_A_P Actual Difference against WIFI_REFCLK_A_P is: 18.906mil, Tolerance : 6mil. 
+Rule Violations :4
+
+Processing Rule : Matched Lengths(Tolerance=200mil) (InDifferentialPairClass('eDP'))
+   Violation between Matched Net Lengths: Differential Pair HDMI1_TX_SBD Actual Length Difference against diff pair HDMI1_TX0 is: 426.191mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair HDMI1_TX2 Actual Length Difference against diff pair HDMI1_TX0 is: 331.659mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Between Net HDMI1_TX_SBD_N And Net HDMI1_TX0_N Length:426.036mil is not within 200mil tolerance of Length:854.722mil (228.687mil short) 
+   Violation between Matched Net Lengths: Between Net HDMI1_TX_SBD_P And Net HDMI1_TX0_N Length:428.028mil is not within 200mil tolerance of Length:854.722mil (226.695mil short) 
+   Violation between Matched Net Lengths: Between Net HDMI1_TX0_N And Net HDMI1_TX2_N Length:523.063mil is not within 200mil tolerance of Length:854.722mil (131.659mil short) 
+   Violation between Matched Net Lengths: Between Net HDMI1_TX0_N And Net HDMI1_TX2_P Length:520.063mil is not within 200mil tolerance of Length:854.722mil (134.659mil short) 
+Rule Violations :6
 
 Processing Rule : Matched Lengths(Tolerance=6mil) (InDifferentialPairClass('Ethernet'))
    Violation between Matched Net Lengths: Between Net P25G_MDI0_N And Net P25G_MDI0_P Actual Difference against P25G_MDI0_P is: 40.623mil, Tolerance : 6mil. 
    Violation between Matched Net Lengths: Between Net P25G_MDI1_N And Net P25G_MDI1_P Actual Difference against P25G_MDI1_P is: 91.634mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net P25G_MDI1_O_N And Net P25G_MDI1_O_P Actual Difference against P25G_MDI1_O_P is: 1376.381mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net P25G_MDI2_N And Net P25G_MDI2_P Actual Difference against P25G_MDI2_P is: 25.516mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net P25G_MDI2_O_N And Net P25G_MDI2_O_P Actual Difference against P25G_MDI2_O_P is: 1935.648mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net P25G_MDI3_N And Net P25G_MDI3_P Actual Difference against P25G_MDI3_P is: 35.33mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net P25G_MDI3_O_N And Net P25G_MDI3_O_P Actual Difference against P25G_MDI3_O_P is: 9.156mil, Tolerance : 6mil. 
-Rule Violations :7
+   Violation between Matched Net Lengths: Between Net P25G_MDI2_N And Net P25G_MDI2_P Actual Difference against P25G_MDI2_P is: 48.348mil, Tolerance : 6mil. 
+   Violation between Matched Net Lengths: Between Net P25G_MDI3_N And Net P25G_MDI3_P Actual Difference against P25G_MDI3_P is: 77.924mil, Tolerance : 6mil. 
+Rule Violations :4
 
-Processing Rule : Matched Lengths(Tolerance=6mil) (InDifferentialPairClass('WIFI_DIFF'))
-   Violation between Matched Net Lengths: Between Net PCIE20_1_RX_N And Net PCIE20_1_RX_P Actual Difference against PCIE20_1_RX_P is: 17.322mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net PCIE20_1_TX_N And Net PCIE20_1_TX_P Actual Difference against PCIE20_1_TX_P is: 17.887mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net WIFI_REFCLK_A_N And Net WIFI_REFCLK_A_P Actual Difference against WIFI_REFCLK_A_P is: 18.906mil, Tolerance : 6mil. 
-Rule Violations :3
+Processing Rule : Matched Lengths(Tolerance=200mil) (InDifferentialPairClass('Ethernet'))
+   Violation between Matched Net Lengths: Differential Pair P25G_MDI0 Actual Length Difference against diff pair P25G_MDI3 is: 560.834mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair P25G_MDI0_O Actual Length Difference against diff pair P25G_MDI3 is: 1821.07mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair P25G_MDI1 Actual Length Difference against diff pair P25G_MDI3 is: 394.36mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair P25G_MDI1_O Actual Length Difference against diff pair P25G_MDI3 is: 1657.543mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair P25G_MDI2 Actual Length Difference against diff pair P25G_MDI3 is: 339.07mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair P25G_MDI2_O Actual Length Difference against diff pair P25G_MDI3 is: 1644.909mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair P25G_MDI3 Actual Length Difference against diff pair P25G_MDI2 is: 339.07mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair P25G_MDI3_O Actual Length Difference against diff pair P25G_MDI3 is: 1818.434mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Between Net P25G_MDI0_N And Net P25G_MDI3_P Length:1525.696mil is not within 200mil tolerance of Length:2105.18mil (379.484mil short) 
+   Violation between Matched Net Lengths: Between Net P25G_MDI0_O_N And Net P25G_MDI3_P Length:245.149mil is not within 200mil tolerance of Length:2105.18mil (1660.031mil short) 
+   Violation between Matched Net Lengths: Between Net P25G_MDI0_O_P And Net P25G_MDI3_P Length:245.148mil is not within 200mil tolerance of Length:2105.18mil (1660.032mil short) 
+   Violation between Matched Net Lengths: Between Net P25G_MDI0_P And Net P25G_MDI3_P Length:1485.073mil is not within 200mil tolerance of Length:2105.18mil (420.107mil short) 
+   Violation between Matched Net Lengths: Between Net P25G_MDI1_N And Net P25G_MDI3_P Length:1717.675mil is not within 200mil tolerance of Length:2105.18mil (187.505mil short) 
+   Violation between Matched Net Lengths: Between Net P25G_MDI1_O_N And Net P25G_MDI3_P Length:408.675mil is not within 200mil tolerance of Length:2105.18mil (1496.505mil short) 
+   Violation between Matched Net Lengths: Between Net P25G_MDI1_O_P And Net P25G_MDI3_P Length:408.674mil is not within 200mil tolerance of Length:2105.18mil (1496.505mil short) 
+   Violation between Matched Net Lengths: Between Net P25G_MDI1_P And Net P25G_MDI3_P Length:1626.04mil is not within 200mil tolerance of Length:2105.18mil (279.14mil short) 
+   Violation between Matched Net Lengths: Between Net P25G_MDI2_N And Net P25G_MDI3_N Length:1751.321mil is not within 200mil tolerance of Length:2027.256mil (75.935mil short) 
+   Violation between Matched Net Lengths: Between Net P25G_MDI2_N And Net P25G_MDI3_P Length:1751.321mil is not within 200mil tolerance of Length:2105.18mil (153.859mil short) 
+   Violation between Matched Net Lengths: Between Net P25G_MDI2_O_N And Net P25G_MDI3_P Length:421.309mil is not within 200mil tolerance of Length:2105.18mil (1483.871mil short) 
+   Violation between Matched Net Lengths: Between Net P25G_MDI2_O_P And Net P25G_MDI3_P Length:421.309mil is not within 200mil tolerance of Length:2105.18mil (1483.871mil short) 
+   Violation between Matched Net Lengths: Between Net P25G_MDI2_P And Net P25G_MDI3_P Length:1702.973mil is not within 200mil tolerance of Length:2105.18mil (202.207mil short) 
+   Violation between Matched Net Lengths: Between Net P25G_MDI3_O_N And Net P25G_MDI3_P Length:247.784mil is not within 200mil tolerance of Length:2105.18mil (1657.396mil short) 
+   Violation between Matched Net Lengths: Between Net P25G_MDI3_O_P And Net P25G_MDI3_P Length:247.784mil is not within 200mil tolerance of Length:2105.18mil (1657.396mil short) 
+Rule Violations :23
 
-Processing Rule : Matched Lengths(Tolerance=50mil) (InDifferentialPairClass('WIFI_DIFF'))
-   Violation between Matched Net Lengths: Differential Pair PCIE20_1_RX Actual Length Difference against diff pair USB20_HOST1_D is: 1630.361mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair PCIE20_1_TX Actual Length Difference against diff pair USB20_HOST1_D is: 1878.575mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair USB20_HOST1_D Actual Length Difference against diff pair PCIE20_1_RX is: 1630.361mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair WIFI_REFCLK_A Actual Length Difference against diff pair USB20_HOST1_D is: 2993.395mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Between Net PCIE20_1_RX_N And Net USB20_HOST1_D_P Length:2857.214mil is not within 50mil tolerance of Length:4498.917mil (1591.703mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE20_1_RX_P And Net USB20_HOST1_D_N Length:2874.535mil is not within 50mil tolerance of Length:4493.554mil (1569.018mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE20_1_RX_P And Net USB20_HOST1_D_P Length:2874.535mil is not within 50mil tolerance of Length:4498.917mil (1574.382mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE20_1_TX_N And Net USB20_HOST1_D_P Length:2608.716mil is not within 50mil tolerance of Length:4498.917mil (1840.2mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE20_1_TX_P And Net USB20_HOST1_D_P Length:2626.603mil is not within 50mil tolerance of Length:4498.917mil (1822.314mil short) 
-   Violation between Matched Net Lengths: Between Net USB20_HOST1_D_P And Net WIFI_REFCLK_A_N Length:1493.387mil is not within 50mil tolerance of Length:4498.917mil (2955.53mil short) 
-   Violation between Matched Net Lengths: Between Net USB20_HOST1_D_P And Net WIFI_REFCLK_A_P Length:1512.293mil is not within 50mil tolerance of Length:4498.917mil (2936.624mil short) 
-Rule Violations :11
+Processing Rule : Matched Lengths(Tolerance=6mil) (InDifferentialPairClass('eDP'))
+Rule Violations :0
 
-Processing Rule : Matched Lengths(Tolerance=50mil) (InDifferentialPairClass('NVME_DIFF'))
-   Violation between Matched Net Lengths: Differential Pair CLK Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 3836.157mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair CLK1 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 3929.599mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair CLK2 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 3935.599mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair CLK3 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 3841.983mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair NVME_REFCLK_A Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 1124.368mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT0_IN_REFCLK Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 3482.337mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT0_RX0 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 315.029mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT0_RX1 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 128.912mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT0_TX0 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 546.173mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT0_TX1 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 568.268mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT1_IN_REFCLK Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 3882.507mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT1_RX2 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 285.454mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT1_RX3 Actual Length Difference against diff pair PCIE30_PORT0_RX1 is: 128.912mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT1_TX2 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 547.78mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair PCIE30_PORT1_TX3 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 525.671mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair WIFI_REFCLK_A Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 2635.609mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Between Net CLK_N And Net PCIE30_PORT1_RX3_P Length:302.292mil is not within 50mil tolerance of Length:4146.199mil (3793.907mil short) 
-   Violation between Matched Net Lengths: Between Net CLK_P And Net PCIE30_PORT1_RX3_P Length:302.292mil is not within 50mil tolerance of Length:4146.199mil (3793.907mil short) 
-   Violation between Matched Net Lengths: Between Net CLK1_N And Net PCIE30_PORT1_RX3_P Length:208.85mil is not within 50mil tolerance of Length:4146.199mil (3887.349mil short) 
-   Violation between Matched Net Lengths: Between Net CLK1_P And Net PCIE30_PORT1_RX3_P Length:208.85mil is not within 50mil tolerance of Length:4146.199mil (3887.349mil short) 
-   Violation between Matched Net Lengths: Between Net CLK2_N And Net PCIE30_PORT1_RX3_P Length:202.85mil is not within 50mil tolerance of Length:4146.199mil (3893.349mil short) 
-   Violation between Matched Net Lengths: Between Net CLK2_P And Net PCIE30_PORT1_RX3_P Length:202.85mil is not within 50mil tolerance of Length:4146.199mil (3893.349mil short) 
-   Violation between Matched Net Lengths: Between Net CLK3_N And Net PCIE30_PORT1_RX3_P Length:296.466mil is not within 50mil tolerance of Length:4146.199mil (3799.733mil short) 
-   Violation between Matched Net Lengths: Between Net CLK3_P And Net PCIE30_PORT1_RX3_P Length:296.466mil is not within 50mil tolerance of Length:4146.199mil (3799.733mil short) 
-   Violation between Matched Net Lengths: Between Net NVME_REFCLK_A_N And Net PCIE30_PORT1_RX3_P Length:3043.047mil is not within 50mil tolerance of Length:4146.199mil (1053.151mil short) 
-   Violation between Matched Net Lengths: Between Net NVME_REFCLK_A_P And Net PCIE30_PORT1_RX3_P Length:2985.114mil is not within 50mil tolerance of Length:4146.199mil (1111.085mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_IN_REFCLK_N And Net PCIE30_PORT1_RX3_P Length:651.918mil is not within 50mil tolerance of Length:4146.199mil (3444.281mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_IN_REFCLK_P And Net PCIE30_PORT1_RX3_P Length:660.305mil is not within 50mil tolerance of Length:4146.199mil (3435.894mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_RX0_N And Net PCIE30_PORT1_RX3_P Length:3812.004mil is not within 50mil tolerance of Length:4146.199mil (284.195mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_RX0_P And Net PCIE30_PORT1_RX3_P Length:3834.835mil is not within 50mil tolerance of Length:4146.199mil (261.363mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_RX1_N And Net PCIE30_PORT1_RX3_P Length:4000.48mil is not within 50mil tolerance of Length:4146.199mil (95.719mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_RX1_P And Net PCIE30_PORT1_RX3_N Length:4018.594mil is not within 50mil tolerance of Length:4130.699mil (62.105mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_RX1_P And Net PCIE30_PORT1_RX3_P Length:4018.594mil is not within 50mil tolerance of Length:4146.199mil (77.605mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_TX0_N And Net PCIE30_PORT1_RX3_P Length:3593.417mil is not within 50mil tolerance of Length:4146.199mil (502.782mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_TX0_P And Net PCIE30_PORT1_RX3_P Length:3591.134mil is not within 50mil tolerance of Length:4146.199mil (505.065mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_TX1_N And Net PCIE30_PORT1_RX3_P Length:3570.656mil is not within 50mil tolerance of Length:4146.199mil (525.542mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_TX1_P And Net PCIE30_PORT1_RX3_P Length:3569.705mil is not within 50mil tolerance of Length:4146.199mil (526.494mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_IN_REFCLK_N And Net PCIE30_PORT1_RX3_P Length:208.054mil is not within 50mil tolerance of Length:4146.199mil (3888.145mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_IN_REFCLK_P And Net PCIE30_PORT1_RX3_P Length:303.829mil is not within 50mil tolerance of Length:4146.199mil (3792.37mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX2_N And Net PCIE30_PORT1_RX3_P Length:3857.059mil is not within 50mil tolerance of Length:4146.199mil (239.139mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX2_P And Net PCIE30_PORT1_RX3_P Length:3848.93mil is not within 50mil tolerance of Length:4146.199mil (247.268mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX3_P And Net PCIE30_PORT1_TX2_N Length:3585.535mil is not within 50mil tolerance of Length:4146.199mil (510.663mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX3_P And Net PCIE30_PORT1_TX2_P Length:3595.802mil is not within 50mil tolerance of Length:4146.199mil (500.396mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX3_P And Net PCIE30_PORT1_TX3_N Length:3629.817mil is not within 50mil tolerance of Length:4146.199mil (466.382mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX3_P And Net PCIE30_PORT1_TX3_P Length:3595.738mil is not within 50mil tolerance of Length:4146.199mil (500.461mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX3_P And Net WIFI_REFCLK_A_N Length:1493.387mil is not within 50mil tolerance of Length:4146.199mil (2602.812mil short) 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX3_P And Net WIFI_REFCLK_A_P Length:1512.293mil is not within 50mil tolerance of Length:4146.199mil (2583.906mil short) 
-Rule Violations :47
+Processing Rule : Matched Lengths(Tolerance=200mil) (InDifferentialPairClass('USBC_A') or  InDifferentialPairClass('USBC_B'))
+   Violation between Matched Net Lengths: Differential Pair TYPEC0_D Actual Length Difference against diff pair TYPEC1_OTG_D is: 3598.342mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair TYPEC0_OTG Actual Length Difference against diff pair TYPEC1_OTG_D is: 2146.918mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair TYPEC0_SSRX1 Actual Length Difference against diff pair TYPEC1_OTG_D is: 1220.641mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair TYPEC0_SSRX2 Actual Length Difference against diff pair TYPEC1_OTG_D is: 1623.17mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair TYPEC0_SSTX1 Actual Length Difference against diff pair TYPEC1_OTG_D is: 1585.466mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair TYPEC0_SSTX2 Actual Length Difference against diff pair TYPEC1_OTG_D is: 1655.169mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair TYPEC1_D Actual Length Difference against diff pair TYPEC1_OTG_D is: 3545.503mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair TYPEC1_OTG_D Actual Length Difference against diff pair TYPEC1_SSTX2 is: 332.53mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair TYPEC1_SSRX1 Actual Length Difference against diff pair TYPEC1_OTG_D is: 425.15mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair TYPEC1_SSRX2 Actual Length Difference against diff pair TYPEC1_OTG_D is: 359.935mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair TYPEC1_SSTX1 Actual Length Difference against diff pair TYPEC1_OTG_D is: 824.116mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Differential Pair TYPEC1_SSTX2 Actual Length Difference against diff pair TYPEC1_OTG_D is: 332.53mil, Length Tolerance : 200mil.
+   Violation between Matched Net Lengths: Between Net TYPEC0_D_N And Net TYPEC1_OTG_D_P Length:840.215mil is not within 200mil tolerance of Length:4483.087mil (3442.872mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC0_D_P And Net TYPEC1_OTG_D_P Length:843.215mil is not within 200mil tolerance of Length:4483.087mil (3439.872mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC0_OTG_N And Net TYPEC1_OTG_D_P Length:2305.637mil is not within 200mil tolerance of Length:4483.087mil (1977.45mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC0_OTG_P And Net TYPEC1_OTG_D_P Length:2280.64mil is not within 200mil tolerance of Length:4483.087mil (2002.447mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC0_SSRX1_N And Net TYPEC1_OTG_D_P Length:3220.916mil is not within 200mil tolerance of Length:4483.087mil (1062.171mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC0_SSRX1_P And Net TYPEC1_OTG_D_P Length:3217.915mil is not within 200mil tolerance of Length:4483.087mil (1065.172mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC0_SSRX2_N And Net TYPEC1_OTG_D_P Length:2818.384mil is not within 200mil tolerance of Length:4483.087mil (1464.703mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC0_SSRX2_P And Net TYPEC1_OTG_D_P Length:2815.388mil is not within 200mil tolerance of Length:4483.087mil (1467.699mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX1_N And Net TYPEC1_OTG_D_P Length:2850.976mil is not within 200mil tolerance of Length:4483.087mil (1432.111mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX1_P And Net TYPEC1_OTG_D_P Length:2858.206mil is not within 200mil tolerance of Length:4483.087mil (1424.881mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_N And Net TYPEC1_OTG_D_P Length:2786.387mil is not within 200mil tolerance of Length:4483.087mil (1496.7mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX2_P And Net TYPEC1_OTG_D_P Length:2783.387mil is not within 200mil tolerance of Length:4483.087mil (1499.7mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC1_D_N And Net TYPEC1_OTG_D_P Length:895.303mil is not within 200mil tolerance of Length:4483.087mil (3387.785mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC1_D_P And Net TYPEC1_OTG_D_P Length:893.804mil is not within 200mil tolerance of Length:4483.087mil (3389.283mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC1_OTG_D_N And Net TYPEC1_SSTX2_N Length:4109.026mil is not within 200mil tolerance of Length:4397.026mil (87.999mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC1_OTG_D_P And Net TYPEC1_SSRX1_N Length:4013.406mil is not within 200mil tolerance of Length:4483.087mil (269.681mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC1_OTG_D_P And Net TYPEC1_SSRX1_P Length:4016.406mil is not within 200mil tolerance of Length:4483.087mil (266.681mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC1_OTG_D_P And Net TYPEC1_SSRX2_N Length:4077.098mil is not within 200mil tolerance of Length:4483.087mil (205.989mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC1_OTG_D_P And Net TYPEC1_SSRX2_P Length:4083.143mil is not within 200mil tolerance of Length:4483.087mil (199.944mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC1_OTG_D_P And Net TYPEC1_SSTX1_N Length:3616.908mil is not within 200mil tolerance of Length:4483.087mil (666.179mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC1_OTG_D_P And Net TYPEC1_SSTX1_P Length:3614.973mil is not within 200mil tolerance of Length:4483.087mil (668.114mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC1_OTG_D_P And Net TYPEC1_SSTX2_N Length:4109.026mil is not within 200mil tolerance of Length:4483.087mil (174.061mil short) 
+   Violation between Matched Net Lengths: Between Net TYPEC1_OTG_D_P And Net TYPEC1_SSTX2_P Length:4106.026mil is not within 200mil tolerance of Length:4483.087mil (177.061mil short) 
+Rule Violations :35
 
-Processing Rule : Matched Lengths(Tolerance=50mil) (InDifferentialPairClass('Ethernet'))
-   Violation between Matched Net Lengths: Differential Pair P25G_MDI0 Actual Length Difference against diff pair P25G_MDI3_O is: 670.292mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair P25G_MDI1 Actual Length Difference against diff pair P25G_MDI3_O is: 435.323mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair P25G_MDI1_O Actual Length Difference against diff pair P25G_MDI3_O is: 565.583mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair P25G_MDI2 Actual Length Difference against diff pair P25G_MDI3_O is: 437.113mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Differential Pair P25G_MDI2_O Actual Length Difference against diff pair P25G_MDI3_O is: 843.327mil, Length Tolerance : 50mil.
-   Violation between Matched Net Lengths: Between Net P25G_MDI0_N And Net P25G_MDI2_O_P Length:1525.696mil is not within 50mil tolerance of Length:2300.173mil (724.477mil short) 
-   Violation between Matched Net Lengths: Between Net P25G_MDI0_O_N And Net P25G_MDI2_O_P Length:2177.622mil is not within 50mil tolerance of Length:2300.173mil (72.551mil short) 
-   Violation between Matched Net Lengths: Between Net P25G_MDI0_O_P And Net P25G_MDI2_O_P Length:2173.436mil is not within 50mil tolerance of Length:2300.173mil (76.737mil short) 
-   Violation between Matched Net Lengths: Between Net P25G_MDI0_P And Net P25G_MDI2_O_P Length:1485.073mil is not within 50mil tolerance of Length:2300.173mil (765.1mil short) 
-   Violation between Matched Net Lengths: Between Net P25G_MDI1_N And Net P25G_MDI2_O_P Length:1786.17mil is not within 50mil tolerance of Length:2300.173mil (464.002mil short) 
-   Violation between Matched Net Lengths: Between Net P25G_MDI1_O_N And Net P25G_MDI2_O_P Length:921.903mil is not within 50mil tolerance of Length:2300.173mil (1328.27mil short) 
-   Violation between Matched Net Lengths: Between Net P25G_MDI1_O_P And Net P25G_MDI2_O_N Length:364.525mil is not within 50mil tolerance of Length:2298.283mil (1883.758mil short) 
-   Violation between Matched Net Lengths: Between Net P25G_MDI1_P And Net P25G_MDI2_O_P Length:1694.536mil is not within 50mil tolerance of Length:2300.173mil (555.637mil short) 
-   Violation between Matched Net Lengths: Between Net P25G_MDI2_N And Net P25G_MDI2_O_P Length:1751.321mil is not within 50mil tolerance of Length:2300.173mil (498.851mil short) 
-   Violation between Matched Net Lengths: Between Net P25G_MDI2_O_P And Net P25G_MDI2_P Length:1725.805mil is not within 50mil tolerance of Length:2300.173mil (524.367mil short) 
-   Violation between Matched Net Lengths: Between Net P25G_MDI2_O_P And Net P25G_MDI3_N Length:2110.151mil is not within 50mil tolerance of Length:2300.173mil (140.021mil short) 
-   Violation between Matched Net Lengths: Between Net P25G_MDI2_O_P And Net P25G_MDI3_O_N Length:2180.254mil is not within 50mil tolerance of Length:2300.173mil (69.918mil short) 
-   Violation between Matched Net Lengths: Between Net P25G_MDI2_O_P And Net P25G_MDI3_O_P Length:2171.098mil is not within 50mil tolerance of Length:2300.173mil (79.074mil short) 
-   Violation between Matched Net Lengths: Between Net P25G_MDI2_O_P And Net P25G_MDI3_P Length:2145.482mil is not within 50mil tolerance of Length:2300.173mil (104.691mil short) 
-Rule Violations :19
-
-Processing Rule : Matched Lengths(Tolerance=6mil) (InDifferentialPairClass('NVME_DIFF'))
-   Violation between Matched Net Lengths: Between Net NVME_REFCLK_A_N And Net NVME_REFCLK_A_P Actual Difference against NVME_REFCLK_A_P is: 57.934mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_IN_REFCLK_N And Net PCIE30_PORT0_IN_REFCLK_P Actual Difference against PCIE30_PORT0_IN_REFCLK_P is: 8.387mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_RX0_N And Net PCIE30_PORT0_RX0_P Actual Difference against PCIE30_PORT0_RX0_P is: 22.832mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT0_RX1_N And Net PCIE30_PORT0_RX1_P Actual Difference against PCIE30_PORT0_RX1_P is: 18.114mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_IN_REFCLK_N And Net PCIE30_PORT1_IN_REFCLK_P Actual Difference against PCIE30_PORT1_IN_REFCLK_P is: 95.775mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX2_N And Net PCIE30_PORT1_RX2_P Actual Difference against PCIE30_PORT1_RX2_P is: 8.129mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_RX3_N And Net PCIE30_PORT1_RX3_P Actual Difference against PCIE30_PORT1_RX3_P is: 15.5mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_TX2_N And Net PCIE30_PORT1_TX2_P Actual Difference against PCIE30_PORT1_TX2_P is: 10.267mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net PCIE30_PORT1_TX3_N And Net PCIE30_PORT1_TX3_P Actual Difference against PCIE30_PORT1_TX3_P is: 34.079mil, Tolerance : 6mil. 
-   Violation between Matched Net Lengths: Between Net WIFI_REFCLK_A_N And Net WIFI_REFCLK_A_P Actual Difference against WIFI_REFCLK_A_P is: 18.906mil, Tolerance : 6mil. 
-Rule Violations :10
+Processing Rule : Matched Lengths(Tolerance=6mil) (InDifferentialPairClass('USBC_A') or  InDifferentialPairClass('USBC_B'))
+   Violation between Matched Net Lengths: Between Net TYPEC0_OTG_N And Net TYPEC0_OTG_P Actual Difference against TYPEC0_OTG_P is: 24.997mil, Tolerance : 6mil. 
+   Violation between Matched Net Lengths: Between Net TYPEC0_SSTX1_N And Net TYPEC0_SSTX1_P Actual Difference against TYPEC0_SSTX1_P is: 7.23mil, Tolerance : 6mil. 
+   Violation between Matched Net Lengths: Between Net TYPEC1_OTG_D_N And Net TYPEC1_OTG_D_P Actual Difference against TYPEC1_OTG_D_P is: 86.061mil, Tolerance : 6mil. 
+   Violation between Matched Net Lengths: Between Net TYPEC1_SSRX2_N And Net TYPEC1_SSRX2_P Actual Difference against TYPEC1_SSRX2_P is: 6.045mil, Tolerance : 6mil. 
+Rule Violations :4
 
 
-Violations Detected : 154
+Violations Detected : 224
 Waived Violations : 0
 Time Elapsed        : 00:00:01
