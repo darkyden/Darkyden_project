@@ -1,0 +1,564 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+        h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+            padding: 0.3em;
+        }
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+        body {
+			font-family : segoe ui;
+        }
+
+        td, th {
+            padding: 0.5em;
+			text-align : left;
+			width: 10em;
+        }
+        th {
+			background-color : #EEEEEE;
+
+        }
+        th.column1, td.column1 {
+            text-align: left;
+            width : auto;
+        }
+        table {
+            width : 100%;
+			font-size: 0.9em;
+        }
+        
+        .DRC_summary_header {                           
+            padding-bottom : 0.1em;
+            border : 0px solid black;                           
+            width: 100%;
+			align: left;
+        }
+
+        .DRC_summary_header_col1, 
+        .DRC_summary_header_col2, 
+        .DRC_summary_header_col3  {
+            color : black;
+            font-size:100%;
+                        padding : 0em;
+            padding-top : 0.2em;
+            padding-bottom 0.2em;
+            border : 0px solid black;
+            vertical-align: top;
+			text-align: left;
+        }
+        
+        .DRC_summary_header_col1 {                              
+			font-weight: bold;
+			width: 8em;
+        }
+
+        .DRC_summary_header_col2 {       
+			width: 0.1em;
+		
+        }
+
+        .DRC_summary_header_col3 {       
+			width : auto;
+        }
+
+        .header_holder  {
+        Width = 100%;
+        border = 0px solid green;
+        padding = 0;
+        }
+        
+        
+        .front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+                {
+            left:0;
+            top:0;
+			padding: 0em;
+            padding-top : 0.1em;            
+            border : 0px solid black;
+            width : 100%;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .front_matter_column1 {
+            width : 8em;   
+			font-weight: bold;
+        }
+        
+        .front_matter_column2 {
+            width: 0.1em;
+        }
+
+        .front_matter_column3 {
+            width         : auto;  
+        }
+        
+        .total_column1, .total_column {
+            font-weight : bold;
+        }
+        .total_column1 {
+			text-align : left;
+        }
+        .warning, .error {
+            color : red;
+            font-weight : bold;
+        }
+        tr.onmouseout_odd {
+			background-color : #white;
+        }
+        tr.onmouseout_even { 
+			background-color : #FAFAFA;
+        }
+        tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+        } 
+        a:link, a:visited, .q a:link,.q a:active,.q {
+            color: #21489e; 
+        }
+        a:link.callback, a:visited.callback { 
+            color: #21489e; 
+        }
+        p.contents_level1 {
+            font-weight : bold;
+            font-size : 110%;
+            margin : 0.5em;
+        }
+        p.contents_level2 {
+            position : relative;
+            left : 20px;
+            margin : 0.5em;
+        }
+    </style><script type="text/javascript">
+        function coordToMils(coord) {
+            var number = coord / 10000;
+            
+            if (number != number.toFixed(3))
+                number = number.toFixed(3);
+
+            return number + 'mil'
+        }
+
+        function coordToMM(coord) {
+            var number = 0.0254 * coord / 10000;
+            
+            if (number != number.toFixed(4))
+                number = number.toFixed(4);
+            
+            return number + 'mm'
+        }
+    
+        function convertCoord(coordNode, units) {
+            for (var i = 0; i < coordNode.childNodes.length; i++) {
+                coordNode.removeChild(coordNode.childNodes[i]);
+            }
+
+            var coord = coordNode.getAttribute('value');
+            if (coord != null) {
+                if (units == 'mm') {
+                    textNode = document.createTextNode(coordToMM(coord));
+                    coordNode.appendChild(textNode);
+                } else if (units == 'mil') {
+                    textNode = document.createTextNode(coordToMils(coord));     
+                    coordNode.appendChild(textNode);    
+                }
+            }
+        }
+    
+        function convertUnits(unitNode, units) {
+            for (var i = 0; i < unitNode.childNodes.length; i++) {
+                unitNode.removeChild(unitNode.childNodes[i]);       
+            }
+        
+            textNode = document.createTextNode(units); 
+            unitNode.appendChild(textNode);
+        }
+    
+        function changeUnits(radio_input, units) {
+            if (radio_input.checked) {
+            
+                var elements = document.getElementsByName('coordinate');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertCoord(elements[i], units);
+                    }
+                }
+    
+                var elements = document.getElementsByName('units');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertUnits(elements[i], units);
+                    }
+                }
+            }
+        }
+    </script></head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD25\Templates\AD_logo.png
+        "><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2025-05-15</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12:12:37 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc" class="file"><acronym title="D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc">D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">54</td></tr>
+</table>
+</td>
+</table><a name="IDYFPL4NZMJVSABRKRXJ0LTLLREDXBADAHKRPETYDTE3CR02CGOERG"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMWV1MUM0KJUTGTBZLZ22OUEKGHOJLFKTSZXP5GMK4PGOEZ1TZPXG">Clearance Constraint (Gap=0.102mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJIQ1ZKQ3OYJYPQI4CXQZTMAGUN0F3OIYUBEAMBBXV5HCPXHMSL">Clearance Constraint (Gap=0.203mm) (inpoly),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDD22RAHE2SKPRPMMHMCBPUJYSCP1KLO3IU4XPQ2IBDESHW4TM5HAI">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQA0SXVVHTGHME0GVI3LSYNVLRBLBGLAZP2LKJOIMET0D34RUKEK">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVU0HA0E2MQKKMP4P4MKJEQJDSB2TTUNTK4RVEFFXFQM4OQNXYVKK">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWKX2DSQX1V21GZNBSDYQPV0B0KD2ILFG4JF0T5IQMT1EJ2INSWFM">Width Constraint (Min=0.15mm) (Max=5mm) (Preferred=0.2mm) (InNet('+12'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMXLUX40BZVFCNXYSP1HUTRNII2UVAQ1W1RXAEKVP5BEZKFVTWUO">Width Constraint (Min=0.15mm) (Max=5mm) (Preferred=0.2mm) (InNet('+3V3_NVME'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKEGGN5WSCEQMIVCOXL0AS4KH0HP0DAZQMH2V4ZBOWETY4ED4Y5GN">Width Constraint (Min=0.15mm) (Max=5mm) (Preferred=0.2mm) (InNet('+3V3'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4AUZID0LAH2CDB3TYMS2OMT4YZM3N0F0XCHOCOQOHT4N0LTT1OC">Width Constraint (Min=0.15mm) (Max=5mm) (Preferred=0.2mm) (InNet('+5V'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDIKMHJ3R0QWZDMQHZZRV3QNMDMGY3FR0D5MV4EBJBXL5PTL52DYP">Width Constraint (Min=0.15mm) (Max=1.27mm) (Preferred=0.152mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDEIARNRFZQRTELRVA5BHIF0CSVERV2HBTQG3YNZKBEFVNLB5OG2KG">Width Constraint (Min=0.15mm) (Max=5mm) (Preferred=0.2mm) (InNet('+3V3_WIFI'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXOHN4QTQRI1KBWONTVR2Q302MBBQZZDGOJKATRKXDTAL3V12OAHJ">Width Constraint (Min=0.15mm) (Max=5mm) (Preferred=0.2mm) (InNet('+3V3_SD_SO'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMYRAID0IQSC5KKGNI30J2NZULGIIPHC4LJN1YBHA5LEZLZ5AKXPE">Width Constraint (Min=0.2mm) (Max=0.406mm) (Preferred=0.381mm) (InNet('GND'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDG2P03YPMW2RNP5DQJODIGG4BACG0JLRRE5RLZLP1RLEKRFRGZXMP">Width Constraint (Min=0.15mm) (Max=5mm) (Preferred=0.2mm) (InNet('+3V3_SD_SO'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKI2PWQUPWBJAPAE0XXX2MSIXZDFHXDHRGBLDR4MKZVNMM5BCS1NM">Width Constraint (Min=0.15mm) (Max=5mm) (Preferred=0.2mm) (InNet('+3V3_PI6C'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXEIAMHSZT2CLHROXMSLCS5Z5GKGQYA4DFPSNDRIA4TWRAFJW0AGN">Width Constraint (Min=0.15mm) (Max=5mm) (Preferred=0.2mm) (InNet('+1V8'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHKSIK0WSA5BKDQYANRVINUUMUK2FOBBRUTMV4FN45DNSQ1II3GEH">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVCHOEWV3J31AIY4UGDNSEPZSVJZGTUMJAQAYRILXXGV4WFH1TI2E">Matched Lengths(Tolerance=0.152mm) (InDifferentialPairClass('NVME_DIFF'))</a></td>
+<td class="column2">8</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSPCSVDRELIYOKGG0VOYY1QOFEOUC2IRDEAXF2QJRPA2PL32F142J">Matched Lengths(Tolerance=50mm) (InDifferentialPairClass('NVME_DIFF'))</a></td>
+<td class="column2">21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDGHVN4OZPSHLGGSU1L4NALFVXFNANACIGRPVHXIRW1U3T3YVWJVG">Matched Lengths(Tolerance=50mm) (InDifferentialPairClass('WIFI_DIFF'))</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVKHJFGBPHSJCKFJA3DLRFBHWWPM1GZGVN4KAUPFHZP3OT5I13MNC">Matched Lengths(Tolerance=0.152mm) (InDifferentialPairClass('WIFI_DIFF'))</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDEFMQV2UJRQUODRBEMWHYEFFHXP0THRUDADU0VKK21OAD4GLLQ4LH">Matched Lengths(Tolerance=50mm) (InDifferentialPairClass('eDP'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID13BKZ25BTHX2OHZHMH1KLRYHINFUJPLQJIIWUVHEHKG2G5NTEUGF">Matched Lengths(Tolerance=0.152mm) (InDifferentialPairClass('Ethernet'))</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUEA3HQ2GEDGDCVYTHMH3FYPN5O5O05XIVTEOQG204A4Z5HZNQUH">Matched Lengths(Tolerance=50mm) (InDifferentialPairClass('Ethernet'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5CO2IV4IODWLOFM5NIIZVP4P5OWITG3MTHL1DVHP51VQ3KI5OVJ">Matched Lengths(Tolerance=0.152mm) (InDifferentialPairClass('eDP'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3EKKVEWRPS0YCK4FUFEOO5DRRGKBBRCOCJHHUSJPRDGALC5MZDOM">Matched Lengths(Tolerance=50mm) (InDifferentialPairClass('USBC_A') or  InDifferentialPairClass('USBC_B'))</a></td>
+<td class="column2">9</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDC4YDDCWRSRTMMWISZZPQI4WLVLXE20J00T0QRONT4G4VMTS3NABC">Matched Lengths(Tolerance=0.152mm) (InDifferentialPairClass('USBC_A') or  InDifferentialPairClass('USBC_B'))</a></td>
+<td class="column2">4</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">54</td>
+</tr>
+</table><br><a name="IDVCHOEWV3J31AIY4UGDNSEPZSVJZGTUMJAQAYRILXXGV4WFH1TI2E"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Matched Lengths(Tolerance=0.152mm) (InDifferentialPairClass('NVME_DIFF'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3946.441mil|Location2.X=5694.953mil|Location1.Y=1716.292mil|Location2.Y=2628.305mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3946.441mil|Location2.X=5694.953mil|Location1.Y=1716.292mil|Location2.Y=2628.305mil|Absolute=True">Matched Net Lengths: Between Net NVME_REFCLK_A_N And Net NVME_REFCLK_A_P Actual Difference against NVME_REFCLK_A_P is: 1.472mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3933.11mil|Location2.X=4153.172mil|Location1.Y=3043.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3933.11mil|Location2.X=4153.172mil|Location1.Y=3043.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net PCIE30_PORT0_IN_REFCLK_N And Net PCIE30_PORT0_IN_REFCLK_P Actual Difference against PCIE30_PORT0_IN_REFCLK_P is: 0.223mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3857.866mil|Location2.X=5948.543mil|Location1.Y=1716.292mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3857.866mil|Location2.X=5948.543mil|Location1.Y=1716.292mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net PCIE30_PORT0_RX1_N And Net PCIE30_PORT0_RX1_P Actual Difference against PCIE30_PORT0_RX1_P is: 0.46mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4022.731mil|Location2.X=4432.543mil|Location1.Y=2920.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4022.731mil|Location2.X=4432.543mil|Location1.Y=2920.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net PCIE30_PORT1_IN_REFCLK_N And Net PCIE30_PORT1_IN_REFCLK_P Actual Difference against PCIE30_PORT1_IN_REFCLK_P is: 1.674mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4055.362mil|Location2.X=6083.543mil|Location1.Y=1716.292mil|Location2.Y=3451.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4055.362mil|Location2.X=6083.543mil|Location1.Y=1716.292mil|Location2.Y=3451.394mil|Absolute=True">Matched Net Lengths: Between Net PCIE30_PORT1_RX2_N And Net PCIE30_PORT1_RX2_P Actual Difference against PCIE30_PORT1_RX2_P is: 0.206mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net PCIE30_PORT1_RX3_N And Net PCIE30_PORT1_RX3_P Actual Difference against PCIE30_PORT1_RX3_P is: 3.197mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4174.397mil|Location2.X=6014.224mil|Location1.Y=1716.292mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4174.397mil|Location2.X=6014.224mil|Location1.Y=1716.292mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net PCIE30_PORT1_TX2_N And Net PCIE30_PORT1_TX2_P Actual Difference against PCIE30_PORT1_TX2_P is: 0.196mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3149.324mil|Location2.X=4153.172mil|Location1.Y=2127.213mil|Location2.Y=2751.639mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3149.324mil|Location2.X=4153.172mil|Location1.Y=2127.213mil|Location2.Y=2751.639mil|Absolute=True">Matched Net Lengths: Between Net WIFI_REFCLK_A_N And Net WIFI_REFCLK_A_P Actual Difference against WIFI_REFCLK_A_P is: 0.48mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDSPCSVDRELIYOKGG0VOYY1QOFEOUC2IRDEAXF2QJRPA2PL32F142J"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Matched Lengths(Tolerance=50mm) (InDifferentialPairClass('NVME_DIFF'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4181.235mil|Location2.X=4374.452mil|Location1.Y=2522.363mil|Location2.Y=2755.482mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4181.235mil|Location2.X=4374.452mil|Location1.Y=2522.363mil|Location2.Y=2755.482mil|Absolute=True">Matched Net Lengths: Differential Pair CLK Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 96.648mm, Length Tolerance : 50mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4180.731mil|Location2.X=4374.452mil|Location1.Y=2644.363mil|Location2.Y=2806.662mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4180.731mil|Location2.X=4374.452mil|Location1.Y=2644.363mil|Location2.Y=2806.662mil|Absolute=True">Matched Net Lengths: Differential Pair CLK1 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 98.442mm, Length Tolerance : 50mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4180.731mil|Location2.X=4374.452mil|Location1.Y=2869.434mil|Location2.Y=3025.733mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4180.731mil|Location2.X=4374.452mil|Location1.Y=2869.434mil|Location2.Y=3025.733mil|Absolute=True">Matched Net Lengths: Differential Pair CLK2 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 98.594mm, Length Tolerance : 50mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4180.731mil|Location2.X=4374.452mil|Location1.Y=2920.616mil|Location2.Y=3147.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4180.731mil|Location2.X=4374.452mil|Location1.Y=2920.616mil|Location2.Y=3147.685mil|Absolute=True">Matched Net Lengths: Differential Pair CLK3 Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 96.796mm, Length Tolerance : 50mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3933.11mil|Location2.X=4153.172mil|Location1.Y=3043.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3933.11mil|Location2.X=4153.172mil|Location1.Y=3043.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Differential Pair PCIE30_PORT0_IN_REFCLK Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 87.589mm, Length Tolerance : 50mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4022.731mil|Location2.X=4432.543mil|Location1.Y=2920.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4022.731mil|Location2.X=4432.543mil|Location1.Y=2920.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Differential Pair PCIE30_PORT1_IN_REFCLK Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 79.867mm, Length Tolerance : 50mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3149.324mil|Location2.X=4153.172mil|Location1.Y=2127.213mil|Location2.Y=2751.639mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3149.324mil|Location2.X=4153.172mil|Location1.Y=2127.213mil|Location2.Y=2751.639mil|Absolute=True">Matched Net Lengths: Differential Pair WIFI_REFCLK_A Actual Length Difference against diff pair PCIE30_PORT1_RX3 is: 67.314mm, Length Tolerance : 50mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net CLK_N And Net PCIE30_PORT1_RX3_P Length:7.098mm is not within 50mm tolerance of Length:105.345mm (48.246mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net CLK_P And Net PCIE30_PORT1_RX3_P Length:7.098mm is not within 50mm tolerance of Length:105.345mm (48.246mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net CLK1_N And Net PCIE30_PORT1_RX3_P Length:5.305mm is not within 50mm tolerance of Length:105.345mm (50.04mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net CLK1_P And Net PCIE30_PORT1_RX3_P Length:5.305mm is not within 50mm tolerance of Length:105.345mm (50.04mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net CLK2_N And Net PCIE30_PORT1_RX3_P Length:5.152mm is not within 50mm tolerance of Length:105.345mm (50.192mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net CLK2_P And Net PCIE30_PORT1_RX3_P Length:5.152mm is not within 50mm tolerance of Length:105.345mm (50.192mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net CLK3_N And Net PCIE30_PORT1_RX3_P Length:6.95mm is not within 50mm tolerance of Length:105.345mm (48.394mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.362mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net CLK3_P And Net PCIE30_PORT1_RX3_P Length:6.95mm is not within 50mm tolerance of Length:105.345mm (48.394mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3951.449mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3951.449mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net PCIE30_PORT0_IN_REFCLK_N And Net PCIE30_PORT1_RX3_P Length:16.045mm is not within 50mm tolerance of Length:105.345mm (39.299mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3933.11mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3933.11mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net PCIE30_PORT0_IN_REFCLK_P And Net PCIE30_PORT1_RX3_P Length:16.268mm is not within 50mm tolerance of Length:105.345mm (39.076mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4022.731mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4022.731mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net PCIE30_PORT1_IN_REFCLK_N And Net PCIE30_PORT1_RX3_P Length:23.043mm is not within 50mm tolerance of Length:105.345mm (32.302mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4022.731mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4022.731mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net PCIE30_PORT1_IN_REFCLK_P And Net PCIE30_PORT1_RX3_P Length:24.717mm is not within 50mm tolerance of Length:105.345mm (30.628mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3149.324mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3149.324mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net PCIE30_PORT1_RX3_P And Net WIFI_REFCLK_A_N Length:36.192mm is not within 50mm tolerance of Length:105.345mm (19.152mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3149.324mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3149.324mil|Location2.X=6207.465mil|Location1.Y=1697.213mil|Location2.Y=3384.213mil|Absolute=True">Matched Net Lengths: Between Net PCIE30_PORT1_RX3_P And Net WIFI_REFCLK_A_P Length:36.672mm is not within 50mm tolerance of Length:105.345mm (18.672mm short) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDDGHVN4OZPSHLGGSU1L4NALFVXFNANACIGRPVHXIRW1U3T3YVWJVG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Matched Lengths(Tolerance=50mm) (InDifferentialPairClass('WIFI_DIFF'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3149.324mil|Location2.X=4153.172mil|Location1.Y=2127.213mil|Location2.Y=2751.639mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3149.324mil|Location2.X=4153.172mil|Location1.Y=2127.213mil|Location2.Y=2751.639mil|Absolute=True">Matched Net Lengths: Differential Pair WIFI_REFCLK_A Actual Length Difference against diff pair USB20_HOST1_D is: 77.598mm, Length Tolerance : 50mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2709.196mil|Location2.X=3993.7mil|Location1.Y=1715.622mil|Location2.Y=5324.547mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2709.196mil|Location2.X=3993.7mil|Location1.Y=1715.622mil|Location2.Y=5324.547mil|Absolute=True">Matched Net Lengths: Between Net PCIE20_1_TX_N And Net USB20_HOST1_D_P Length:63.948mm is not within 50mm tolerance of Length:114.272mm (0.324mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2709.196mil|Location2.X=4153.172mil|Location1.Y=1715.622mil|Location2.Y=5324.547mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2709.196mil|Location2.X=4153.172mil|Location1.Y=1715.622mil|Location2.Y=5324.547mil|Absolute=True">Matched Net Lengths: Between Net USB20_HOST1_D_P And Net WIFI_REFCLK_A_N Length:36.192mm is not within 50mm tolerance of Length:114.272mm (28.08mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2709.196mil|Location2.X=4153.172mil|Location1.Y=1715.622mil|Location2.Y=5324.547mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2709.196mil|Location2.X=4153.172mil|Location1.Y=1715.622mil|Location2.Y=5324.547mil|Absolute=True">Matched Net Lengths: Between Net USB20_HOST1_D_P And Net WIFI_REFCLK_A_P Length:36.672mm is not within 50mm tolerance of Length:114.272mm (27.6mm short) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDVKHJFGBPHSJCKFJA3DLRFBHWWPM1GZGVN4KAUPFHZP3OT5I13MNC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Matched Lengths(Tolerance=0.152mm) (InDifferentialPairClass('WIFI_DIFF'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2914.444mil|Location2.X=3942.48mil|Location1.Y=2089.638mil|Location2.Y=3672.312mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2914.444mil|Location2.X=3942.48mil|Location1.Y=2089.638mil|Location2.Y=3672.312mil|Absolute=True">Matched Net Lengths: Between Net PCIE20_1_RX_N And Net PCIE20_1_RX_P Actual Difference against PCIE20_1_RX_P is: 1.02mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2918.196mil|Location2.X=3911.543mil|Location1.Y=2030.584mil|Location2.Y=3592.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2918.196mil|Location2.X=3911.543mil|Location1.Y=2030.584mil|Location2.Y=3592.394mil|Absolute=True">Matched Net Lengths: Between Net PCIE20_1_TX_N And Net PCIE20_1_TX_P Actual Difference against PCIE20_1_TX_P is: 0.454mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2709.196mil|Location2.X=4005.204mil|Location1.Y=1715.622mil|Location2.Y=5324.547mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2709.196mil|Location2.X=4005.204mil|Location1.Y=1715.622mil|Location2.Y=5324.547mil|Absolute=True">Matched Net Lengths: Between Net USB20_HOST1_D_N And Net USB20_HOST1_D_P Actual Difference against USB20_HOST1_D_P is: 0.484mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3149.324mil|Location2.X=4153.172mil|Location1.Y=2127.213mil|Location2.Y=2751.639mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3149.324mil|Location2.X=4153.172mil|Location1.Y=2127.213mil|Location2.Y=2751.639mil|Absolute=True">Matched Net Lengths: Between Net WIFI_REFCLK_A_N And Net WIFI_REFCLK_A_P Actual Difference against WIFI_REFCLK_A_P is: 0.48mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID13BKZ25BTHX2OHZHMH1KLRYHINFUJPLQJIIWUVHEHKG2G5NTEUGF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Matched Lengths(Tolerance=0.152mm) (InDifferentialPairClass('Ethernet'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2536.458mil|Location2.X=3508.385mil|Location1.Y=2371.18mil|Location2.Y=3383.99mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2536.458mil|Location2.X=3508.385mil|Location1.Y=2371.18mil|Location2.Y=3383.99mil|Absolute=True">Matched Net Lengths: Between Net P25G_MDI0_N And Net P25G_MDI0_P Actual Difference against P25G_MDI0_P is: 1.032mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2536.458mil|Location2.X=3555.629mil|Location1.Y=2291.18mil|Location2.Y=3383.99mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2536.458mil|Location2.X=3555.629mil|Location1.Y=2291.18mil|Location2.Y=3383.99mil|Absolute=True">Matched Net Lengths: Between Net P25G_MDI1_N And Net P25G_MDI1_P Actual Difference against P25G_MDI1_P is: 2.328mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2536.458mil|Location2.X=3656.883mil|Location1.Y=2211.18mil|Location2.Y=3383.99mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2536.458mil|Location2.X=3656.883mil|Location1.Y=2211.18mil|Location2.Y=3383.99mil|Absolute=True">Matched Net Lengths: Between Net P25G_MDI2_N And Net P25G_MDI2_P Actual Difference against P25G_MDI2_P is: 1.228mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2536.606mil|Location2.X=3774.543mil|Location1.Y=2107.465mil|Location2.Y=3430.718mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2536.606mil|Location2.X=3774.543mil|Location1.Y=2107.465mil|Location2.Y=3430.718mil|Absolute=True">Matched Net Lengths: Between Net P25G_MDI3_N And Net P25G_MDI3_P Actual Difference against P25G_MDI3_P is: 1.979mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID3EKKVEWRPS0YCK4FUFEOO5DRRGKBBRCOCJHHUSJPRDGALC5MZDOM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Matched Lengths(Tolerance=50mm) (InDifferentialPairClass('USBC_A') or  InDifferentialPairClass('USBC_B'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1577.746mil|Location2.X=1936.212mil|Location1.Y=4228.756mil|Location2.Y=4397.559mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1577.746mil|Location2.X=1936.212mil|Location1.Y=4228.756mil|Location2.Y=4397.559mil|Absolute=True">Matched Net Lengths: Differential Pair TYPEC0_D Actual Length Difference against diff pair TYPEC1_OTG_D is: 91.41mm, Length Tolerance : 50mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1962.361mil|Location2.X=3625.543mil|Location1.Y=4247.3mil|Location2.Y=5324.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1962.361mil|Location2.X=3625.543mil|Location1.Y=4247.3mil|Location2.Y=5324.953mil|Absolute=True">Matched Net Lengths: Differential Pair TYPEC0_OTG Actual Length Difference against diff pair TYPEC1_OTG_D is: 54.508mm, Length Tolerance : 50mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1561.196mil|Location2.X=1936.3mil|Location1.Y=3255.211mil|Location2.Y=3429.56mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1561.196mil|Location2.X=1936.3mil|Location1.Y=3255.211mil|Location2.Y=3429.56mil|Absolute=True">Matched Net Lengths: Differential Pair TYPEC1_D Actual Length Difference against diff pair TYPEC1_OTG_D is: 90.068mm, Length Tolerance : 50mm.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1589.25mil|Location2.X=3733.708mil|Location1.Y=2931.004mil|Location2.Y=5324.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1589.25mil|Location2.X=3733.708mil|Location1.Y=2931.004mil|Location2.Y=5324.953mil|Absolute=True">Matched Net Lengths: Between Net TYPEC0_D_N And Net TYPEC1_OTG_D_P Length:21.341mm is not within 50mm tolerance of Length:113.87mm (42.529mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1577.746mil|Location2.X=3733.708mil|Location1.Y=2931.004mil|Location2.Y=5324.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1577.746mil|Location2.X=3733.708mil|Location1.Y=2931.004mil|Location2.Y=5324.953mil|Absolute=True">Matched Net Lengths: Between Net TYPEC0_D_P And Net TYPEC1_OTG_D_P Length:21.418mm is not within 50mm tolerance of Length:113.87mm (42.453mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1818.196mil|Location2.X=3733.708mil|Location1.Y=2931.004mil|Location2.Y=5324.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1818.196mil|Location2.X=3733.708mil|Location1.Y=2931.004mil|Location2.Y=5324.953mil|Absolute=True">Matched Net Lengths: Between Net TYPEC0_OTG_N And Net TYPEC1_OTG_D_P Length:58.587mm is not within 50mm tolerance of Length:113.87mm (5.283mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1818.196mil|Location2.X=3733.708mil|Location1.Y=2931.004mil|Location2.Y=5324.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1818.196mil|Location2.X=3733.708mil|Location1.Y=2931.004mil|Location2.Y=5324.953mil|Absolute=True">Matched Net Lengths: Between Net TYPEC0_OTG_P And Net TYPEC1_OTG_D_P Length:57.976mm is not within 50mm tolerance of Length:113.87mm (5.894mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1572.7mil|Location2.X=3733.708mil|Location1.Y=2931.004mil|Location2.Y=5324.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1572.7mil|Location2.X=3733.708mil|Location1.Y=2931.004mil|Location2.Y=5324.953mil|Absolute=True">Matched Net Lengths: Between Net TYPEC1_D_N And Net TYPEC1_OTG_D_P Length:22.741mm is not within 50mm tolerance of Length:113.87mm (41.13mm short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1561.196mil|Location2.X=3733.708mil|Location1.Y=2931.004mil|Location2.Y=5324.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1561.196mil|Location2.X=3733.708mil|Location1.Y=2931.004mil|Location2.Y=5324.953mil|Absolute=True">Matched Net Lengths: Between Net TYPEC1_D_P And Net TYPEC1_OTG_D_P Length:22.703mm is not within 50mm tolerance of Length:113.87mm (41.168mm short) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDC4YDDCWRSRTMMWISZZPQI4WLVLXE20J00T0QRONT4G4VMTS3NABC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Matched Lengths(Tolerance=0.152mm) (InDifferentialPairClass('USBC_A') or  InDifferentialPairClass('USBC_B'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1962.361mil|Location2.X=3625.543mil|Location1.Y=4247.3mil|Location2.Y=5324.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1962.361mil|Location2.X=3625.543mil|Location1.Y=4247.3mil|Location2.Y=5324.953mil|Absolute=True">Matched Net Lengths: Between Net TYPEC0_OTG_N And Net TYPEC0_OTG_P Actual Difference against TYPEC0_OTG_P is: 0.611mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1665.485mil|Location2.X=3425.466mil|Location1.Y=4308.756mil|Location2.Y=5606.56mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1665.485mil|Location2.X=3425.466mil|Location1.Y=4308.756mil|Location2.Y=5606.56mil|Absolute=True">Matched Net Lengths: Between Net TYPEC0_SSTX1_N And Net TYPEC0_SSTX1_P Actual Difference against TYPEC0_SSTX1_P is: 0.184mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1818.196mil|Location2.X=3733.708mil|Location1.Y=2931.004mil|Location2.Y=5324.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1818.196mil|Location2.X=3733.708mil|Location1.Y=2931.004mil|Location2.Y=5324.953mil|Absolute=True">Matched Net Lengths: Between Net TYPEC1_OTG_D_N And Net TYPEC1_OTG_D_P Actual Difference against TYPEC1_OTG_D_P is: 2.162mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1665.602mil|Location2.X=3610.543mil|Location1.Y=3101.82mil|Location2.Y=5560.56mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\gitdoc\Darkyden_project\SCHEMATIC\DARKYDEN\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1665.602mil|Location2.X=3610.543mil|Location1.Y=3101.82mil|Location2.Y=5560.56mil|Absolute=True">Matched Net Lengths: Between Net TYPEC1_SSRX2_N And Net TYPEC1_SSRX2_P Actual Difference against TYPEC1_SSRX2_P is: 0.154mm, Tolerance : 0.152mm. </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
